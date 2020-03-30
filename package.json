@@ -1,0 +1,26 @@
+{
+  "name": "idv-exploratory-viz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "parse-gedcom": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esibinga/IDV-exploratory-viz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esibinga/IDV-exploratory-viz/issues"
+  },
+  "homepage": "https://github.com/esibinga/IDV-exploratory-viz#readme"
+}
