@@ -29,61 +29,59 @@ d3.json("../../data/JGB_MHB.json", d3.autotype).then(data => {
 
 /**
  * INITIALIZING FUNCTION
- * this will be run *one time* when the data finishes loading in
+ * this will be run one time when the data finishes loading in
  * */
 function init() {
-    const container = d3.select("#d3-container"); //.style("position", "relative");
+    const container = d3.select("#d3-container");
   
     svg = container
       .append("svg")
       .attr("width", width)
       .attr("height", height);
   
-    const colorScale = d3.scaleOrdinal(d3.schemeSet3); //why is this placed here?
-  
-    // + INITIALIZE TOOLTIP IN YOUR CONTAINER ELEMENT
+// not using a tooltip yet but keeping it here for later
     tooltip = container
       .append("div") 
-      .attr("class", "tooltip") //give it tooltip class
+      .attr("class", "tooltip")
       .attr("width", 100)
       .attr("height", 100)
       .style("position", "absolute");
   
-    // + CREATE YOUR ROOT/NODE HIERARCHY NODE
+// + CREATE YOUR ROOT/NODE HIERARCHY NODE
     const root = d3
       .hierarchy(state.data, d => d.children)
       .count(); //set the data source
   
-    console.log("data:", state.data)
-    console.log("root:", root)
+    console.log("data:", state.data) //this looks good
+    console.log("root:", root) //this looks good
   
-    // + CREATE YOUR LAYOUT GENERATOR
+// + CREATE YOUR LAYOUT GENERATOR
     const tree = d3
       .tree()
-      .size([width, height]); //it's going to take up the full page width
+      .size([width, height]);
       
       
     // + CALL YOUR LAYOUT FUNCTION ON YOUR ROOT/NODE DATA
     tree(root);
 
     // + CREATE YOUR GRAPHICAL ELEMENTS
-    const leaf = svg
+    const leaf = svg //*** .data looks like the source of the problem -- only one svg is created, not a group */
       .selectAll("g")
-      .data(root.descendants()) //root is sourced from state.data, and each "leaf" of root is ____? value?
+      .data(root.descendants()) //each svg is supposed to be the final descendant of root. Leaf (any node without children) seems like it should work too, but neither has worked yet
       .join("g")
       .attr("transform", d => `translate(${d.x}, ${d.y})`);
   
     leaf
-      .append("circle") //this will be a circle!!
+      .append("circle")
       .attr("fill", "red")
       .attr("r", 10)    
-      .attr("width", d => d.x)//1 - d.x0)
-      .attr("height", d => d.y);//1 - d.y0);
+      .attr("width", d => d.x)
+      .attr("height", d => d.y);
       
       
-  console.log("leaf:", leaf)
+  console.log("leaf:", leaf) //this only has one element in it
 
-    draw(); // calls the draw function
+    draw(); // call the draw function
   }
   
 /**
