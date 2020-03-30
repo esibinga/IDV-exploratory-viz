@@ -14,13 +14,3 @@ My dataset comes from a handwritten family tree, which is on the way to me in th
 MOCK UP
 
 I'm going with a straightforward tree diagram because it is visually accessibile and I think it will do the most to support the underlying data and help users to actually interact with the visualization. 
-
-
-http://twoplantations.com 
-From Aucher Serr to Everyone: (06:22 PM)
- https://github.com/d3/d3-drag https://github.com/d3/d3-brush https://observablehq.com/@d3/mona-lisa-histogram https://observablehq.com/collection/@d3/d3-brush https://observablehq.com/@d3/focus-context?collection=@d3/d3-brush 
-
-https://alligator.io/svg/svg-viewbox/ 
-
-https://github.com/d3/d3-hierarchy#stratify
-
