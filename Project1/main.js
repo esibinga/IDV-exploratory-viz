@@ -49,7 +49,8 @@ function init() {
   
 // + CREATE YOUR ROOT/NODE HIERARCHY NODE
     const root = d3
-      .hierarchy(state.data, d => d.children)
+      //.hierarchy(state.data, d => d.children)
+      .hierarchy({ id: null, tree: state.data.nodes }, d => d.tree)
       .count(); //set the data source
   
     console.log("data:", state.data) //this looks good
@@ -73,7 +74,16 @@ function init() {
   
     leaf
       .append("circle")
-      .attr("fill", "red")
+      .attr("fill", function(d) {
+        var returnColor;
+        var idString = new RegExp('@P\d\d\d@');
+        //console.log(d.data.tag);
+        if (d.data.tag == "NAME") { returnColor = "blue";
+        //} else if (d.data.tag == "NAME") {returnColor = "orange";
+        } else if (d.data.id == '@P1@') {returnColor = "yellow"; //this also works, but it looks like @P##@ are all in the first generation
+        //} else if (d.data.id == '@P3@') {returnColor = "red";
+        } else {returnColor = "none"}
+        return returnColor;})
       .attr("r", 10)    
       .attr("width", d => d.x)
       .attr("height", d => d.y);
