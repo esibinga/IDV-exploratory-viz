@@ -68,7 +68,7 @@ function init() {
     // + CREATE YOUR GRAPHICAL ELEMENTS
     const leaf = svg
       .selectAll("g")
-      .data(root.descendants()) //each svg is supposed to be the final descendant of root. Leaf (any node without children) seems like it should work too, but neither has worked yet
+      .data(root.descendants())
       .join("g")
       .attr("transform", d => `translate(${d.x}, ${d.y})`);
   
@@ -76,13 +76,13 @@ function init() {
       .append("circle")
       .attr("fill", function(d) {
         var returnColor;
-        var idString = new RegExp('@P\d\d\d@');
-        //console.log(d.data);
+        // var idString = new RegExp('@P\d\d\d@'); //didn't end up needing this, can use "INDI" instead of regex
+        //console.log(d.data); //this or (d.data.tag) are helpful
         if (d.data.tag == "NAME") { returnColor = "blue";
-        } else if (d.data.tag == "FAM") {returnColor = "red";
-        } else if (d.data.tag == "INDI") {returnColor = "purple";
+        } else if (d.data.tag == "FAM") {returnColor = "red"; //FAM = family (corresponding node has a family id tag, ex: @F21@)
+        } else if (d.data.tag == "INDI") {returnColor = "purple"; //INDI = individual (corresponding node has an individual id tag, ex:  @P44@)
         } else if (d.data.id == '@P1@') {returnColor = "yellow"; // @P1@ is the first person in this tree -- makes sense to see it top left
-        } else if (d.data.value < 100) {returnColor = "orange"; // @P125@ is a person much farther down the free, but this dot is showing up farther along the gen. 1 row, not down a level or two
+        } else if (d.data.id == '@P125') {returnColor = "orange"; // @P125@ is a person much farther down the free, but this dot is showing up farther along the gen. 1 row, not down a level or two
         } else {returnColor = "green"}
         return returnColor;})
       .attr("r", 10)    
@@ -90,7 +90,7 @@ function init() {
       .attr("height", d => d.y);
       
       
-  console.log("leaf:", leaf) //this only has one element in it
+  console.log("leaf:", leaf)
 
     draw(); // call the draw function
   }
