@@ -27,13 +27,12 @@ d3.json("../../data/JGB_MHB.json", d3.autotype).then(data => {
 });
 
 
-
 /**
  * INITIALIZING FUNCTION
  * this will be run one time when the data finishes loading in
  * */
 function init() {
-    const container = d3.selectAll("#d3-container");
+    const container = d3.select("#d3-container");
   
     svg = container
       .append("svg")
@@ -49,34 +48,74 @@ function init() {
       .style("position", "absolute");
   
 // + CREATE YOUR ROOT/NODE HIERARCHY NODE
-    const root = d3
-      //.hierarchy(state.data, d => d.children) //use this for JGB_MHB2.json
-      .hierarchy({ id: null, tree: state.data.nodes }, d => d.tree) //right now it looks like the 5 generations are levels of data for each person, not each svg corresponding to the "end point" of a genealogical path
-      .count(); //can I set the end point of the path manually? or semi-manually?
+    //const force = d3
+   // .forceSimulation(state.data.nodes)  
+
+
+    const root = d3.hierarchy(state.data, d => d.children);
+   // const links = root.links();
+    const nodes = root.descendants();
   
-    console.log("data:", state.data)
-    console.log("root:", root)
+    const simulation = d3.forceSimulation(state.data.nodes)
+        //.force("link", d3.forceLink(links).id(d => d.id).distance(0).strength(1))
+        .force("charge", d3.forceManyBody().strength(-50))
+        .force("x", d3.forceX())
+        .force("y", d3.forceY());
+  
+    const svg = d3.create("svg")
+        .attr("viewBox", [-width / 2, -height / 2, width, height]);
+  
+   /* const link = svg.append("g")
+        .attr("stroke", "#999")
+        .attr("stroke-opacity", 0.6)
+      .selectAll("line")
+      .data(links)
+      .join("line");
+  */
+    const node = svg.append("g")
+        .attr("fill", "#fff")
+        .attr("stroke", "#000")
+        .attr("stroke-width", 1.5)
+      .selectAll("circle")
+      .data(nodes)
+      .join("circle")
+        .attr("fill", d => d.children ? null : "#000")
+        .attr("stroke", d => d.children ? null : "#fff")
+        .attr("r", 3.5)
+        .call(drag(simulation));
+  
+    node.append("title")
+        .text(d => d.data.name);
+  
+    simulation.on("tick", () => {
+      link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+  
+      node
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y);
+    });
+
+
+
+
+   // console.log("data:", state.data)
+  //  console.log("root:", root)
   
 // + CREATE YOUR LAYOUT GENERATOR
-    const tree = d3
+   /* const tree = d3
       .tree()
       .size([width, height]);
-     
-// import { d3ize } from '../node_modules/parse-gedcom/d3ize.js';
-const myModule = require('../node_modules/parse-gedcom/d3ize');
-const d3 = require('../lib/d3');
-      //d3_browserify = require('../lib/');
-const newRoot = myModule.d3ize();
-
- console.log("newRoot:", newRoot);
+      
       
     // + CALL YOUR LAYOUT FUNCTION ON YOUR ROOT/NODE DATA
     tree(root);
 
-
     // + CREATE YOUR GRAPHICAL ELEMENTS
-
-const leaf = svg
+    const leaf = svg
       .selectAll("g")
       .data(root.descendants())
       .join("g")
@@ -101,7 +140,7 @@ const leaf = svg
       
       
   console.log("leaf:", leaf)
-
+*/
     draw(); // call the draw function
   }
   

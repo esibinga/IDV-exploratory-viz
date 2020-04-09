@@ -100,3 +100,9 @@ added 10 packages from 6 contributors in 1.069s
 (base) MacBook-Pro-5:IDV-exploratory-viz evasibinga$ parse-gedcom-d3 < data/JGB_MHB.ged > JGB_MHB2.json
 (base) MacBook-Pro-5:IDV-exploratory-viz evasibinga$ parse-gedcom-d3 < data/JGB_MHB.ged > JGB_MHB.json
 (base) MacBook-Pro-5:IDV-exploratory-viz evasibinga$ 
+
+
+
+to do:
+--need to make sure d3ize and parse are both available
+--

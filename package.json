@@ -7,6 +7,8 @@
     "lib": "lib"
   },
   "dependencies": {
+    "d3-force": "^2.0.1",
+    "gedcom-d3": "^2.0.1",
     "parse-gedcom": "^1.0.5"
   },
   "devDependencies": {},
@@ -14,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/esibinga/IDV-exploratory-viz.git"
   },
   "author": "",
