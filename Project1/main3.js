@@ -186,4 +186,4 @@ function draw() {
 }
 
 
-/* fix tooltip next to see if people are correctly aligned -- addison is on the right now, but maybe spouses are wrong?
+/* fix tooltip next to see if people are correctly aligned -- addison is on the right now, but maybe spouses are wrong?*/
