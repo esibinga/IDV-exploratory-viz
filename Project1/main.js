@@ -20,7 +20,7 @@ let state = {
 /**
  * LOAD DATA
  * */
-d3.json("../../data/JGB_MHB.json", d3.autotype).then(data => {
+d3.csv("../../data/JGB_MHB.csv", d3.autotype).then(data => {
   state.data = data;
   console.log("data1:", data);
   init();

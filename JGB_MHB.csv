@@ -1,277 +1,277 @@
-,first,last,sex,DOB,DOD,parent1,parent2,INDI_ID
-0,James Garrett,Biddle,M,1868,1947,<gedcom.element.individual.IndividualElement object at 0x10bda7f60>, <gedcom.element.individual.IndividualElement object at 0x10bd9f1d0>,@P1@
-1,Mary,Hutton,F,1869,1925,<gedcom.element.individual.IndividualElement object at 0x10be53278>, <gedcom.element.individual.IndividualElement object at 0x10be414a8>,@P2@
-2,Mary,Hewes,F,1842,1874,<gedcom.element.individual.IndividualElement object at 0x10be64278>, <gedcom.element.individual.IndividualElement object at 0x10be62898>,@P3@
-3,John William,Biddle,M,1835,1916,<gedcom.element.individual.IndividualElement object at 0x10be36e48>, <gedcom.element.individual.IndividualElement object at 0x10be39d68>,@P4@
-4,Addison Hutton,Biddle,M,1903,1912,<gedcom.element.individual.IndividualElement object at 0x10bd746d8>, <gedcom.element.individual.IndividualElement object at 0x10bd8a4e0>,@P5@
-5,Ruth,Biddle,F,1906,1969,<gedcom.element.individual.IndividualElement object at 0x10bd746d8>, <gedcom.element.individual.IndividualElement object at 0x10bd8a4e0>,@P6@
-6,Rebecca Hutton,Biddle,F,1901,1991,<gedcom.element.individual.IndividualElement object at 0x10bd746d8>, <gedcom.element.individual.IndividualElement object at 0x10bd8a4e0>,@P7@
-7,Elizabeth Rebecca,Biddle,F,1897,1975,<gedcom.element.individual.IndividualElement object at 0x10bd746d8>, <gedcom.element.individual.IndividualElement object at 0x10bd8a4e0>,@P8@
-8,Dorothy,Biddle,F,1900,1985,<gedcom.element.individual.IndividualElement object at 0x10bd746d8>, <gedcom.element.individual.IndividualElement object at 0x10bd8a4e0>,@P9@
-9,Mary Hewes,Biddle,F,1898,1963,<gedcom.element.individual.IndividualElement object at 0x10bd746d8>, <gedcom.element.individual.IndividualElement object at 0x10bd8a4e0>,@P10@
-10,Ruth Ella,Chambers,F,1870,1948,NaN,NaN,@P11@
-11,William,Biddle,M,1806,1887,NaN,NaN,@P12@
-12,Elizabeth Cesson,Biddle,F,NaN,1881,NaN,NaN,@P13@
-13,William,Biddle,M,1863,1948,<gedcom.element.individual.IndividualElement object at 0x10bda7f60>, <gedcom.element.individual.IndividualElement object at 0x10bd9f1d0>,@P14@
-14,Rebecca,Savery,F,1836,1902,NaN,NaN,@P15@
-15,Addison,Hutton,M,1834,1916,<gedcom.element.individual.IndividualElement object at 0x10bfa8240>, <gedcom.element.individual.IndividualElement object at 0x10bfadd30>,@P16@
-16,Sarah S,Garrett,F,1819,1853,NaN,NaN,@P17@
-17,Edward C,Hewes,M,1821,1880,NaN,NaN,@P18@
-18,Margaret Cope,James,F,1935,1979,<gedcom.element.individual.IndividualElement object at 0x10be8f710>, <gedcom.element.individual.IndividualElement object at 0x10be0e940>,@P19@
-19,Caroline Biddle,James,F,1932,2012,<gedcom.element.individual.IndividualElement object at 0x10be8f710>, <gedcom.element.individual.IndividualElement object at 0x10be0e940>,@P20@
-20,Mary Hutton,James,F,1930,2002,<gedcom.element.individual.IndividualElement object at 0x10be8f710>, <gedcom.element.individual.IndividualElement object at 0x10be0e940>,@P21@
-21,John Robert,James,M,1938,NaN,<gedcom.element.individual.IndividualElement object at 0x10be8f710>, <gedcom.element.individual.IndividualElement object at 0x10be0e940>,@P22@
-22,John Robert,James,M,1895,1992,<gedcom.element.individual.IndividualElement object at 0x10c01a208>, <gedcom.element.individual.IndividualElement object at 0x10c01f860>,@P23@
-23,James Biddle,Yarnall,M,1926,2009,<gedcom.element.individual.IndividualElement object at 0x10becdeb8>, <gedcom.element.individual.IndividualElement object at 0x10bdf8240>,@P24@
-24,Nancy Hutton,Yarnall,F,1928,2004,<gedcom.element.individual.IndividualElement object at 0x10becdeb8>, <gedcom.element.individual.IndividualElement object at 0x10bdf8240>,@P25@
-25,David Robert,Yarnall,M,1925,1999,<gedcom.element.individual.IndividualElement object at 0x10becdeb8>, <gedcom.element.individual.IndividualElement object at 0x10bdf8240>,@P26@
-26,David Robert,Yarnall,M,1878,1967,<gedcom.element.individual.IndividualElement object at 0x10bfb9208>, <gedcom.element.individual.IndividualElement object at 0x10bfb44e0>,@P27@
-27,David Macowan,Sinclair,M,1928,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf1c860>, <gedcom.element.individual.IndividualElement object at 0x10be24400>,@P28@
-28,Sylvia Buell,Sinclair,F,1929,2015,<gedcom.element.individual.IndividualElement object at 0x10bf1c860>, <gedcom.element.individual.IndividualElement object at 0x10be24400>,@P29@
-29,Mary Biddle,Sinclair,F,1926,2009,<gedcom.element.individual.IndividualElement object at 0x10bf1c860>, <gedcom.element.individual.IndividualElement object at 0x10be24400>,@P30@
-30,John Biddle,Sinclair,M,1935,2019,<gedcom.element.individual.IndividualElement object at 0x10bf1c860>, <gedcom.element.individual.IndividualElement object at 0x10be24400>,@P31@
-31,John Stephens,Sinclair,M,1897,1972,<gedcom.element.individual.IndividualElement object at 0x10bfd2a90>, <gedcom.element.individual.IndividualElement object at 0x10bfcc048>,@P32@
-32,Cecilia,Bradbeer,F,1930,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf5c7f0>, <gedcom.element.individual.IndividualElement object at 0x10bddef98>,@P33@
-33,James Biddle,Bradbeer,M,1932,2019,<gedcom.element.individual.IndividualElement object at 0x10bf5c7f0>, <gedcom.element.individual.IndividualElement object at 0x10bddef98>,@P34@
-34,Frank Gilbert,Bradbeer,M,1887,1935,<gedcom.element.individual.IndividualElement object at 0x10c0a9828>, <gedcom.element.individual.IndividualElement object at 0x10c0a35c0>,@P35@
-35,Thornton Bancroft,Penfield,M,1934,2007,<gedcom.element.individual.IndividualElement object at 0x10bf8d550>, <gedcom.element.individual.IndividualElement object at 0x10bdc0e48>,@P36@
-36,Charlotte Elizabeth,Penfield,F,1935,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf8d550>, <gedcom.element.individual.IndividualElement object at 0x10bdc0e48>,@P37@
-37,Thornton Bancroft,Penfield,M,1899,1975,<gedcom.element.individual.IndividualElement object at 0x10c08e860>, <gedcom.element.individual.IndividualElement object at 0x10c0895f8>,@P38@
-38,Joel Wright,Hutton,M,1811,1862,NaN,NaN,@P39@
-39,Ann,Mains,F,1812,1865,NaN,NaN,@P40@
-40,Sidney S,Garrett,F,1851,1949,NaN,NaN,@P41@
-41,Edward Smedley,Yarnall,M,1846,1931,NaN,NaN,@P42@
-42,Kristina Garrett,Yarnall,F,1960,NaN,<gedcom.element.individual.IndividualElement object at 0x10bec0978>, <gedcom.element.individual.IndividualElement object at 0x10bfc0470>,@P43@
-43,Sara Gabrielsen,Yarnall,F,1958,NaN,<gedcom.element.individual.IndividualElement object at 0x10bec0978>, <gedcom.element.individual.IndividualElement object at 0x10bfc0470>,@P44@
-44,Joan Biddle,Yarnall,F,1956,NaN,<gedcom.element.individual.IndividualElement object at 0x10bec0978>, <gedcom.element.individual.IndividualElement object at 0x10bfc0470>,@P45@
-45,Rie,Gabrielsen,F,1930,1980,<gedcom.element.individual.IndividualElement object at 0x10c100cf8>],NaN,@P46@
-46,Stephen Garrett,Yarnall,M,1957,NaN,<gedcom.element.individual.IndividualElement object at 0x10bea6d68>, <gedcom.element.individual.IndividualElement object at 0x10bfc9668>,@P47@
-47,James Biddle,Yarnall,M,1955,2018,<gedcom.element.individual.IndividualElement object at 0x10bea6d68>, <gedcom.element.individual.IndividualElement object at 0x10bfc9668>,@P48@
-48,Phyllis A.,Aspen,F,1929,2013,NaN,NaN,@P49@
-49,Alice Elvira,Stephens,F,1861,1933,NaN,NaN,@P50@
-50,David MaCowan,Sinclair,M,1861,1935,NaN,NaN,@P51@
-51,Mary Hewes,Buck,F,1955,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfeacc0>, <gedcom.element.individual.IndividualElement object at 0x10bf05780>,@P52@
-52,Alice Sinclair,Buck,F,1953,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfeacc0>, <gedcom.element.individual.IndividualElement object at 0x10bf05780>,@P53@
-53,David Douglass,Buck,M,1949,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfeacc0>, <gedcom.element.individual.IndividualElement object at 0x10bf05780>,@P54@
-54,John Clayton,Buck,M,1950,2009,<gedcom.element.individual.IndividualElement object at 0x10bfeacc0>, <gedcom.element.individual.IndividualElement object at 0x10bf05780>,@P55@
-55,Joseph J.,Krakora,M,1939,NaN,NaN,NaN,@P56@
-56,Clayton Douglass,Buck,M,1923,1986,<gedcom.element.individual.IndividualElement object at 0x10c078710>, <gedcom.element.individual.IndividualElement object at 0x10c072a20>,@P57@
-57,John Christopher,Carr,M,1966,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P58@
-58,Elizabeth Anne,Carr,F,1964,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P59@
-59,Daniel Thaddeus,Carr,M,1963,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P60@
-60,Suzanne Noel,Carr,F,1960,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P61@
-61,Matthew Francis,Carr,M,1958,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P62@
-62,Deborah Ward,Carr,F,1957,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P63@
-63,Sylvia Stephens,Carr,F,1956,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P64@
-64,Stephen Kerry,Carr,M,1955,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P65@
-65,Kathleen Mary,Carr,F,1954,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0104a8>, <gedcom.element.individual.IndividualElement object at 0x10bef42b0>,@P66@
-66,Stephen Kerry,Carr,M,1930,NaN,NaN,NaN,@P67@
-67,Milo,Berking,,1925,2007,NaN,NaN,@P68@
-68,John Edwin,James,M,1864,1938,NaN,NaN,@P69@
-69,Mary Hughes,Cope,F,1865,1954,NaN,NaN,@P70@
-70,Janet Biddle,Herrin,F,1965,NaN,<gedcom.element.individual.IndividualElement object at 0x10c028b00>, <gedcom.element.individual.IndividualElement object at 0x10be6f400>,@P71@
-71,Gareld Robertson,Herrin,M,1929,2005,NaN,NaN,@P72@
-72,Kenneth James,Herrin,M,1962,NaN,<gedcom.element.individual.IndividualElement object at 0x10c028b00>, <gedcom.element.individual.IndividualElement object at 0x10be6f400>,@P73@
-73,John Robertson,Herrin,M,1960,NaN,<gedcom.element.individual.IndividualElement object at 0x10c028b00>, <gedcom.element.individual.IndividualElement object at 0x10be6f400>,@P74@
-74,Mary Thayer,Herrin,F,1958,NaN,<gedcom.element.individual.IndividualElement object at 0x10c028b00>, <gedcom.element.individual.IndividualElement object at 0x10be6f400>,@P75@
-75,Frederic Valerius,Hetzel,M,1930,2005,<gedcom.element.individual.IndividualElement object at 0x10c151828>, <gedcom.element.individual.IndividualElement object at 0x10c1513c8>,@P76@
-76,Sylvia Biddle,Hetzel,F,1959,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0396a0>, <gedcom.element.individual.IndividualElement object at 0x10be7c710>,@P77@
-77,Frederic James,Hetzel,M,1957,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0396a0>, <gedcom.element.individual.IndividualElement object at 0x10be7c710>,@P78@
-78,Robert Wills,Hetzel,M,1954,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0396a0>, <gedcom.element.individual.IndividualElement object at 0x10be7c710>,@P79@
-79,Elizabeth Barr,Holt,F,1968,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0490b8>, <gedcom.element.individual.IndividualElement object at 0x10be64c18>,@P80@
-80,John Harris,Holt,M,1965,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0490b8>, <gedcom.element.individual.IndividualElement object at 0x10be64c18>,@P81@
-81,Richard James,Holt,M,1960,1960,<gedcom.element.individual.IndividualElement object at 0x10c0490b8>, <gedcom.element.individual.IndividualElement object at 0x10be64c18>,@P82@
-82,Harris Richard,Holt,M,1934,2009,<gedcom.element.individual.IndividualElement object at 0x10c169b38>, <gedcom.element.individual.IndividualElement object at 0x10c166518>,@P83@
-83,Cynthia Biddle,Holt,F,1962,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0490b8>, <gedcom.element.individual.IndividualElement object at 0x10be64c18>,@P84@
-84,Margot,Sinclair,F,1962,NaN,<gedcom.element.individual.IndividualElement object at 0x10bee63c8>, <gedcom.element.individual.IndividualElement object at 0x10c060e48>,@P85@
-85,Craig Widmann,Sinclair,M,1959,NaN,<gedcom.element.individual.IndividualElement object at 0x10bee63c8>, <gedcom.element.individual.IndividualElement object at 0x10c060e48>,@P86@
-86,Timothy Biddle,Sinclair,M,1958,1968,<gedcom.element.individual.IndividualElement object at 0x10bee63c8>, <gedcom.element.individual.IndividualElement object at 0x10c060e48>,@P87@
-87,Susan,Widmann,F,1932,NaN,NaN,NaN,@P88@
-88,Anne Zeis,Sinclair,F,1965,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf14b38>, <gedcom.element.individual.IndividualElement object at 0x10c06df28>,@P89@
-89,David Rickards,Sinclair,M,1962,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf14b38>, <gedcom.element.individual.IndividualElement object at 0x10c06df28>,@P90@
-90,John Biddle,Sinclair,M,1960,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf14b38>, <gedcom.element.individual.IndividualElement object at 0x10c06df28>,@P91@
-91,Lynn,Rickards,F,1935,NaN,NaN,NaN,@P92@
-92,Alice Hounsfield,du Pont,F,1891,1967,NaN,NaN,@P93@
-93,Clayton Douglass,Buck,M,1890,1965,NaN,NaN,@P94@
-94,Jeremiah Clayton,Buck,M,1978,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfe2908>, <gedcom.element.individual.IndividualElement object at 0x10c07ecc0>,@P95@
-95,Magnolia Hannah,Buck,F,1975,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfe2908>, <gedcom.element.individual.IndividualElement object at 0x10c07ecc0>,@P96@
-96,Gayle Maureen,Hannah,F,1954,NaN,NaN,NaN,@P97@
-97,Kathryn Anne,Krakora,F,1965,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfe5da0>, <gedcom.element.individual.IndividualElement object at 0x10c0809b0>,@P98@
-98,Diane Brace,Conner,F,1938,NaN,NaN,NaN,@P99@
-99,Leigh Biddle,James,F,1980,NaN,<gedcom.element.individual.IndividualElement object at 0x10be8aba8>, <gedcom.element.individual.IndividualElement object at 0x10c0864e0>,@P100@
-100,Christina Ballard,James,F,1978,NaN,<gedcom.element.individual.IndividualElement object at 0x10be8aba8>, <gedcom.element.individual.IndividualElement object at 0x10c0864e0>,@P101@
-101,Dixie Lee,Donaldson,F,1945,NaN,NaN,NaN,@P102@
-102,John Robert,James,M,1974,NaN,<gedcom.element.individual.IndividualElement object at 0x10be8aba8>, <gedcom.element.individual.IndividualElement object at 0x10c0864e0>,@P103@
-103,Martha Mee,Martin,F,1868,1954,NaN,NaN,@P104@
-104,Thornton Bancroft,Penfield,M,1867,1958,NaN,NaN,@P105@
-105,Janet Richardson,German,F,1916,2004,NaN,NaN,@P106@
-106,Diane,Depp,,1947,NaN,NaN,NaN,@P107@
-107,Elizabeth,Few,F,1939,NaN,NaN,NaN,@P108@
-108,Cecilia Henrietta,Jones,F,1865,1915,NaN,NaN,@P109@
-109,Frank,Bradbeer,M,1865,1898,NaN,NaN,@P110@
-110,Erica Maria Smit,Sibinga,F,1962,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b5978>, <gedcom.element.individual.IndividualElement object at 0x10bf3b240>,@P111@
-111,Nicholas Ernst Smit,Sibinga,M,1959,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b5978>, <gedcom.element.individual.IndividualElement object at 0x10bf3b240>,@P112@
-112,Derek Johannes Smit,Sibinga,M,1961,1961,<gedcom.element.individual.IndividualElement object at 0x10c0b5978>, <gedcom.element.individual.IndividualElement object at 0x10bf3b240>,@P113@
-113,Michael Frank Smit,Sibinga,M,1957,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b5978>, <gedcom.element.individual.IndividualElement object at 0x10bf3b240>,@P114@
-114,Maarten,Sibinga,M,1927,2003,NaN,NaN,@P115@
-115,James Biddle,Bradbeer,M,1962,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf4e0f0>, <gedcom.element.individual.IndividualElement object at 0x10c0ba320>,@P116@
-116,Mary Florence,Buckley,F,1935,1999,NaN,NaN,@P117@
-117,Rebecca Hutton,Bradbeer,U,1966,NaN,<gedcom.element.individual.IndividualElement object at 0x10bf4e0f0>, <gedcom.element.individual.IndividualElement object at 0x10c0ba320>,@P118@
-118,Arthur Edwin,James,M,1897,1989,<gedcom.element.individual.IndividualElement object at 0x10c01a208>, <gedcom.element.individual.IndividualElement object at 0x10c01f860>,@P119@
-119,William Cope,James,M,1893,1960,<gedcom.element.individual.IndividualElement object at 0x10c01a208>, <gedcom.element.individual.IndividualElement object at 0x10c01f860>,@P120@
-120,Margaret Sharpless,James,F,1891,1934,<gedcom.element.individual.IndividualElement object at 0x10c01a208>, <gedcom.element.individual.IndividualElement object at 0x10c01f860>,@P121@
-121,Lauretta Phillips,James,F,1890,NaN,<gedcom.element.individual.IndividualElement object at 0x10c01a208>, <gedcom.element.individual.IndividualElement object at 0x10c01f860>,@P122@
-122,William,Sinclair,M,1896,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfd2a90>, <gedcom.element.individual.IndividualElement object at 0x10bfcc048>,@P123@
-123,Sylvia,Sinclair,F,1894,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfd2a90>, <gedcom.element.individual.IndividualElement object at 0x10bfcc048>,@P124@
-124,Jessie Cecilia,Bradbeer,F,1893,1979,<gedcom.element.individual.IndividualElement object at 0x10c0a9828>, <gedcom.element.individual.IndividualElement object at 0x10c0a35c0>,@P125@
-125,Albert Frederick,Bradbeer,M,1890,1963,<gedcom.element.individual.IndividualElement object at 0x10c0a9828>, <gedcom.element.individual.IndividualElement object at 0x10c0a35c0>,@P126@
-126,Paul Livingstone,Penfield,M,1901,1992,<gedcom.element.individual.IndividualElement object at 0x10c08e860>, <gedcom.element.individual.IndividualElement object at 0x10c0895f8>,@P127@
-127,Charlotte Martin,Penfield,F,1895,1979,<gedcom.element.individual.IndividualElement object at 0x10c08e860>, <gedcom.element.individual.IndividualElement object at 0x10c0895f8>,@P128@
-128,Winifred M,Atwater,F,1881,NaN,<gedcom.element.individual.IndividualElement object at 0x10c08e860>, <gedcom.element.individual.IndividualElement object at 0x10c0895f8>,@P129@
-129,Rebecca Elizabeth,Gosselink,F,1967,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0fbd30>, <gedcom.element.individual.IndividualElement object at 0x10bf81ba8>,@P130@
-130,Robert George,Gosselink,M,1964,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0fbd30>, <gedcom.element.individual.IndividualElement object at 0x10bf81ba8>,@P131@
-131,James Bancroft,Gosselink,M,1963,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0fbd30>, <gedcom.element.individual.IndividualElement object at 0x10bf81ba8>,@P132@
-132,Charles George,Gosselink,M,1935,NaN,NaN,NaN,@P133@
-133,Hans,Gabrielsen,M,1900,NaN,NaN,NaN,@P134@
-134,Evan Robert,Ma,M,1992,NaN,<gedcom.element.individual.IndividualElement object at 0x10c101e10>, <gedcom.element.individual.IndividualElement object at 0x10bfbddd8>,@P135@
-135,Rie Yarnall,Ma,F,1987,NaN,<gedcom.element.individual.IndividualElement object at 0x10c101e10>, <gedcom.element.individual.IndividualElement object at 0x10bfbddd8>,@P136@
-136,Robert Tien,Ma,M,1959,NaN,NaN,NaN,@P137@
-137,Rachel Yarnall,Sanders,F,1988,NaN,<gedcom.element.individual.IndividualElement object at 0x10c105cf8>, <gedcom.element.individual.IndividualElement object at 0x10bfbd898>,@P138@
-138,Gabriel Yarnall,Sanders,M,1985,NaN,<gedcom.element.individual.IndividualElement object at 0x10c105cf8>, <gedcom.element.individual.IndividualElement object at 0x10bfbd898>,@P139@
-139,David Alan,Sanders,M,1942,NaN,NaN,NaN,@P140@
-140,Owen,Sibinga,M,2005,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0abf98>, <gedcom.element.individual.IndividualElement object at 0x10bfbbc18>,@P141@
-141,Tyche Eva,Sibinga,F,1995,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0abf98>, <gedcom.element.individual.IndividualElement object at 0x10bfbbc18>,@P142@
-142,James Garrett,Sibinga,M,1991,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0abf98>, <gedcom.element.individual.IndividualElement object at 0x10bfbbc18>,@P143@
-143,Nathaniel Alexander,Sibinga,M,1989,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0abf98>, <gedcom.element.individual.IndividualElement object at 0x10bfbbc18>,@P144@
-144,Dianne,DuBois,F,NaN,NaN,NaN,NaN,@P145@
-145,Elizabeth Claire,Yarnall,F,2003,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfc3908>, <gedcom.element.individual.IndividualElement object at 0x10c10bac8>,@P146@
-146,Rebecca Nicole,Yarnall,F,2003,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfc3908>, <gedcom.element.individual.IndividualElement object at 0x10c10bac8>,@P147@
-147,Sidney Paige,Yarnall,F,2001,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfc3908>, <gedcom.element.individual.IndividualElement object at 0x10c10bac8>,@P148@
-148,Elizabeth,Mapes,F,1961,NaN,NaN,NaN,@P149@
-149,Carly,Klapp,F,NaN,NaN,NaN,NaN,@P150@
-150,Kristine,Hill,F,NaN,NaN,NaN,NaN,@P151@
-151,Thomas Garrett,Buck,M,1984,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfdd9e8>, <gedcom.element.individual.IndividualElement object at 0x10c10eac8>,@P152@
-152,Nancy E.,Miller,F,1954,NaN,NaN,NaN,@P153@
-153,Thaddeus Chase,Buck,M,1976,NaN,<gedcom.element.individual.IndividualElement object at 0x10bfdd9e8>, <gedcom.element.individual.IndividualElement object at 0x10c110898>,@P154@
-154,Shelli I.,Chase,F,1953,NaN,NaN,NaN,@P155@
-155,John Garrett,DeCandia,M,1989,NaN,<gedcom.element.individual.IndividualElement object at 0x10c111a90>, <gedcom.element.individual.IndividualElement object at 0x10bfdd3c8>,@P156@
-156,Michael Douglass,DeCandia,M,1986,NaN,<gedcom.element.individual.IndividualElement object at 0x10c111a90>, <gedcom.element.individual.IndividualElement object at 0x10bfdd3c8>,@P157@
-157,Michael John,DeCandia,M,1951,NaN,NaN,NaN,@P158@
-158,David,Quint,M,NaN,NaN,NaN,NaN,@P159@
-159,Joseph Samuel,Buck,M,1984,NaN,<gedcom.element.individual.IndividualElement object at 0x10c111fd0>, <gedcom.element.individual.IndividualElement object at 0x10bfdb908>,@P160@
-160,Ellie Mae,McDonald,F,1979,NaN,<gedcom.element.individual.IndividualElement object at 0x10c115be0>, <gedcom.element.individual.IndividualElement object at 0x10bfdb908>,@P161@
-161,Glenn,McDonald,M,NaN,NaN,NaN,NaN,@P162@
-162,Lindy,Sinclair,F,2000,NaN,<gedcom.element.individual.IndividualElement object at 0x10c05b358>, <gedcom.element.individual.IndividualElement object at 0x10c116630>,@P163@
-163,Nan M,Octeau,F,1966,NaN,NaN,NaN,@P164@
-164,Jason Andrew,Mannka,M,1994,NaN,<gedcom.element.individual.IndividualElement object at 0x10c11b358>, <gedcom.element.individual.IndividualElement object at 0x10c058278>,@P165@
-165,Christopher Scott,Mannka,M,1994,NaN,<gedcom.element.individual.IndividualElement object at 0x10c11b358>, <gedcom.element.individual.IndividualElement object at 0x10c058278>,@P166@
-166,Peter James,Mannka,M,1991,NaN,<gedcom.element.individual.IndividualElement object at 0x10c11b358>, <gedcom.element.individual.IndividualElement object at 0x10c058278>,@P167@
-167,Scott Daniel,Mannka,M,1960,NaN,NaN,NaN,@P168@
-168,Karl Bryn,Heavenrich,M,1993,NaN,<gedcom.element.individual.IndividualElement object at 0x10c1207b8>, <gedcom.element.individual.IndividualElement object at 0x10c00d0f0>,@P169@
-169,Jessica Anne,Heavenrich,F,1990,NaN,<gedcom.element.individual.IndividualElement object at 0x10c1207b8>, <gedcom.element.individual.IndividualElement object at 0x10c00d0f0>,@P170@
-170,Jeb Sinclair,Heavenrich,M,1988,NaN,<gedcom.element.individual.IndividualElement object at 0x10c1207b8>, <gedcom.element.individual.IndividualElement object at 0x10c00d0f0>,@P171@
-171,Walter,Heavenrich,M,1951,NaN,NaN,NaN,@P172@
-172,Debora,,F,NaN,NaN,NaN,NaN,@P173@
-173,Brendan Connor,Carr,M,1990,NaN,<gedcom.element.individual.IndividualElement object at 0x10c008c18>, <gedcom.element.individual.IndividualElement object at 0x10c12a668>,@P174@
-174,Ryan Samuel,Carr,M,1985,NaN,<gedcom.element.individual.IndividualElement object at 0x10c008c18>, <gedcom.element.individual.IndividualElement object at 0x10c12a668>,@P175@
-175,Sean Kerry,Carr,M,1983,NaN,<gedcom.element.individual.IndividualElement object at 0x10c008c18>, <gedcom.element.individual.IndividualElement object at 0x10c12a668>,@P176@
-176,Kari Beth,Olson,F,1956,NaN,NaN,NaN,@P177@
-177,Emma Hewes,Rubenstein,F,1991,NaN,<gedcom.element.individual.IndividualElement object at 0x10c131278>, <gedcom.element.individual.IndividualElement object at 0x10c006860>,@P178@
-178,Anne Chandler,Rubenstein,F,1988,NaN,<gedcom.element.individual.IndividualElement object at 0x10c131278>, <gedcom.element.individual.IndividualElement object at 0x10c006860>,@P179@
-179,Katelyn Sinclair,Rubenstein,F,1986,NaN,<gedcom.element.individual.IndividualElement object at 0x10c131278>, <gedcom.element.individual.IndividualElement object at 0x10c006860>,@P180@
-180,Donald Paul,Rubenstein,M,1958,NaN,NaN,NaN,@P181@
-181,William Ward,Adamy,M,1990,NaN,<gedcom.element.individual.IndividualElement object at 0x10c136a90>, <gedcom.element.individual.IndividualElement object at 0x10c003940>,@P182@
-182,Julia Sinclair,Adamy,F,1988,NaN,<gedcom.element.individual.IndividualElement object at 0x10c136a90>, <gedcom.element.individual.IndividualElement object at 0x10c003940>,@P183@
-183,Paul Kendrick,Adamy,M,1957,NaN,NaN,NaN,@P184@
-184,Hillary Hayes,Carr,F,1991,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0018d0>, <gedcom.element.individual.IndividualElement object at 0x10c138c50>,@P185@
-185,Ian Collins,Carr,M,1988,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0018d0>, <gedcom.element.individual.IndividualElement object at 0x10c138c50>,@P186@
-186,Matthew Francis,Carr,M,1986,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0018d0>, <gedcom.element.individual.IndividualElement object at 0x10c138c50>,@P187@
-187,Melissa,Golder,F,1960,NaN,NaN,NaN,@P188@
-188,Hannah Sinclair,Weber,F,1996,NaN,<gedcom.element.individual.IndividualElement object at 0x10c13b9b0>, <gedcom.element.individual.IndividualElement object at 0x10bffe160>,@P189@
-189,Sarah Noel,Weber,F,1994,NaN,<gedcom.element.individual.IndividualElement object at 0x10c13b9b0>, <gedcom.element.individual.IndividualElement object at 0x10bffe160>,@P190@
-190,Christian Dietrich,Weber,M,1964,NaN,NaN,NaN,@P191@
-191,Kirsti Lynn,Carr,F,1996,NaN,<gedcom.element.individual.IndividualElement object at 0x10bffb2e8>, <gedcom.element.individual.IndividualElement object at 0x10c1403c8>,@P192@
-192,Siri Marie,Carr,F,1993,NaN,<gedcom.element.individual.IndividualElement object at 0x10bffb2e8>, <gedcom.element.individual.IndividualElement object at 0x10c1403c8>,@P193@
-193,Kari Ellen,Kaalstad,F,1963,NaN,NaN,NaN,@P194@
-194,Sopia Elizabeth,Gennusa,F,2003,NaN,<gedcom.element.individual.IndividualElement object at 0x10c141128>, <gedcom.element.individual.IndividualElement object at 0x10bff8470>,@P195@
-195,Robert Thomas,Riley,M,1962,NaN,NaN,NaN,@P196@
-196,Domenick,Gennusa,M,1973,NaN,NaN,NaN,@P197@
-197,Mary Sylvia,Carr,F,2007,NaN,<gedcom.element.individual.IndividualElement object at 0x10bff7278>, <gedcom.element.individual.IndividualElement object at 0x10c145860>,@P198@
-198,Lila Jane,Carr,F,2003,NaN,<gedcom.element.individual.IndividualElement object at 0x10bff7278>, <gedcom.element.individual.IndividualElement object at 0x10c145860>,@P199@
-199,Stephen Erikson,Carr,M,2001,NaN,<gedcom.element.individual.IndividualElement object at 0x10bff7278>, <gedcom.element.individual.IndividualElement object at 0x10c145860>,@P200@
-200,Abigail Josephine,Gouverneur,F,1960,NaN,NaN,NaN,@P201@
-201,Sarah Elizabeth,Fisher,F,1966,NaN,NaN,NaN,@P202@
-202,Elizabeth Smith,Sinclair,F,1997,NaN,<gedcom.element.individual.IndividualElement object at 0x10c06b630>, <gedcom.element.individual.IndividualElement object at 0x10c14a240>,@P203@
-203,John Biddle,Sinclair,M,1995,NaN,<gedcom.element.individual.IndividualElement object at 0x10c06b630>, <gedcom.element.individual.IndividualElement object at 0x10c14a240>,@P204@
-204,Karen,Smith,F,1961,NaN,NaN,NaN,@P205@
-205,Barbara,Hartmann,F,NaN,NaN,NaN,NaN,@P206@
-206,Ian Rickards,Sinclair,M,1993,NaN,<gedcom.element.individual.IndividualElement object at 0x10c068860>, <gedcom.element.individual.IndividualElement object at 0x10c14cba8>,@P207@
-207,Emily Hutton,Sinclair,F,1991,NaN,<gedcom.element.individual.IndividualElement object at 0x10c068860>, <gedcom.element.individual.IndividualElement object at 0x10c14cba8>,@P208@
-208,Peggy,Soder,F,1963,NaN,NaN,NaN,@P209@
-209,Ada Marie,Sinclair,F,NaN,NaN,<gedcom.element.individual.IndividualElement object at 0x10c14c208>, <gedcom.element.individual.IndividualElement object at 0x10c14f358>,@P210@
-210,Elizabeth,,F,NaN,NaN,NaN,NaN,@P211@
-211,Adalynn Zeis,Griesser,F,2000,NaN,<gedcom.element.individual.IndividualElement object at 0x10c14ff28>, <gedcom.element.individual.IndividualElement object at 0x10c065780>,@P212@
-212,Johan Patrick,Griesser,M,1998,NaN,<gedcom.element.individual.IndividualElement object at 0x10c14ff28>, <gedcom.element.individual.IndividualElement object at 0x10c065780>,@P213@
-213,Hans Patrick,Griesser,M,1961,NaN,NaN,NaN,@P214@
-214,Rebecca Louise,Wills,F,NaN,NaN,NaN,NaN,@P215@
-215,Theodore Brinton,Hetzel,M,NaN,NaN,NaN,NaN,@P216@
-216,Skyler Krieg,Graham,M,1994,NaN,<gedcom.element.individual.IndividualElement object at 0x10c03fdd8>, <gedcom.element.individual.IndividualElement object at 0x10c152668>,@P217@
-217,Gavin Graham,Hetzel,M,2002,NaN,<gedcom.element.individual.IndividualElement object at 0x10c03fdd8>, <gedcom.element.individual.IndividualElement object at 0x10c152668>,@P218@
-218,Judy,Graham,F,1970,NaN,NaN,NaN,@P219@
-219,Benjamin Will,Hetzel,M,1993,NaN,<gedcom.element.individual.IndividualElement object at 0x10c03fdd8>, <gedcom.element.individual.IndividualElement object at 0x10c156198>,@P220@
-220,Laura Katherine,Tyree,F,1965,NaN,NaN,NaN,@P221@
-221,Ronda Leigh,Porter,F,1955,NaN,NaN,NaN,@P222@
-222,Andrea,Cipparrone,M,1990,NaN,<gedcom.element.individual.IndividualElement object at 0x10c1574a8>, <gedcom.element.individual.IndividualElement object at 0x10c03a940>,@P223@
-223,Giacomo,Cipparrone,M,1988,NaN,<gedcom.element.individual.IndividualElement object at 0x10c1574a8>, <gedcom.element.individual.IndividualElement object at 0x10c03a940>,@P224@
-224,Salvatore,Cipparrone,M,1946,NaN,NaN,NaN,@P225@
-225,Meaghan Caroline,McCarthy,F,1997,NaN,<gedcom.element.individual.IndividualElement object at 0x10c15a9e8>, <gedcom.element.individual.IndividualElement object at 0x10c0353c8>,@P226@
-226,Eric James,McCarthy,M,1993,NaN,<gedcom.element.individual.IndividualElement object at 0x10c15a9e8>, <gedcom.element.individual.IndividualElement object at 0x10c0353c8>,@P227@
-227,Matthew Ryan,McCarthy,M,1991,NaN,<gedcom.element.individual.IndividualElement object at 0x10c15a9e8>, <gedcom.element.individual.IndividualElement object at 0x10c0353c8>,@P228@
-228,David Michael,McCarthy,M,1954,NaN,NaN,NaN,@P229@
-229,Laura Anne,Herrin,F,1992,NaN,<gedcom.element.individual.IndividualElement object at 0x10c02f1d0>, <gedcom.element.individual.IndividualElement object at 0x10c15ceb8>,@P230@
-230,Andrea Love,Herrin,F,1986,NaN,<gedcom.element.individual.IndividualElement object at 0x10c02f1d0>, <gedcom.element.individual.IndividualElement object at 0x10c15ceb8>,@P231@
-231,Lisa,Baron,F,1985,NaN,NaN,NaN,@P232@
-232,Deborah Love,Morin,F,1954,NaN,NaN,NaN,@P233@
-233,Aimee Renee,Allen,F,1965,NaN,NaN,NaN,@P234@
-234,Reilly Caroline,Smith,F,2016,NaN,<gedcom.element.individual.IndividualElement object at 0x10c161b00>, <gedcom.element.individual.IndividualElement object at 0x10c15c470>,@P235@
-235,Justin,Smith,M,NaN,NaN,NaN,NaN,@P236@
-236,Eirwen Jane,Cook,F,2019,NaN,<gedcom.element.individual.IndividualElement object at 0x10c1642b0>, <gedcom.element.individual.IndividualElement object at 0x10c15aef0>,@P237@
-237,Joshua,Cook,M,NaN,NaN,NaN,NaN,@P238@
-238,Etta Hutton,Partridge,F,2002,NaN,<gedcom.element.individual.IndividualElement object at 0x10c164fd0>, <gedcom.element.individual.IndividualElement object at 0x10c025f98>,@P239@
-239,Garrett Robertson,Partridge,M,2000,NaN,<gedcom.element.individual.IndividualElement object at 0x10c164fd0>, <gedcom.element.individual.IndividualElement object at 0x10c025f98>,@P240@
-240,Stephen Michael,Partridge,M,1962,NaN,NaN,NaN,@P241@
-241,Anne Rosemary,Barr,F,1907,1979,NaN,NaN,@P242@
-242,Harris Bronston,Holt,M,1908,1971,NaN,NaN,@P243@
-243,Amanda Moore,Favret,F,1992,NaN,<gedcom.element.individual.IndividualElement object at 0x10c16dc88>, <gedcom.element.individual.IndividualElement object at 0x10c0536d8>,@P244@
-244,Rebecca Margaret,Favret,F,1989,NaN,<gedcom.element.individual.IndividualElement object at 0x10c16dc88>, <gedcom.element.individual.IndividualElement object at 0x10c0536d8>,@P245@
-245,Martin Augustine,Favret,U,1962,NaN,NaN,NaN,@P246@
-246,Ellen,Holt,F,1937,NaN,<gedcom.element.individual.IndividualElement object at 0x10c169b38>, <gedcom.element.individual.IndividualElement object at 0x10c166518>,@P247@
-247,Ann-Lew Twyman,Holt,F,1949,2016,<gedcom.element.individual.IndividualElement object at 0x10c169b38>, <gedcom.element.individual.IndividualElement object at 0x10c166518>,@P248@
-248,Jean Chrisophe,Perez,M,2007,NaN,<gedcom.element.individual.IndividualElement object at 0x10c046128>, <gedcom.element.individual.IndividualElement object at 0x10c177160>,@P249@
-249,Sarah Biddle,Holt,F,2008,NaN,<gedcom.element.individual.IndividualElement object at 0x10c046128>, <gedcom.element.individual.IndividualElement object at 0x10c177160>,@P250@
-250,Garrett James,Holt,M,2006,NaN,<gedcom.element.individual.IndividualElement object at 0x10c046128>, <gedcom.element.individual.IndividualElement object at 0x10c177160>,@P251@
-251,Mary,O'Hagin,F,1973,NaN,NaN,NaN,@P252@
-252,Margaret Rose,Titcomb,F,2001,NaN,<gedcom.element.individual.IndividualElement object at 0x10c177c50>, <gedcom.element.individual.IndividualElement object at 0x10c0440f0>,@P253@
-253,Timothy Douglas,Titcomb,M,1958,NaN,NaN,NaN,@P254@
-254,Hadleigh Parker,James,F,2011,NaN,<gedcom.element.individual.IndividualElement object at 0x10c086be0>, <gedcom.element.individual.IndividualElement object at 0x10c17c2e8>,@P255@
-255,Addison  Ruth,James,F,2009,NaN,<gedcom.element.individual.IndividualElement object at 0x10c086be0>, <gedcom.element.individual.IndividualElement object at 0x10c17c2e8>,@P256@
-256,Faith Jordan,Peters,F,1978,NaN,NaN,NaN,@P257@
-257,Alexander,Castanos,M,2016,NaN,<gedcom.element.individual.IndividualElement object at 0x10c17f0b8>, <gedcom.element.individual.IndividualElement object at 0x10c0843c8>,@P258@
-258,Ryan Michael,Castanos,M,1982,NaN,NaN,NaN,@P259@
-259,Derek Alan,Sibinga,M,1997,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b2a90>, <gedcom.element.individual.IndividualElement object at 0x10c17fe80>,@P260@
-260,Rebecca Mary,Sibinga,F,1993,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b2a90>, <gedcom.element.individual.IndividualElement object at 0x10c17fe80>,@P261@
-261,Mariann,Davis,F,1964,NaN,NaN,NaN,@P262@
-262,Dora Marie Sibinga,Hilker,F,2001,NaN,<gedcom.element.individual.IndividualElement object at 0x10c180828>, <gedcom.element.individual.IndividualElement object at 0x10c0aba58>,@P263@
-263,Kenneth John,Hilker,M,1966,NaN,NaN,NaN,@P264@
-264,Gale,Gosselink,F,1989,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0f6c88>, <gedcom.element.individual.IndividualElement object at 0x10c1846a0>,@P265@
-265,Janea Kelly,Gosselink,F,1991,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0f6c88>, <gedcom.element.individual.IndividualElement object at 0x10c1846a0>,@P266@
-266,Mary Elizabeth,Ward,F,1964,NaN,NaN,NaN,@P267@
-267,Ricardo,Gosselink,M,1989,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0f6c88>, <gedcom.element.individual.IndividualElement object at 0x10c1846a0>,@P268@
-268,Gordon,Gosselink,M,1987,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0f6c88>, <gedcom.element.individual.IndividualElement object at 0x10c1846a0>,@P269@
-269,Katherine Elizabeth,Johannes,F,1998,NaN,<gedcom.element.individual.IndividualElement object at 0x10c185978>, <gedcom.element.individual.IndividualElement object at 0x10c0f4ef0>,@P270@
-270,Robert Alan,Johannes,M,1962,NaN,NaN,NaN,@P271@
-271,John Addison,Bradbeer,M,2003,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b7208>, <gedcom.element.individual.IndividualElement object at 0x10c187f98>,@P272@
-272,Thomas Hutton,Bradbeer,M,2000,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b7208>, <gedcom.element.individual.IndividualElement object at 0x10c187f98>,@P273@
-273,Peter Quinney,Bradbeer,M,1998,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b7208>, <gedcom.element.individual.IndividualElement object at 0x10c187f98>,@P274@
-274,James Biddle,Bradbeer,M,1996,NaN,<gedcom.element.individual.IndividualElement object at 0x10c0b7208>, <gedcom.element.individual.IndividualElement object at 0x10c187f98>,@P275@
-275,Carol Elizabeth,Hastings,F,NaN,NaN,NaN,NaN,@P276@
+number,first,last,sex,DOB,DOD,INDI_ID,INDI_mother,first_1,last_1,INDI_father,first_2,last_2
+181,William Ward,Adamy,M,12-Jul-90,,P182,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy
+182,Julia Sinclair,Adamy,F,15-Aug-88,,P183,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy
+183,Paul Kendrick,Adamy,M,28-Mar-57,,P184,NaN,NaN,NaN,NaN,NaN,NaN
+233,Aimee Renee,Allen,F,21-Nov-65,,P234,NaN,NaN,NaN,NaN,NaN,NaN
+48,Phyllis A.,Aspen,F,6-Aug-29,16-Jan-13,P49,NaN,NaN,NaN,NaN,NaN,NaN
+128,Winifred M,Atwater,F,22 Jan 1881,,P129,P104,Martha Mee,Martin,P105,Thornton Bancroft,Penfield
+231,Lisa,Baron,F,8-Jun-85,,P232,NaN,NaN,NaN,NaN,NaN,NaN
+241,Anne Rosemary,Barr,F,12-Oct-07,10-Sep-79,P242,NaN,NaN,NaN,NaN,NaN,NaN
+67,Milo,Berking,,30-Mar-25,19-Nov-07,P68,NaN,NaN,NaN,NaN,NaN,NaN
+0,James Garrett,Biddle,M,13 Oct 1868,21-Dec-47,P1,P3,Mary,Hewes,P4,John William,Biddle
+3,John William,Biddle,M,02 Aug 1835,2-Jun-16,P4,P13,Elizabeth Cesson,Biddle,P12,William,Biddle
+4,Addison Hutton,Biddle,M,11-Dec-03,3-Mar-12,P5,P2,Mary,Hutton,P1,James Garrett,Biddle
+5,Ruth,Biddle,F,6-Nov-06,29-Jan-69,P6,P2,Mary,Hutton,P1,James Garrett,Biddle
+6,Rebecca Hutton,Biddle,F,8-Jun-01,4-Mar-91,P7,P2,Mary,Hutton,P1,James Garrett,Biddle
+7,Elizabeth Rebecca,Biddle,F,22 Mar 1897,25-Mar-75,P8,P2,Mary,Hutton,P1,James Garrett,Biddle
+8,Dorothy,Biddle,F,25-Jan-00,15-Feb-85,P9,P2,Mary,Hutton,P1,James Garrett,Biddle
+9,Mary Hewes,Biddle,F,10 Aug 1898,28-Dec-63,P10,P2,Mary,Hutton,P1,James Garrett,Biddle
+11,William,Biddle,M,17 May 1806,7 June 1887,P12,NaN,NaN,NaN,NaN,NaN,NaN
+12,Elizabeth Cesson,Biddle,F,,21 January 1881,P13,NaN,NaN,NaN,NaN,NaN,NaN
+13,William,Biddle,M,28 May 1863,12-Feb-48,P14,P3,Mary,Hewes,P4,John William,Biddle
+32,Cecilia,Bradbeer,F,16-Feb-30,,P33,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer
+33,James Biddle,Bradbeer,M,28-Oct-32,27-May-19,P34,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer
+34,Frank Gilbert,Bradbeer,M,09 August 1887,2-Dec-35,P35,P109,Cecilia Henrietta,Jones,P110,Frank,Bradbeer
+109,Frank,Bradbeer,M,1865,July 1898,P110,NaN,NaN,NaN,NaN,NaN,NaN
+115,James Biddle,Bradbeer,M,19-Mar-62,,P116,P117,Mary Florence,Buckley,P34,James Biddle,Bradbeer
+117,Rebecca Hutton,Bradbeer,U,9-May-66,,P118,P117,Mary Florence,Buckley,P34,James Biddle,Bradbeer
+124,Jessie Cecilia,Bradbeer,F,10 Sep 1893,Mar-79,P125,P109,Cecilia Henrietta,Jones,P110,Frank,Bradbeer
+125,Albert Frederick,Bradbeer,M,Oct 1890,15-Mar-63,P126,P109,Cecilia Henrietta,Jones,P110,Frank,Bradbeer
+271,John Addison,Bradbeer,M,11-Feb-03,,P272,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer
+272,Thomas Hutton,Bradbeer,M,6-Sep-00,,P273,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer
+273,Peter Quinney,Bradbeer,M,3-Mar-98,,P274,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer
+274,James Biddle,Bradbeer,M,20-Jun-96,,P275,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer
+51,Mary Hewes,Buck,F,19-Jul-55,,P52,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck
+52,Alice Sinclair,Buck,F,8-Jan-53,,P53,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck
+53,David Douglass,Buck,M,26-Feb-49,,P54,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck
+54,John Clayton,Buck,M,9-Aug-50,19-May-09,P55,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck
+56,Clayton Douglass,Buck,M,26-Mar-23,3-Feb-86,P57,P93,Alice Hounsfield,du Pont,P94,Clayton Douglass,Buck
+93,Clayton Douglass,Buck,M,21 Mar 1890,27-Jan-65,P94,NaN,NaN,NaN,NaN,NaN,NaN
+94,Jeremiah Clayton,Buck,M,3-Aug-78,,P95,P97,Gayle Maureen,Hannah,P55,John Clayton,Buck
+95,Magnolia Hannah,Buck,F,13-Oct-75,,P96,P97,Gayle Maureen,Hannah,P55,John Clayton,Buck
+151,Thomas Garrett,Buck,M,7-Sep-84,,P152,P153,Nancy E.,Miller,P54,David Douglass,Buck
+153,Thaddeus Chase,Buck,M,10-Mar-76,,P154,P155,Shelli I.,Chase,P54,David Douglass,Buck
+159,Joseph Samuel,Buck,M,13-Aug-84,,P160,P52,Mary Hewes,Buck,P159,David,Quint
+116,Mary Florence,Buckley,F,29-Oct-35,11-Dec-99,P117,NaN,NaN,NaN,NaN,NaN,NaN
+57,John Christopher,Carr,M,12-Oct-66,,P58,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+58,Elizabeth Anne,Carr,F,27-Oct-64,,P59,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+59,Daniel Thaddeus,Carr,M,14-Apr-63,,P60,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+60,Suzanne Noel,Carr,F,15-Dec-60,,P61,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+61,Matthew Francis,Carr,M,17-Sep-58,,P62,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+62,Deborah Ward,Carr,F,23-Sep-57,,P63,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+63,Sylvia Stephens,Carr,F,25-Jul-56,,P64,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+64,Stephen Kerry,Carr,M,12-Jun-55,,P65,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+65,Kathleen Mary,Carr,F,30-Jun-54,,P66,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr
+66,Stephen Kerry,Carr,M,30-Apr-30,,P67,NaN,NaN,NaN,NaN,NaN,NaN
+173,Brendan Connor,Carr,M,13-Dec-90,,P174,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr
+174,Ryan Samuel,Carr,M,27-May-85,,P175,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr
+175,Sean Kerry,Carr,M,22-Feb-83,,P176,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr
+184,Hillary Hayes,Carr,F,21-Jan-91,,P185,P188,Melissa,Golder,P62,Matthew Francis,Carr
+185,Ian Collins,Carr,M,7-Sep-88,,P186,P188,Melissa,Golder,P62,Matthew Francis,Carr
+186,Matthew Francis,Carr,M,6-Dec-86,,P187,P188,Melissa,Golder,P62,Matthew Francis,Carr
+191,Kirsti Lynn,Carr,F,9-Sep-96,,P192,P194,Kari Ellen,Kaalstad,P60,Daniel Thaddeus,Carr
+192,Siri Marie,Carr,F,31-Mar-93,,P193,P194,Kari Ellen,Kaalstad,P60,Daniel Thaddeus,Carr
+197,Mary Sylvia,Carr,F,2007,,P198,P201,Abigail Josephine,Gouverneur,P58,John Christopher,Carr
+198,Lila Jane,Carr,F,15-Jun-03,,P199,P201,Abigail Josephine,Gouverneur,P58,John Christopher,Carr
+199,Stephen Erikson,Carr,M,27-Sep-01,,P200,P201,Abigail Josephine,Gouverneur,P58,John Christopher,Carr
+257,Alexander,Castanos,M,Nov-16,,P258,P100,Leigh Biddle,James,P259,Ryan Michael,Castanos
+258,Ryan Michael,Castanos,M,23-Mar-82,,P259,NaN,NaN,NaN,NaN,NaN,NaN
+10,Ruth Ella,Chambers,F,abt 1870,26-Feb-48,P11,NaN,NaN,NaN,NaN,NaN,NaN
+154,Shelli I.,Chase,F,1953,,P155,NaN,NaN,NaN,NaN,NaN,NaN
+222,Andrea,Cipparrone,M,22-Dec-90,,P223,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone
+223,Giacomo,Cipparrone,M,27-Feb-88,,P224,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone
+224,Salvatore,Cipparrone,M,25-Nov-46,,P225,NaN,NaN,NaN,NaN,NaN,NaN
+98,Diane Brace,Conner,F,Aug-38,,P99,NaN,NaN,NaN,NaN,NaN,NaN
+236,Eirwen Jane,Cook,F,26-Mar-19,,P237,P230,Laura Anne,Herrin,P238,Joshua,Cook
+237,Joshua,Cook,M,,,P238,NaN,NaN,NaN,NaN,NaN,NaN
+69,Mary Hughes,Cope,F,13 Jul 1865,14-Nov-54,P70,NaN,NaN,NaN,NaN,NaN,NaN
+261,Mariann,Davis,F,14-Aug-64,,P262,NaN,NaN,NaN,NaN,NaN,NaN
+155,John Garrett,DeCandia,M,26-Feb-89,,P156,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia
+156,Michael Douglass,DeCandia,M,19-Feb-86,,P157,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia
+157,Michael John,DeCandia,M,10-Apr-51,,P158,NaN,NaN,NaN,NaN,NaN,NaN
+106,Diane,Depp,,10-Jul-47,,P107,NaN,NaN,NaN,NaN,NaN,NaN
+101,Dixie Lee,Donaldson,F,16-May-45,,P102,NaN,NaN,NaN,NaN,NaN,NaN
+92,Alice Hounsfield,du Pont,F,Dec 1891,29-Dec-67,P93,NaN,NaN,NaN,NaN,NaN,NaN
+144,Dianne,DuBois,F,,,P145,NaN,NaN,NaN,NaN,NaN,NaN
+243,Amanda Moore,Favret,F,25-Feb-92,,P244,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret
+244,Rebecca Margaret,Favret,F,27-Dec-89,,P245,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret
+245,Martin Augustine,Favret,U,31-Aug-62,,P246,NaN,NaN,NaN,NaN,NaN,NaN
+107,Elizabeth,Few,F,18-Jan-39,,P108,NaN,NaN,NaN,NaN,NaN,NaN
+201,Sarah Elizabeth,Fisher,F,15-Jul-66,,P202,NaN,NaN,NaN,NaN,NaN,NaN
+45,Rie,Gabrielsen,F,28-Aug-30,2-Oct-80,P46,P46,Rie,Gabrielsen,P134,Hans,Gabrielsen
+133,Hans,Gabrielsen,M,ABT 1900,,P134,NaN,NaN,NaN,NaN,NaN,NaN
+16,Sarah S,Garrett,F,15 Jun 1819,3 Nov 1853,P17,NaN,NaN,NaN,NaN,NaN,NaN
+40,Sidney S,Garrett,F,30 Nov 1851,7-Apr-49,P41,NaN,NaN,NaN,NaN,NaN,NaN
+194,Sopia Elizabeth,Gennusa,F,20-Oct-03,,P195,P59,Elizabeth Anne,Carr,P197,Domenick,Gennusa
+196,Domenick,Gennusa,M,18-Mar-73,,P197,NaN,NaN,NaN,NaN,NaN,NaN
+105,Janet Richardson,German,F,19-Apr-16,16-Jan-04,P106,NaN,NaN,NaN,NaN,NaN,NaN
+187,Melissa,Golder,F,7-May-60,,P188,NaN,NaN,NaN,NaN,NaN,NaN
+129,Rebecca Elizabeth,Gosselink,F,22-Apr-67,,P130,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink
+130,Robert George,Gosselink,M,8-Aug-64,,P131,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink
+131,James Bancroft,Gosselink,M,19-Apr-63,,P132,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink
+132,Charles George,Gosselink,M,abt 1935,,P133,NaN,NaN,NaN,NaN,NaN,NaN
+264,Gale,Gosselink,F,1989,,P265,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink
+265,Janea Kelly,Gosselink,F,1991,,P266,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink
+267,Ricardo,Gosselink,M,1989,,P268,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink
+268,Gordon,Gosselink,M,1987,,P269,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink
+200,Abigail Josephine,Gouverneur,F,29-Dec-60,,P201,NaN,NaN,NaN,NaN,NaN,NaN
+216,Skyler Krieg,Graham,M,1994,,P217,P219,Judy,Graham,P79,Robert Wills,Hetzel
+218,Judy,Graham,F,10-Nov-70,,P219,NaN,NaN,NaN,NaN,NaN,NaN
+211,Adalynn Zeis,Griesser,F,11-Aug-00,,P212,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser
+212,Johan Patrick,Griesser,M,23-May-98,,P213,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser
+213,Hans Patrick,Griesser,M,5-Mar-61,,P214,NaN,NaN,NaN,NaN,NaN,NaN
+96,Gayle Maureen,Hannah,F,22-Aug-54,,P97,NaN,NaN,NaN,NaN,NaN,NaN
+205,Barbara,Hartmann,F,,,P206,NaN,NaN,NaN,NaN,NaN,NaN
+275,Carol Elizabeth,Hastings,F,,,P276,NaN,NaN,NaN,NaN,NaN,NaN
+168,Karl Bryn,Heavenrich,M,27-Nov-93,,P169,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich
+169,Jessica Anne,Heavenrich,F,9-Jun-90,,P170,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich
+170,Jeb Sinclair,Heavenrich,M,24-Aug-88,,P171,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich
+171,Walter,Heavenrich,M,3-Jul-51,,P172,NaN,NaN,NaN,NaN,NaN,NaN
+70,Janet Biddle,Herrin,F,3-Aug-65,,P71,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin
+71,Gareld Robertson,Herrin,M,7-Jul-29,20-May-05,P72,NaN,NaN,NaN,NaN,NaN,NaN
+72,Kenneth James,Herrin,M,6-Apr-62,,P73,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin
+73,John Robertson,Herrin,M,15-Jan-60,,P74,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin
+74,Mary Thayer,Herrin,F,25-Nov-58,,P75,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin
+229,Laura Anne,Herrin,F,30-Jul-92,,P230,P233,Deborah Love,Morin,P74,John Robertson,Herrin
+230,Andrea Love,Herrin,F,17-Dec-86,,P231,P233,Deborah Love,Morin,P74,John Robertson,Herrin
+75,Frederic Valerius,Hetzel,M,5-Aug-30,19-Jan-05,P76,P215,Rebecca Louise,Wills,P216,Theodore Brinton,Hetzel
+76,Sylvia Biddle,Hetzel,F,29-Oct-59,,P77,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel
+77,Frederic James,Hetzel,M,12-Jun-57,,P78,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel
+78,Robert Wills,Hetzel,M,11-Mar-54,,P79,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel
+215,Theodore Brinton,Hetzel,M,,,P216,NaN,NaN,NaN,NaN,NaN,NaN
+217,Gavin Graham,Hetzel,M,15-Feb-02,,P218,P219,Judy,Graham,P79,Robert Wills,Hetzel
+219,Benjamin Will,Hetzel,M,1-Jun-93,,P220,P221,Laura Katherine,Tyree,P79,Robert Wills,Hetzel
+2,Mary,Hewes,F,26 Oct 1842,25 May 1874,P3,P17,Sarah S,Garrett,P18,Edward C,Hewes
+17,Edward C,Hewes,M,4 Sept 1821,30 Nov 1880,P18,NaN,NaN,NaN,NaN,NaN,NaN
+262,Dora Marie Sibinga,Hilker,F,19-May-01,,P263,P111,Erica Maria Smit,Sibinga,P264,Kenneth John,Hilker
+263,Kenneth John,Hilker,M,18-Mar-66,,P264,NaN,NaN,NaN,NaN,NaN,NaN
+150,Kristine,Hill,F,,,P151,NaN,NaN,NaN,NaN,NaN,NaN
+79,Elizabeth Barr,Holt,F,8-Aug-68,,P80,P19,Margaret Cope,James,P83,Harris Richard,Holt
+80,John Harris,Holt,M,16-Mar-65,,P81,P19,Margaret Cope,James,P83,Harris Richard,Holt
+81,Richard James,Holt,M,1960,1960,P82,P19,Margaret Cope,James,P83,Harris Richard,Holt
+82,Harris Richard,Holt,M,21-Aug-34,28-Aug-09,P83,P242,Anne Rosemary,Barr,P243,Harris Bronston,Holt
+83,Cynthia Biddle,Holt,F,18-Feb-62,,P84,P19,Margaret Cope,James,P83,Harris Richard,Holt
+242,Harris Bronston,Holt,M,22-Jan-08,2-Apr-71,P243,NaN,NaN,NaN,NaN,NaN,NaN
+246,Ellen,Holt,F,abt 1937,,P247,P242,Anne Rosemary,Barr,P243,Harris Bronston,Holt
+247,Ann-Lew Twyman,Holt,F,14-Feb-49,2016,P248,P242,Anne Rosemary,Barr,P243,Harris Bronston,Holt
+249,Sarah Biddle,Holt,F,29-Apr-08,,P250,P252,Mary,O'Hagin,P81,John Harris,Holt
+250,Garrett James,Holt,M,20-Jan-06,,P251,P252,Mary,O'Hagin,P81,John Harris,Holt
+1,Mary,Hutton,F,11 Sep 1869,17-Oct-25,P2,P15,Rebecca,Savery,P16,Addison,Hutton
+15,Addison,Hutton,M,28 Nov 1834,25-Jun-16,P16,P40,Ann,Mains,P39,Joel Wright,Hutton
+38,Joel Wright,Hutton,M,7 June 1811,3 July 1862,P39,NaN,NaN,NaN,NaN,NaN,NaN
+18,Margaret Cope,James,F,28-Nov-35,31-Jul-79,P19,P9,Dorothy,Biddle,P23,John Robert,James
+19,Caroline Biddle,James,F,22-Jun-32,27-Feb-12,P20,P9,Dorothy,Biddle,P23,John Robert,James
+20,Mary Hutton,James,F,29-Nov-30,6-Feb-02,P21,P9,Dorothy,Biddle,P23,John Robert,James
+21,John Robert,James,M,8-Mar-38,,P22,P9,Dorothy,Biddle,P23,John Robert,James
+22,John Robert,James,M,10 Feb 1895,10-Jan-92,P23,P70,Mary Hughes,Cope,P69,John Edwin,James
+68,John Edwin,James,M,7 Dec 1864,2-Mar-38,P69,NaN,NaN,NaN,NaN,NaN,NaN
+99,Leigh Biddle,James,F,18-Jul-80,,P100,P102,Dixie Lee,Donaldson,P22,John Robert,James
+100,Christina Ballard,James,F,5-Feb-78,,P101,P102,Dixie Lee,Donaldson,P22,John Robert,James
+102,John Robert,James,M,30-Aug-74,,P103,P102,Dixie Lee,Donaldson,P22,John Robert,James
+118,Arthur Edwin,James,M,21 Jan 1897,8-Aug-89,P119,P70,Mary Hughes,Cope,P69,John Edwin,James
+119,William Cope,James,M,23 Mar 1893,17-Jan-60,P120,P70,Mary Hughes,Cope,P69,John Edwin,James
+120,Margaret Sharpless,James,F,25 Aug 1891,3-Oct-34,P121,P70,Mary Hughes,Cope,P69,John Edwin,James
+121,Lauretta Phillips,James,F,16 Jan 1890,,P122,P70,Mary Hughes,Cope,P69,John Edwin,James
+254,Hadleigh Parker,James,F,4-Nov-11,,P255,P257,Faith Jordan,Peters,P103,John Robert,James
+255,Addison  Ruth,James,F,3-Jun-09,,P256,P257,Faith Jordan,Peters,P103,John Robert,James
+269,Katherine Elizabeth,Johannes,F,22-Nov-98,,P270,P130,Rebecca Elizabeth,Gosselink,P271,Robert Alan,Johannes
+270,Robert Alan,Johannes,M,24-May-62,,P271,NaN,NaN,NaN,NaN,NaN,NaN
+108,Cecilia Henrietta,Jones,F,1865,Jan-15,P109,NaN,NaN,NaN,NaN,NaN,NaN
+193,Kari Ellen,Kaalstad,F,18-Oct-63,,P194,NaN,NaN,NaN,NaN,NaN,NaN
+149,Carly,Klapp,F,,,P150,NaN,NaN,NaN,NaN,NaN,NaN
+55,Joseph J.,Krakora,M,3-Apr-39,,P56,NaN,NaN,NaN,NaN,NaN,NaN
+97,Kathryn Anne,Krakora,F,12-Feb-65,,P98,P99,Diane Brace,Conner,P56,Joseph J.,Krakora
+134,Evan Robert,Ma,M,1992,,P135,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma
+135,Rie Yarnall,Ma,F,1987,,P136,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma
+136,Robert Tien,Ma,M,1959,,P137,NaN,NaN,NaN,NaN,NaN,NaN
+39,Ann,Mains,F,2 January 1812,7 July 1865,P40,NaN,NaN,NaN,NaN,NaN,NaN
+164,Jason Andrew,Mannka,M,6-Apr-94,,P165,P85,Margot,Sinclair,P168,Scott Daniel,Mannka
+165,Christopher Scott,Mannka,M,6-Apr-94,,P166,P85,Margot,Sinclair,P168,Scott Daniel,Mannka
+166,Peter James,Mannka,M,24-Dec-91,,P167,P85,Margot,Sinclair,P168,Scott Daniel,Mannka
+167,Scott Daniel,Mannka,M,10-Oct-60,,P168,NaN,NaN,NaN,NaN,NaN,NaN
+148,Elizabeth,Mapes,F,1-May-61,,P149,NaN,NaN,NaN,NaN,NaN,NaN
+103,Martha Mee,Martin,F,6 Nov 1868,7-Sep-54,P104,NaN,NaN,NaN,NaN,NaN,NaN
+225,Meaghan Caroline,McCarthy,F,5-Oct-97,,P226,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy
+226,Eric James,McCarthy,M,7-Jun-93,,P227,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy
+227,Matthew Ryan,McCarthy,M,23-May-91,,P228,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy
+228,David Michael,McCarthy,M,7-Aug-54,,P229,NaN,NaN,NaN,NaN,NaN,NaN
+160,Ellie Mae,McDonald,F,14-Jun-79,,P161,P52,Mary Hewes,Buck,P162,Glenn,McDonald
+161,Glenn,McDonald,M,,,P162,NaN,NaN,NaN,NaN,NaN,NaN
+152,Nancy E.,Miller,F,1954,,P153,NaN,NaN,NaN,NaN,NaN,NaN
+232,Deborah Love,Morin,F,5-Oct-54,,P233,NaN,NaN,NaN,NaN,NaN,NaN
+251,Mary,O'Hagin,F,15-Apr-73,,P252,NaN,NaN,NaN,NaN,NaN,NaN
+163,Nan M,Octeau,F,abt 1966,,P164,NaN,NaN,NaN,NaN,NaN,NaN
+176,Kari Beth,Olson,F,6-Mar-56,,P177,NaN,NaN,NaN,NaN,NaN,NaN
+238,Etta Hutton,Partridge,F,14-Sep-02,,P239,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge
+239,Garrett Robertson,Partridge,M,10-Apr-00,,P240,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge
+240,Stephen Michael,Partridge,M,26-Dec-62,,P241,NaN,NaN,NaN,NaN,NaN,NaN
+35,Thornton Bancroft,Penfield,M,13-Apr-34,21-Aug-07,P36,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield
+36,Charlotte Elizabeth,Penfield,F,28-Oct-35,,P37,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield
+37,Thornton Bancroft,Penfield,M,1 May 1899,11-Mar-75,P38,P104,Martha Mee,Martin,P105,Thornton Bancroft,Penfield
+104,Thornton Bancroft,Penfield,M,13 Nov 1867,4-Feb-58,P105,NaN,NaN,NaN,NaN,NaN,NaN
+126,Paul Livingstone,Penfield,M,11-Aug-01,9-Jan-92,P127,P104,Martha Mee,Martin,P105,Thornton Bancroft,Penfield
+127,Charlotte Martin,Penfield,F,20 Jul 1895,27-Dec-79,P128,P104,Martha Mee,Martin,P105,Thornton Bancroft,Penfield
+248,Jean Chrisophe,Perez,M,2007,,P249,P252,Mary,O'Hagin,P81,John Harris,Holt
+256,Faith Jordan,Peters,F,30-Dec-78,,P257,NaN,NaN,NaN,NaN,NaN,NaN
+221,Ronda Leigh,Porter,F,20-Jun-55,,P222,NaN,NaN,NaN,NaN,NaN,NaN
+158,David,Quint,M,,,P159,NaN,NaN,NaN,NaN,NaN,NaN
+91,Lynn,Rickards,F,24-Jul-35,,P92,NaN,NaN,NaN,NaN,NaN,NaN
+195,Robert Thomas,Riley,M,4-Dec-62,,P196,NaN,NaN,NaN,NaN,NaN,NaN
+177,Emma Hewes,Rubenstein,F,27-Jan-91,,P178,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein
+178,Anne Chandler,Rubenstein,F,27-Mar-88,,P179,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein
+179,Katelyn Sinclair,Rubenstein,F,30-Sep-86,,P180,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein
+180,Donald Paul,Rubenstein,M,6-Apr-58,,P181,NaN,NaN,NaN,NaN,NaN,NaN
+137,Rachel Yarnall,Sanders,F,4-May-88,,P138,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders
+138,Gabriel Yarnall,Sanders,M,28-Nov-85,,P139,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders
+139,David Alan,Sanders,M,1942,,P140,NaN,NaN,NaN,NaN,NaN,NaN
+14,Rebecca,Savery,F,19 Oct 1836,19-Apr-02,P15,NaN,NaN,NaN,NaN,NaN,NaN
+110,Erica Maria Smit,Sibinga,F,30-Dec-62,,P111,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga
+111,Nicholas Ernst Smit,Sibinga,M,28-Apr-59,,P112,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga
+112,Derek Johannes Smit,Sibinga,M,18-Mar-61,19-Mar-61,P113,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga
+113,Michael Frank Smit,Sibinga,M,10-Feb-57,,P114,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga
+114,Maarten,Sibinga,M,1-Nov-27,16-Nov-03,P115,NaN,NaN,NaN,NaN,NaN,NaN
+140,Owen,Sibinga,M,13-Apr-05,,P141,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga
+141,Tyche Eva,Sibinga,F,15-Feb-95,,P142,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga
+142,James Garrett,Sibinga,M,4-Dec-91,,P143,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga
+143,Nathaniel Alexander,Sibinga,M,30-Nov-89,,P144,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga
+259,Derek Alan,Sibinga,M,1-Sep-97,,P260,P262,Mariann,Davis,P114,Michael Frank Smit,Sibinga
+260,Rebecca Mary,Sibinga,F,17-Apr-93,,P261,P262,Mariann,Davis,P114,Michael Frank Smit,Sibinga
+27,David Macowan,Sinclair,M,6-Aug-28,,P28,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair
+28,Sylvia Buell,Sinclair,F,28-Aug-29,7-Feb-15,P29,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair
+29,Mary Biddle,Sinclair,F,25-Aug-26,12-Mar-09,P30,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair
+30,John Biddle,Sinclair,M,12-Nov-35,22-Jun-19,P31,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair
+31,John Stephens,Sinclair,M,06 Apr 1897,29-Oct-72,P32,P50,Alice Elvira,Stephens,P51,David MaCowan,Sinclair
+50,David MaCowan,Sinclair,M,Nov 1861,11-Oct-35,P51,NaN,NaN,NaN,NaN,NaN,NaN
+84,Margot,Sinclair,F,12-Apr-62,,P85,P88,Susan,Widmann,P28,David Macowan,Sinclair
+85,Craig Widmann,Sinclair,M,17-Jul-59,,P86,P88,Susan,Widmann,P28,David Macowan,Sinclair
+86,Timothy Biddle,Sinclair,M,23-Jan-58,31-May-68,P87,P88,Susan,Widmann,P28,David Macowan,Sinclair
+88,Anne Zeis,Sinclair,F,18-Oct-65,,P89,P92,Lynn,Rickards,P31,John Biddle,Sinclair
+89,David Rickards,Sinclair,M,5-Mar-62,,P90,P92,Lynn,Rickards,P31,John Biddle,Sinclair
+90,John Biddle,Sinclair,M,4-Jan-60,,P91,P92,Lynn,Rickards,P31,John Biddle,Sinclair
+122,William,Sinclair,M,Feb 1896,,P123,P50,Alice Elvira,Stephens,P51,David MaCowan,Sinclair
+123,Sylvia,Sinclair,F,Jun 1894,,P124,P50,Alice Elvira,Stephens,P51,David MaCowan,Sinclair
+162,Lindy,Sinclair,F,8-Mar-00,,P163,P164,Nan M,Octeau,P86,Craig Widmann,Sinclair
+202,Elizabeth Smith,Sinclair,F,11-Sep-97,,P203,P205,Karen,Smith,P91,John Biddle,Sinclair
+203,John Biddle,Sinclair,M,5-Jun-95,,P204,P205,Karen,Smith,P91,John Biddle,Sinclair
+206,Ian Rickards,Sinclair,M,7-Dec-93,,P207,P209,Peggy,Soder,P90,David Rickards,Sinclair
+207,Emily Hutton,Sinclair,F,11-Feb-91,,P208,P209,Peggy,Soder,P90,David Rickards,Sinclair
+209,Ada Marie,Sinclair,F,,,P210,P211,Elizabeth,,P207,Ian Rickards,Sinclair
+204,Karen,Smith,F,14-Mar-61,,P205,NaN,NaN,NaN,NaN,NaN,NaN
+234,Reilly Caroline,Smith,F,30-Sep-16,,P235,P231,Andrea Love,Herrin,P236,Justin,Smith
+235,Justin,Smith,M,,,P236,NaN,NaN,NaN,NaN,NaN,NaN
+208,Peggy,Soder,F,5-Jun-63,,P209,NaN,NaN,NaN,NaN,NaN,NaN
+49,Alice Elvira,Stephens,F,16 Nov 1861,30-Aug-33,P50,NaN,NaN,NaN,NaN,NaN,NaN
+252,Margaret Rose,Titcomb,F,1-Mar-01,,P253,P80,Elizabeth Barr,Holt,P254,Timothy Douglas,Titcomb
+253,Timothy Douglas,Titcomb,M,8-Dec-58,,P254,NaN,NaN,NaN,NaN,NaN,NaN
+220,Laura Katherine,Tyree,F,8-Oct-65,,P221,NaN,NaN,NaN,NaN,NaN,NaN
+266,Mary Elizabeth,Ward,F,23-Jan-64,,P267,NaN,NaN,NaN,NaN,NaN,NaN
+188,Hannah Sinclair,Weber,F,25-Apr-96,,P189,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber
+189,Sarah Noel,Weber,F,6-Dec-94,,P190,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber
+190,Christian Dietrich,Weber,M,06 ar 1964,,P191,NaN,NaN,NaN,NaN,NaN,NaN
+87,Susan,Widmann,F,14-Jan-32,,P88,NaN,NaN,NaN,NaN,NaN,NaN
+214,Rebecca Louise,Wills,F,,,P215,NaN,NaN,NaN,NaN,NaN,NaN
+23,James Biddle,Yarnall,M,4-Nov-26,22-Mar-09,P24,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall
+24,Nancy Hutton,Yarnall,F,22-Jun-28,13-Oct-04,P25,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall
+25,David Robert,Yarnall,M,11-Feb-25,27-May-99,P26,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall
+26,David Robert,Yarnall,M,28 Jun 1878,11-Sep-67,P27,P41,Sidney S,Garrett,P42,Edward Smedley,Yarnall
+41,Edward Smedley,Yarnall,M,28 Feb 1846,29-Oct-31,P42,NaN,NaN,NaN,NaN,NaN,NaN
+42,Kristina Garrett,Yarnall,F,16-Feb-60,,P43,P46,Rie,Gabrielsen,P26,David Robert,Yarnall
+43,Sara Gabrielsen,Yarnall,F,18-Dec-58,,P44,P46,Rie,Gabrielsen,P26,David Robert,Yarnall
+44,Joan Biddle,Yarnall,F,1956,,P45,P46,Rie,Gabrielsen,P26,David Robert,Yarnall
+46,Stephen Garrett,Yarnall,M,26-Nov-57,,P47,P49,Phyllis A.,Aspen,P24,James Biddle,Yarnall
+47,James Biddle,Yarnall,M,28-Sep-55,26-Jan-18,P48,P49,Phyllis A.,Aspen,P24,James Biddle,Yarnall
+145,Elizabeth Claire,Yarnall,F,7-Apr-03,,P146,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall
+146,Rebecca Nicole,Yarnall,F,7-Apr-03,,P147,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall
+147,Sidney Paige,Yarnall,F,27-Dec-01,,P148,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall
+172,Debora,,F,,,P173,NaN,NaN,NaN,NaN,NaN,NaN
+210,Elizabeth,,F,,,P211,NaN,NaN,NaN,NaN,NaN,NaN
