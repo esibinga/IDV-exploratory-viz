@@ -107,7 +107,7 @@ number,first,last,sex,DOB,DOD,INDI_ID,parents,INDI_mother,first_1,last_1,INDI_fa
 105,Janet Richardson,German,F,19-Apr-16,16-Jan-04,@P106@,[],NaN,NaN,NaN,NaN,NaN,NaN
 106,Diane,Depp,,10-Jul-47,,@P107@,[],NaN,NaN,NaN,NaN,NaN,NaN
 107,Elizabeth,Few,F,18-Jan-39,,@P108@,[],NaN,NaN,NaN,NaN,NaN,NaN
-108,Cecilia Henrietta,Jones,F,1865,Jan-15,@P109@,[],NaN,NaN,NaN,NaN,NaN,NaN
+108,Cecilia Henrietta,Jones,F,1865,15-Jan,@P109@,[],NaN,NaN,NaN,NaN,NaN,NaN
 109,Frank,Bradbeer,M,1865,July 1898,@P110@,[],NaN,NaN,NaN,NaN,NaN,NaN
 110,Erica Maria Smit,Sibinga,F,30-Dec-62,,@P111@,"[<gedcom.element.individual.IndividualElement object at 0x11a1e9e80>, <gedcom.element.individual.IndividualElement object at 0x11a071748>]",@P33@,Cecilia,Bradbeer,@P115@,Maarten,Sibinga
 111,Nicholas Ernst Smit,Sibinga,M,28-Apr-59,,@P112@,"[<gedcom.element.individual.IndividualElement object at 0x11a1e9e80>, <gedcom.element.individual.IndividualElement object at 0x11a071748>]",@P33@,Cecilia,Bradbeer,@P115@,Maarten,Sibinga
@@ -256,7 +256,7 @@ number,first,last,sex,DOB,DOD,INDI_ID,parents,INDI_mother,first_1,last_1,INDI_fa
 254,Hadleigh Parker,James,F,4-Nov-11,,@P255@,"[<gedcom.element.individual.IndividualElement object at 0x11a1ba128>, <gedcom.element.individual.IndividualElement object at 0x11a2b97f0>]",@P257@,Faith Jordan,Peters,@P103@,John Robert,James
 255,Addison  Ruth,James,F,3-Jun-09,,@P256@,"[<gedcom.element.individual.IndividualElement object at 0x11a1ba128>, <gedcom.element.individual.IndividualElement object at 0x11a2b97f0>]",@P257@,Faith Jordan,Peters,@P103@,John Robert,James
 256,Faith Jordan,Peters,F,30-Dec-78,,@P257@,[],NaN,NaN,NaN,NaN,NaN,NaN
-257,Alexander,Castanos,M,Nov-16,,@P258@,"[<gedcom.element.individual.IndividualElement object at 0x11a2bd5c0>, <gedcom.element.individual.IndividualElement object at 0x11a1b58d0>]",@P100@,Leigh Biddle,James,@P259@,Ryan Michael,Castanos
+257,Alexander,Castanos,M,16-Nov,,@P258@,"[<gedcom.element.individual.IndividualElement object at 0x11a2bd5c0>, <gedcom.element.individual.IndividualElement object at 0x11a1b58d0>]",@P100@,Leigh Biddle,James,@P259@,Ryan Michael,Castanos
 258,Ryan Michael,Castanos,M,23-Mar-82,,@P259@,[],NaN,NaN,NaN,NaN,NaN,NaN
 259,Derek Alan,Sibinga,M,1-Sep-97,,@P260@,"[<gedcom.element.individual.IndividualElement object at 0x11a1e7f98>, <gedcom.element.individual.IndividualElement object at 0x11a2be3c8>]",@P262@,Mariann,Davis,@P114@,Michael Frank Smit,Sibinga
 260,Rebecca Mary,Sibinga,F,17-Apr-93,,@P261@,"[<gedcom.element.individual.IndividualElement object at 0x11a1e7f98>, <gedcom.element.individual.IndividualElement object at 0x11a2be3c8>]",@P262@,Mariann,Davis,@P114@,Michael Frank Smit,Sibinga
