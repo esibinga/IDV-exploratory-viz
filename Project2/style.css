@@ -1,13 +1,72 @@
+
 body {
     /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Monaco", sans-serif;
     padding: 1em 3em;
-    background-color: darkgray;
+    background-color: white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    color: #222;
+  }
+
+  h3 {
+    text-align: center;
+    color: gray;
+    left: 300px;
+  }
+
+  .section#one {
+    display: grid;
+    text-align: right;
+    grid-column-gap: 10px;
+    grid-template-columns: 25% 75%;    /* divide the window into these horizontal percentages */
   }
   
+  .section#one > .text {
+    text-align: right;
+    /*height: length/2; */
+    grid-column: 1 / 1;      /* start this column in position 1 of 1 */
+  }
+  
+  .section#one > .graph {
+    grid-column: 2 / 2;
+  }
+
+
+
+
+
+  .section#one-five {
+    display: grid;
+    text-align: right;
+    vertical-align: middle;
+    grid-column-gap: 10px;
+    grid-template-columns: 20% 50%
+  }
+  
+  .section#one-five > .text {
+    text-align: right;
+    height: length/2;
+    grid-column: 1 / 2;
+  }
+  
+  .section#one-five > .graph {
+    grid-column: 2 / 2;
+  }
+
+
+
+
   .tooltip {
     display: block;
-    position: fixed;
+    position: relative;
+    float: left;
     height: fit-content;
     background-color: white;
     opacity: 0.8;
@@ -17,4 +76,12 @@ body {
   
   path.state {
     stroke: black;
+  }
+
+  text.label{
+    opacity: 1;
+  }
+  
+  text.label:hover{
+    opacity: 1;
   }

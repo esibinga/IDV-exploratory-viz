@@ -5,13 +5,61 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>DARTS</h1>
+    <!--<h1>Throw a dart!</h1>
+    <h2>Can you hit the highest-value tile on the board?</h2> -->
+    <h3></h3>
     <!-- all we need is an element to select -->
-    <div id="d3-container"> </div>
+    <!-- <div id="d3-container">     
+    </div> -->
+    <div>
+      <div class="section" id="one"> 
+          
+        <div class='text'>
+            Throw a dart!
+            <br><br>
+            Can you hit the highest-value tile on the board?
+           </div>
+           <div class= 'graph' id='d3-container-1'> </div>
+
+    </div>
+<br>
+<div>
+  <div class="section" id="one-five"> 
+    <div class='text'>
+        <br><br><br><br><br><br><br><br>
+        The goal of a game of darts is to score exactly 501 points. 
+        The first stage of a game of darts is generally to try and amass as many points as possible. 
+        <br><br>
+        Contrary to popular belief, the bullseye (which is acutally the double bullseye) 
+        isn't the "best" tile on the board. It's worth 50 points, and there are 4 tiles worth more. 
+        Check out the heatmap and mouseover here:
+
+     </div>
+  <div class= 'graph' id='d3-container-1-5'> </div>
+</div>
+<br>
+  <div>
+      <div class="section" id="two"> 
+        <div class='text'>
+          Text about darts! 2
+  
+         </div>
+      <div class= 'graph' id='d3-container-2'> </div>
+  </div>
+<br>
+  <div>
+        <div class="section" id="three"> 
+          <div class='text'>
+            Text about darts! 3
+    
+          </div>
+        <div class= 'graph' id='d3-container-3'> </div>
+  </div>
+
     <script src="../lib/d3.js"></script>
     <script src="../lib/d3-array.js"></script>
     <script src = "https://d3js.org/d3-dsv.v1.min.js"></script>
-    <script src="main.js"></script>
+    <script src="./main.js" type='module'></script>
   </body>
 </html>
 
