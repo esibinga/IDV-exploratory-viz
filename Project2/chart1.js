@@ -5,7 +5,7 @@ export function chart1() {
 /**
  * CONSTANTS AND GLOBALS
  * */
-const width = window.innerWidth * 0.9,
+const width = window.innerWidth * 0.8,
   height = window.innerHeight * 0.9,
   margin = { top: 20, bottom: 20, left: 60, right: 40 };
 
@@ -47,16 +47,8 @@ Promise.all([
 function init() {
 
 const container = d3
-     .select("#d3-container-1")
+     .select("#tooltip-1")
      .style("position", "relative");
-
-//dartboard tooltip
-  // tooltip = container
-  //   .append("div")
-  //   .attr("class", "tooltip")
-  //   .attr("width", 100)
-  //   .attr("height", 100)
-  //   .style("position", "absolute"); 
 
 bullseyeTooltip = container
   .append("div")
@@ -66,20 +58,10 @@ bullseyeTooltip = container
   .style("position", "absolute")
   .style("z-index", "10")
   .style("visibility", "hidden")
-  .style("background", "white")
-
-  // var bullseyeTooltip = d3.select('h3')
-  //   .append("div")
-  //   .attr("x", 300)
-  //   .attr("y", 300)
-  //   .attr("width", width)
-  //   .style("position", "absolute")
-  //   .style("z-index", "10")
-  //   .style("visibility", "hidden")
-  //   .style("background", "white");
+  .style("background", "white");
   
 //dartboard container
-  const svgContainer = d3.select("#d3-container-1.graph")
+const svgContainer = d3.select("#d3-container-1.graph")
     .append("svg")
     .attr("width", width*.9)
     .attr("height", height*1.1);
@@ -88,10 +70,10 @@ bullseyeTooltip = container
 // dartboard specs: https://www.dartsnutz.net/forum/showthread.php?tid=20982 //
 const r = height/80;
 circleData = [
-  {"cx": width/2, "cy": height/2, "radius": 33*r, "inner_radius": 27.75*r, "value": "single"},  //this is actually just the background of the dartboard now
-  //{ "cx": width/2, "cy": height/2, "radius": 26.75*r, "inner_radius": 18*r},
-  //{ "cx": width/2, "cy": height/2, "radius": 17*r, "inner_radius": 3*r},
-  //{"cx": width/2, "cy": height/2, "radius": r, "inner_radius": 0, "value": 50}
+  {"cx": width*.45, "cy": height/2, "radius": 33*r, "inner_radius": 27.75*r, "value": "single"},  //this is actually just the background of the dartboard now
+  //{ "cx": width*.45, "cy": height/2, "radius": 26.75*r, "inner_radius": 18*r},
+  //{ "cx": width*.45, "cy": height/2, "radius": 17*r, "inner_radius": 3*r},
+  //{"cx": width*.45, "cy": height/2, "radius": r, "inner_radius": 0, "value": 50}
 ]
 
 const circles = svgContainer.selectAll("circle")
@@ -121,23 +103,16 @@ const pie = d3.pie()
   .value(function(d) { return d.angle_value});
   (state.svgdata);
 
-var labelArc = d3.arc()
-	.outerRadius(33*r)
-	.innerRadius(33*r);
+var labelArc = d3.arc() // set the center (x,y) coordinates of this in order to center numbers?
+	.outerRadius(32*r)
+  .innerRadius(30*r); /*
+  .startAngle(-0.314159)
+  .endAngle(1); */
 
 var data_ready = pie(state.svgdata);
 //console.log("pie", pie); //this is just the function
 console.log("data_ready", data_ready);
 
-// var bullseyeTooltip = d3.select('h3')
-// .append("div")
-// .attr("x", 300)
-// .attr("y", 300)
-// .attr("width", width)
-// .style("position", "absolute")
-// .style("z-index", "10")
-// .style("visibility", "hidden")
-// .style("background", "white");
 
 //inner single
 const spider = circles
@@ -154,27 +129,42 @@ const spider = circles
       else if (d.data.fill === "green") return "#feffc3"; // off-white
       else return "black";
     })
-  .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+  .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
   .attr('stroke', 'silver')
   .style('stroke-width', '1.5px')
   .on("mouseover", function(d) {
     d3.select(this)
-    //console.log("this", this)
-    state.hover = {
-      points: d.data.number_ID,
-    };
-    //console.log(d.data.number_ID) //WOOHOO!!!!
+    .attr('fill', d => {
+      if (d.data.fill === "red") return "#535146"; //gray
+      else if (d.data.fill === "green") return "#ffffee"; // lighter off-white
+      else return "black";
+    })
     draw();
   })
-  .on("click",  function(d) {
-    console.log("bullseye tooltip", bullseyeTooltip)
+  .on("mouseout", function(d) {
+    d3.select(this)
+    .attr('fill', d => {
+      if (d.data.fill === "red") return "#120809"; //black
+      else if (d.data.fill === "green") return "#feffc3"; // off-white
+      else return "black";
+    })
+    draw();
+  })
+  .on("click",  function(d) { /////figure out how to get on.click to stay beyond on.mouseout
+    d3.select(this)
+    .attr('fill',  d => {
+      if (d.data.fill === "red") return "#535146"; //gray
+      else if (d.data.fill === "green") return "#ffffee"; // lighter off-white
+      else return "black";
+    })
+    draw();
     if (d.data.number_ID !== 20) return bullseyeTooltip
       .text("Try again!")
       .style("visibility", "visible")
     else if (d.data.number_ID === 20) return bullseyeTooltip
       .text("Gettin' really close")
       .style("visibility", "visible");
-  });;
+  });
 
   //outer single
   const spider2 = circles
@@ -191,16 +181,25 @@ const spider = circles
       else if (d.data.fill === "green") return "#feffc3"; //off-white
       else return "black";
     })
-  .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+  .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
   .attr('stroke', 'silver')
   .style('stroke-width', '1.5px')
   .on("mouseover", function(d) {
     d3.select(this)
-    //console.log("this", this)
-    state.hover = {
-      points: d.data.number_ID,
-    };
-    //console.log(d.data.number_ID) //WOOHOO!!!!
+    .attr('fill', d => {
+      if (d.data.fill === "red") return "#535146"; //gray
+      else if (d.data.fill === "green") return "#ffffee"; // lighter off-white
+      else return "black";
+    })
+    draw();
+  })
+  .on("mouseout", function(d) {
+    d3.select(this)
+    .attr('fill', d => {
+      if (d.data.fill === "red") return "#120809"; //black
+      else if (d.data.fill === "green") return "#feffc3"; // off-white
+      else return "black";
+    })
     draw();
   })
   .on("click",  function(d) {
@@ -223,18 +222,29 @@ const spider = circles
     .outerRadius(18*r)
     )
   .attr('fill', d => {
-    if (d.data.fill === "red") return "#e63328";
-    else if (d.data.fill === "green") return "darkGreen";
+    if (d.data.fill === "red") return "#e63328"; //red
+    else if (d.data.fill === "green") return "darkGreen"; //dark green
     else return "black";
   })
-  .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+  .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
   .attr('stroke', 'silver')
   .style('stroke-width', '1.5px')
   .on("mouseover", function(d) {
     d3.select(this)
-    state.hover = {
-      points: d.data.treble,
-    };
+    .attr('fill', d => {
+      if (d.data.fill === "red") return "#fe5843"; //tomato red
+    else if (d.data.fill === "green") return "#118110"; //brighter green
+    else return "black";
+    })
+    draw();
+  })
+  .on("mouseout", function(d) {
+    d3.select(this)
+    .attr('fill', d => {
+      if (d.data.fill === "red") return "#e63328"; //red
+    else if (d.data.fill === "green") return "darkGreen"; //dark green
+    else return "black";
+    })
     draw();
   })
   .on("click",  function(d) {
@@ -261,16 +271,25 @@ const spider4 = circles
         else if (d.data.fill === "green") return "darkGreen";
         else return "black";
       })
-    .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+    .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
     .attr('stroke', 'silver')
     .style('stroke-width', '1.5px')
     .on("mouseover", function(d) {
       d3.select(this)
-      //console.log("this", this)
-      state.hover = {
-        points: d.data.double,
-      };
-      //console.log(d.data.number_ID) //WOOHOO!!!!
+      .attr('fill', d => {
+        if (d.data.fill === "red") return "#fe5843"; //lighter red
+      else if (d.data.fill === "green") return "#118110"; //lighter green
+      else return "black";
+      })
+      draw();
+    })
+    .on("mouseout", function(d) {
+      d3.select(this)
+      .attr('fill', d => {
+        if (d.data.fill === "red") return "#e63328";
+      else if (d.data.fill === "green") return "darkGreen";
+      else return "black";
+      })
       draw();
     })
     .on("click",  function(d) {
@@ -279,6 +298,7 @@ const spider4 = circles
         return bullseyeTooltip
       .style("visibility", "visible");
     });
+
 
 // ad hoc dataset for bullseyes    
 const bullseyeData = [
@@ -302,16 +322,17 @@ const spider5 = circles
   .outerRadius(3*r)
   )
 .attr('fill', 'darkGreen')
-.attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+.attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
 .attr('stroke', 'silver')
 .style('stroke-width', '1.5px')
 .on("mouseover", function(d) {
   d3.select(this)
-  //console.log("this", this)
-  state.hover = {
-    points: d.data.bullseye,
-  };
-  //console.log(d.data.number_ID) //WOOHOO!!!!
+  .attr('fill', "#118110") //lighter green
+  draw();
+})
+.on("mouseout", function(d) {
+  d3.select(this)
+  .attr('fill', "darkGreen");
   draw();
 })
 .on("click",  function(d) {
@@ -331,15 +352,18 @@ const spider6 = circles
   .innerRadius(0)
   .outerRadius(r)
   )
-.attr('fill', '#e63328')
-.attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+.attr('fill', '#e63328') //red
+.attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
 .attr('stroke', 'silver')
 .style('stroke-width', '1.5px')
 .on("mouseover", function(d) {
   d3.select(this)
-  state.hover = {
-    points: d.data.double_bullseye,
-  };
+  .attr('fill', "#fe5843") //lighter red
+  draw();
+})
+.on("mouseout", function(d) {
+  d3.select(this)
+  .attr('fill', "#e63328"); //red
   draw();
 })
 .on("click",  function(d) {
@@ -350,27 +374,24 @@ const spider6 = circles
   })
   ;
 
-/*
-spider6.append("text")
-    .attr("x", 100)
-    .attr("y", 100)
-    .text("Oops, that's not it!")
-    .on("click", function(d) {
-      console.log("clicked on", this)  
-      if(bullseyeClickFlag){
-          tooltip.hide(d);
-      }else{
-          tooltip.show(d);
-      }
-      return bullseyeClickFlag = !bullseyeClickFlag
-});
-*/
+  //label arc
+  // const spider4text = circles
+  // .select('svg')
+  // .data(data_ready)
+  // .enter()
+  // .append("text")
+  // .attr("transform", function(d) 
+  //    { return "translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
+  // })
+  // //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
+  // .text(d => d.data.number_ID)
+  // .attr("fill", "lightBlue")
+  // .attr("z-index", 12)
+  // .show();
 
-//add numbers around dartboard -- doesn't work
-spider4.append("text")
-    .attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
-	  .text(d => d.data.number_ID)
-  	.attr("fill", "white");
+  // const spider4text2 = spider4text
+  //   .selectAll('text')
+  //   .attr("transform", `translate(500,100)`);
 
 
 /*

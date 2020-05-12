@@ -4,9 +4,9 @@ export function chart3() {
  * CONSTANTS AND GLOBALS
  * */
 const width = window.innerWidth * 0.9,
-  height = window.innerHeight * 0.9,
+  height = window.innerHeight * 0.5,
   paddingInner = 0.2,
-  margin = { top: 20, bottom: 80, left: 40, right: 40 };
+  margin = { top: 20, bottom: 110, left: 60, right: 40 };
 
 let svg;
 
@@ -53,8 +53,12 @@ const xAxis = d3
     .axisBottom(xScale)
     .ticks(state.data.length);
 
+const yAxis = d3
+    .axisLeft(yScale)
+    .ticks(5);
+
 const svg = d3
-    .select('#d3-container-2')
+    .select('#d3-container-3')
     .append('svg')
     .attr('width', width)
     .attr('height', height);
@@ -73,12 +77,29 @@ const rect = svg
 
 svg
     .append("g")
-    .attr("class", "axis")
+    .attr("class", "xaxis")
     .attr("line", "clear")
     .attr("transform", `translate(0, ${height - margin.bottom})`)
     .call(xAxis)
     .selectAll('text')
-        .attr('transform', 'translate(-25,25) rotate(-65)');
+        .attr('transform', 'translate(-25,30) rotate(-65)');
+
+svg
+    .append("g")
+    .attr("class", "yaxis")
+    .attr("line", "white")
+    .attr("transform", `translate(${margin.left - 1}, -.5)`)
+    .call(yAxis)
+    .selectAll('text');
+
+svg.append("text")
+    .attr("class", "y-label")
+    .attr("text-anchor", "end")
+    //.attr("y", 6)
+    ///.attr("dy", ".5em")
+    //.attr("x", "100")
+    .attr('transform', `translate(${(margin.left)/2.5}, ${height*.3}) rotate(-90)`)
+    .text("9-darters");
 
 // const text = svg
 //     .selectAll('text')

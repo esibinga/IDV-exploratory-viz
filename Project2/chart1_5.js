@@ -6,7 +6,7 @@ export function chart1_5() {
 /**
 * CONSTANTS AND GLOBALS
 * */
-const width = window.innerWidth * 0.9,
+const width = window.innerWidth * 0.8,
       height = window.innerHeight * 0.9,
       margin = { top: 20, bottom: 20, left: 60, right: 40 };
     
@@ -48,7 +48,7 @@ Promise.all([
 function init() {
     
 const container = d3
-        .select("#d3-container-1-5")
+        .select("#tooltip-1-5")
         .style("position", "relative");
 
 //dartboard tooltip
@@ -57,22 +57,23 @@ tooltip = container
     .attr("class", "tooltip")
     .attr("width", 100)
     .attr("height", 100)
-    .style("position", "absolute"); 
+    .style("position", "absolute")
+    .style("visibility", "hidden"); 
      
 //dartboard container
 const svgContainer = d3.select("#d3-container-1-5")
        .append("svg")
-       .attr("width", width)
-       .attr("height", height);
+       .attr("width", width*.9)
+       .attr("height", height*1.1);
      
     
 // dartboard specs: https://www.dartsnutz.net/forum/showthread.php?tid=20982 //
 const r = height/80;
 circleData = [
-      {"cx": width/2, "cy": height/2, "radius": 33*r, "inner_radius": 27.75*r, "value": "single"}, 
-      //{ "cx": width/2, "cy": height/2, "radius": 26.75*r, "inner_radius": 18*r},
-      //{ "cx": width/2, "cy": height/2, "radius": 17*r, "inner_radius": 3*r},
-      //{"cx": width/2, "cy": height/2, "radius": r, "inner_radius": 0, "value": 50}
+      {"cx": width*.45, "cy": height/2, "radius": 33*r, "inner_radius": 27.75*r, "value": "single"}, 
+      //{ "cx": width*.45, "cy": height/2, "radius": 26.75*r, "inner_radius": 18*r},
+      //{ "cx": width*.45, "cy": height/2, "radius": 17*r, "inner_radius": 3*r},
+      //{"cx": width*.45, "cy": height/2, "radius": r, "inner_radius": 0, "value": 50}
     ]
 
 const circles = svgContainer.selectAll("circle")
@@ -93,7 +94,7 @@ circles.append("circle")
       .attr("cx", function (d) { return d.cx; })
       .attr("cy", function (d) { return d.cy; })
       .attr("r", function (d) { return d.inner_radius; })
-      .style("fill", "darkGreen")
+      .style("fill", "white")
       .style("stroke", "white");
     
     
@@ -135,16 +136,22 @@ const spider = circles
       .attr('fill', d => {
         return heatColors(d.data.number_ID)
       })
-      .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+      .attr('opacity', 0.8)
+      .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
       .attr('stroke', 'silver')
       .style('stroke-width', '1.5px')
       .on("mouseover", function(d) {
         d3.select(this)
-        //console.log("this", this)
+        .attr('opacity', 1.0);
         state.hover = {
           points: d.data.number_ID,
         };
         //console.log(d.data.number_ID) //WOOHOO!!!!
+        draw();
+      })
+      .on("mouseout", function(d) {
+        d3.select(this)
+        .attr('opacity', 0.8);
         draw();
       });
     
@@ -161,16 +168,22 @@ const spider2 = circles
       .attr('fill', d => {
             return heatColors(d.data.number_ID)
           })
-      .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+      .attr('opacity', 0.8)
+      .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
       .attr('stroke', 'silver')
       .style('stroke-width', '1.5px')
       .on("mouseover", function(d) {
         d3.select(this)
-        //console.log("this", this)
+        .attr('opacity', 1.0);
         state.hover = {
           points: d.data.number_ID,
         };
         //console.log(d.data.number_ID) //WOOHOO!!!!
+        draw();
+      })
+      .on("mouseout", function(d) {
+        d3.select(this)
+        .attr('opacity', 0.8);
         draw();
       });
     
@@ -184,19 +197,25 @@ const spider3 = circles
         .innerRadius(17*r)
         .outerRadius(18*r)
         )
-    .attr('fill', d => {
+      .attr('fill', d => {
             return heatColorsTreble(d.data.treble)
           })
-      .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+      .attr('opacity', 0.8)
+      .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
       .attr('stroke', 'silver')
       .style('stroke-width', '1.5px')
       .on("mouseover", function(d) {
         d3.select(this)
-        //console.log("this", this)
+        .attr('opacity', 1.0);
         state.hover = {
-          points: d.data.treble,
+          points: d.data.number_ID,
         };
         //console.log(d.data.number_ID) //WOOHOO!!!!
+        draw();
+      })
+      .on("mouseout", function(d) {
+        d3.select(this)
+        .attr('opacity', 0.8);
         draw();
       });
     
@@ -210,21 +229,27 @@ const spider4 = circles
           .innerRadius(26.75*r)
           .outerRadius(27.75*r)
           )
+        .attr('opacity', 0.8)
         .attr('fill', d => {
             return heatColorsDouble(d.data.double)
           })
-        .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+        .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
         .attr('stroke', 'silver')
         .style('stroke-width', '1.5px')
         .on("mouseover", function(d) {
-          d3.select(this)
-          //console.log("this", this)
-          state.hover = {
-            points: d.data.double,
-          };
-          //console.log(d.data.number_ID) //WOOHOO!!!!
-          draw();
-        });
+            d3.select(this)
+            .attr('opacity', 1.0);
+            state.hover = {
+              points: d.data.number_ID,
+            };
+            //console.log(d.data.number_ID) //WOOHOO!!!!
+            draw();
+          })
+          .on("mouseout", function(d) {
+            d3.select(this)
+            .attr('opacity', 0.8);
+            draw();
+          });
 
 const bullseyeData = [
     {"angle_value": 360, "bullseye": 25}
@@ -250,18 +275,24 @@ const spider5 = circles
     .attr('fill', d => {
         return heatColorsTreble(d.data.bullseye)
       })
-    .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+    .attr('opacity', 0.8)
+    .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
     .attr('stroke', "silver")
     .style('stroke-width', '1.5px')
     .on("mouseover", function(d) {
-      d3.select(this)
-      //console.log("this", this)
-      state.hover = {
-        points: d.data.bullseye,
-      };
-      //console.log(d.data.number_ID) //WOOHOO!!!!
-      draw();
-    });
+        d3.select(this)
+        .attr('opacity', 1.0);
+        state.hover = {
+          points: d.data.number_ID,
+        };
+        //console.log(d.data.number_ID) //WOOHOO!!!!
+        draw();
+      })
+      .on("mouseout", function(d) {
+        d3.select(this)
+        .attr('opacity', 0.8);
+        draw();
+      });
 
 //double bullseye
 const spider6 = circles
@@ -276,18 +307,24 @@ const spider6 = circles
       .attr('fill', d => {
         return heatColorsTreble(d.data.double_bullseye)
       })
-    .attr('transform', `translate(${width/2}, ${height/2}) rotate (-9)`)
+    .attr('opacity', 0.8)
+    .attr('transform', `translate(${width*.45}, ${height/2}) rotate (-9)`)
     .attr('stroke', "silver")
     .style('stroke-width', '1.5px')
     .on("mouseover", function(d) {
-      d3.select(this)
-      //console.log("this", this)
-      state.hover = {
-        points: d.data.double_bullseye,
-      };
-      //console.log(d.data.number_ID) //WOOHOO!!!!
-      draw();
-    });
+        d3.select(this)
+        .attr('opacity', 1.0);
+        state.hover = {
+          points: d.data.number_ID,
+        };
+        //console.log(d.data.number_ID) //WOOHOO!!!!
+        draw();
+      })
+      .on("mouseout", function(d) {
+        d3.select(this)
+        .attr('opacity', 0.8);
+        draw();
+      });
     
 
 
@@ -306,7 +343,8 @@ function draw() {
       .html(
         `
         <div>Points: ${state.hover.points}</div> `
-      );
+      )
+      .style("visibility", "visible");
   }
       
 } 

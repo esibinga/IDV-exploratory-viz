@@ -118,7 +118,7 @@ leaf
     .attr("class", "direct")
     .attr("fill", "steelblue")
     .attr("r", 3) 
-    .attr("opacity", 1) /*
+    .attr("opacity", 1) 
     .on("mouseover", function(d) {
         state.hover = {
           first: d.data.first,
@@ -137,7 +137,7 @@ leaf
         .attr("fill", "steelblue")
         .attr("opacity", 1);
         draw();
-    })*/;
+    });
 
 //add spouses
 leaf
@@ -145,7 +145,7 @@ leaf
     .attr("class", "spouse")
     .attr("r", 3) 
     .attr("opacity", 1)
-    .attr("transform", `translate(5,0)`) /*
+    .attr("transform", `translate(5,0)`) 
     .on("mouseover", function(d) {
         state.hover = {
           first: d.data.spouse_first,
@@ -164,7 +164,7 @@ leaf
         .attr("fill", "yellow")
         .attr("opacity", 1);
         draw();
-      }) */
+      }) 
     .attr("fill", d => {
         if (d.data.fill_spouse === "1") return "yellow";
         else if (d.data.fill_spouse === "0" ) return "clear";
@@ -190,9 +190,9 @@ function draw() {
       .html(
         `
         <div>last: ${state.hover.first} ${state.hover.last}</div>
-        <div>Date of Birth: ${state.hover.DOB}</div> `
-       // <div>Date of Death: ${state.hover.DOD}</div>
-     // `
+        <div>Date of Birth: ${state.hover.DOB}</div> 
+        <div>Date of Death: ${state.hover.DOD}</div>
+      `
       )
       .transition()
       .duration(500);
@@ -226,7 +226,7 @@ const familyFilter = svg
             else return "black";
           })
         .attr("r", 3) 
-        .attr("opacity", 1) /*
+        .attr("opacity", 1) 
         .on("mouseover", function(d) {
           state.hover = {
             first: d.data.first,
@@ -245,7 +245,7 @@ const familyFilter = svg
           .attr("fill", "steelblue")
           .attr("opacity", 1);
           draw()
-        }) */
+        }) 
         .call(enter =>
             enter
             .transition()

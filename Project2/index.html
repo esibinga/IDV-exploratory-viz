@@ -1,12 +1,12 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <title>Interactive Data Visualization Tutorial</title>
+    <title>Darts</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!--<h1>Throw a dart!</h1>
-    <h2>Can you hit the highest-value tile on the board?</h2> -->
+    <h1>This is a guide to watching darts on TV.</h1>
+    <!--<h2>Can you hit the highest-value tile on the board?</h2> -->
     <h3></h3>
     <!-- all we need is an element to select -->
     <!-- <div id="d3-container">     
@@ -14,10 +14,12 @@
     <div>
       <div class="section" id="one"> 
           
-        <div class='text'>
+        <div class='text' id="tooltip-1">
+            First, some dartboard basics.
+            <br> <br>
             Throw a dart!
             <br><br>
-            Can you hit the highest-value tile on the board?
+            Can you hit the highest-value tile on the board?<br><br>
            </div>
            <div class= 'graph' id='d3-container-1'> </div>
 
@@ -25,36 +27,97 @@
 <br>
 <div>
   <div class="section" id="one-five"> 
-    <div class='text'>
-        <br><br><br><br><br><br><br><br>
-        The goal of a game of darts is to score exactly 501 points. 
-        The first stage of a game of darts is generally to try and amass as many points as possible. 
+    <div class='text' id="tooltip-1-5">
+        Contrary to popular belief, the bullseye (more accurately, the double bullseye) 
+        isn't the "best" tile on the board. It's worth 50 points, and there are 4 tiles worth more: the triples of 17, 18, 19, and 20. 
         <br><br>
-        Contrary to popular belief, the bullseye (which is acutally the double bullseye) 
-        isn't the "best" tile on the board. It's worth 50 points, and there are 4 tiles worth more. 
-        Check out the heatmap and mouseover here:
-
+        Why does that matter? The goal of a game of darts is to score exactly 501 points. 
+        The first stage of a game of darts is to get as many points as possible. 
+        <br> <br> Each tile in the inner ring is worth triple the value of that section, and the outer ring is worth double the value. 
+        Check out the heatmap and mouseover here --> <br> <br>
      </div>
   <div class= 'graph' id='d3-container-1-5'> </div>
 </div>
-<br>
-  <div>
+
+<br><br>
+
+<div class="section" id="one-six"> 
+  <div class='text' id="game-play">
+    <br> Now that you know how the dartboard is scored, let's get on to the game play. 
+    <br><br> <br> <br> <br> <br><br><br><br><br><br>
+  </div> 
+</div> 
+
+<div>
       <div class="section" id="two"> 
-        <div class='text'>
-          Text about darts! 2
-  
+          <div class= 'graph' id='d3-container-2'> </div>
+          <div class='text'>
+          Each player throws three darts per turn. <br> <br>
+          Professional darts players (the only kind we care about on TV) are generally hoping for 180 points per turn: 
+          three triple-20s in a row. <br> <br>
+          Here's how many 180s have been thrown by 
+          50 top darts players over the last 20 years.
          </div>
-      <div class= 'graph' id='d3-container-2'> </div>
-  </div>
-<br>
+</div>
+
+<br><br><br>
+
+<div class="section" id="iframe"> 
+    <div class="text" id="player">
+       <br> 
+       What's more important is what the commentators (and crowd) do when a 180 is scored: 
+       <br> <br> 
+    </div>
+    <div class="video" id= "iframe">
+       <iframe width="560" height="315" style="border:10px solid lightgray;" src="https://www.youtube.com/embed/sXTsAi4SJAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+</div>
+
+<br><br><br><br><br><br>
+
   <div>
         <div class="section" id="three"> 
+            <div class= 'graph' id='d3-container-3'> </div>
           <div class='text'>
-            Text about darts! 3
+            The shortest game of darts is over in 9 darts -- a 9-darter. 
+            Here's how many 9-darters have been played by 50 top darts players in the last 20 years:
+            <br> <br> (not many)
     
           </div>
-        <div class= 'graph' id='d3-container-3'> </div>
-  </div>
+  </div> 
+
+<div class="section" id="three-five"> 
+      <div class='text' id="TV"> <br><br>
+        You now have almost all of the information you need to watch darts on TV!
+      </div> 
+  </div> 
+ 
+<div>
+      <div class="section" id="four"> 
+          <label for="dropdown">Select a Score:</label>
+          <select id="dropdown" name="dropdown"></select>
+        <div class='text' id='tooltip-4'><br><br>
+          There’s one more important thing: how does a game of darts end? <br> <br> <br>
+          A game of darts can only end
+          with a player reaching 501 points by hitting a <b>double</b> tile – one of the
+          tiles around the outside of the board or the double bullseye in the center.  <br> <br>
+          The highest score it’s possible to “check out” out from in one turn is 170 (with a triple-20,
+          triple 20, double bullseye). Most check outs are from lower scores, though,
+          which allows more flexibility in the combination of numbers a player chooses.
+          For example, from a score of 80, the fastest checkout is triple 16 - double 16.
+        </div>
+        <div class= 'graph' id='d3-container-4'> </div>
+</div>
+<div>
+    <div class="section" id="five"> 
+
+      <div class='text' id='tooltip-5'><br><br>
+        GRAPHS GRAPHS GRAPHS
+      </div>
+      <div class= 'graph' id='d3-container-5'> </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
 
     <script src="../lib/d3.js"></script>
     <script src="../lib/d3-array.js"></script>
@@ -62,4 +125,3 @@
     <script src="./main.js" type='module'></script>
   </body>
 </html>
-
