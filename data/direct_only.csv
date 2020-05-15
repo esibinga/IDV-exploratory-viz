@@ -1,161 +1,161 @@
 ﻿direct descendant of JGB,order_column,INDI_ID,first,last,sex,DOB,DOD,INDI_ID,BiddleParent_ID,BP_first,BP_last,NonBiddleParent_ID,NBP_first,NBP_last,INDI_mother,first_1,last_1,INDI_father,first_2,last_2,spouse_ID,spouse_first,spouse_last,spouse_sex,spouse_DOB,spouse_DOD,spouse2_ID,spouse2_first,spouse2_last,spouse2_sex,spouse2_DOB,spouse2_DOD,spouse3_ID,spouse3_first,spouse3_last,spouse3_sex,spouse3_DOB,spouse3_DOD,fill_spouse
-1,1,P1,James Garrett,Biddle,M,"October 13, 1868",21-Dec-47,P1,,,,,,,P3,Mary,Hewes,P4,John William,Biddle,P2,Mary,Hutton,F,"Spetember 11, 1869",17-Oct-25,P11,Ruth Ella,Chambers,F,abt 1870,26-Feb-48,,,,,,,1
-1,8,P8,Elizabeth Rebecca,Biddle,F,"March 22, 1897",25-Mar-75,P8,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P27,David Robert,Yarnall,M,"June 28, 1878",11-Sep-67,,,,,,,,,,,,,1
-1,10,P10,Mary Hewes,Biddle,F,"August 10, 1898",28-Dec-63,P10,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P32,John Stephens,Sinclair,M,"April 6, 1897",29-Oct-72,,,,,,,,,,,,,1
-1,9,P9,Dorothy,Biddle,F,25-Jan-00,15-Feb-85,P9,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P23,John Robert,James,M,"Feb 10, 1895",10-Jan-92,,,,,,,,,,,,,1
-1,7,P7,Rebecca Hutton,Biddle,F,8-Jun-01,4-Mar-91,P7,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P35,Frank Gilbert,Bradbeer,M,"August 9, 1887",2-Dec-35,,,,,,,,,,,,,1
-1,5,P5,Addison Hutton,Biddle,M,11-Dec-03,3-Mar-12,P5,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,,,,,,,,,,,,,,,,,,,0
-1,6,P6,Ruth,Biddle,F,6-Nov-06,29-Jan-69,P6,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P38,Thornton Bancroft,Penfield,M,"May 1, 1899",11-Mar-75,,,,,,,,,,,,,1
-1,26,P26,David Robert,Yarnall,M,11-Feb-25,27-May-99,P26,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P46,Rie,Gabrielsen,F,28-Aug-30,2-Oct-80,,,,,,,,,,,,,1
-1,30,P30,Mary Biddle,Sinclair,F,25-Aug-26,12-Mar-09,P30,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P57,Clayton Douglass,Buck,M,26-Mar-23,3-Feb-86,P56,Joseph J.,Krakora,M,3-Apr-39,,,,,,,,1
-1,24,P24,James Biddle,Yarnall,M,4-Nov-26,22-Mar-09,P24,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P49,Phyllis A.,Aspen,F,6-Aug-29,16-Jan-13,,,,,,,,,,,,,1
-1,25,P25,Nancy Hutton,Yarnall,F,22-Jun-28,13-Oct-04,P25,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,,,,,,,,,,,,,,,,,,,0
-1,28,P28,David Macowan,Sinclair,M,6-Aug-28,,P28,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P88,Susan,Widmann,F,14-Jan-32,,,,,,,,,,,,,,1
-1,29,P29,Sylvia Buell,Sinclair,F,28-Aug-29,7-Feb-15,P29,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P67,Stephen Kerry,Carr,M,30-Apr-30,,P68,Milo,Berking,,30-Mar-25,19-Nov-07,,,,,,,1
-1,33,P33,Cecilia,Bradbeer,F,16-Feb-30,,P33,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P115,Maarten,Sibinga,M,1-Nov-27,16-Nov-03,,,,,,,,,,,,,1
-1,21,P21,Mary Hutton,James,F,29-Nov-30,6-Feb-02,P21,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P76,Frederic Valerius,Hetzel,M,5-Aug-30,19-Jan-05,,,,,,,,,,,,,1
-1,20,P20,Caroline Biddle,James,F,22-Jun-32,27-Feb-12,P20,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P72,Gareld Robertson,Herrin,M,7-Jul-29,20-May-05,,,,,,,,,,,,,1
-1,34,P34,James Biddle,Bradbeer,M,28-Oct-32,27-May-19,P34,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P117,Mary Florence,Buckley,F,29-Oct-35,11-Dec-99,,,,,,,,,,,,,1
-1,36,P36,Thornton Bancroft,Penfield,M,13-Apr-34,21-Aug-07,P36,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P107,Diane,Depp,,10-Jul-47,,P108,Elizabeth,Few,F,18-Jan-39,,,,,,,,1
-1,37,P37,Charlotte Elizabeth,Penfield,F,28-Oct-35,,P37,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P133,Charles George,Gosselink,M,about 1935,,,,,,,,,,,,,,1
-1,31,P31,John Biddle,Sinclair,M,12-Nov-35,22-Jun-19,P31,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P92,Lynn,Rickards,F,24-Jul-35,,,,,,,,,,,,,,1
-1,19,P19,Margaret Cope,James,F,28-Nov-35,31-Jul-79,P19,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P83,Harris Richard,Holt,M,21-Aug-34,28-Aug-09,,,,,,,,,,,,,1
-1,22,P22,John Robert,James,M,8-Mar-38,,P22,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P102,Dixie Lee,Donaldson,F,16-May-45,,,,,,,,,,,,,,1
-1,54,P54,David Douglass,Buck,M,26-Feb-49,,P54,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P151,Kristine,Hill,F,,,P153,Nancy E.,Miller,F,1954,,P155,Shelli I.,Chase,F,1953,,1
-1,55,P55,John Clayton,Buck,M,9-Aug-50,19-May-09,P55,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P97,Gayle Maureen,Hannah,F,22-Aug-54,,,,,,,,,,,,,,1
-1,53,P53,Alice Sinclair,Buck,F,8-Jan-53,,P53,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P158,Michael John,DeCandia,M,10-Apr-51,,,,,,,,,,,,,,1
-1,79,P79,Robert Wills,Hetzel,M,11-Mar-54,,P79,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P222,Ronda Leigh,Porter,F,20-Jun-55,,P221,Laura Katherine,Tyree,F,8-Oct-65,,P219,Judy,Graham,F,10-Nov-70,,1
-1,66,P66,Kathleen Mary,Carr,F,30-Jun-54,,P66,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P172,Walter,Heavenrich,M,3-Jul-51,,P177,Kari Beth,Olson,F,6-Mar-56,,,,,,,,1
-1,65,P65,Stephen Kerry,Carr,M,12-Jun-55,,P65,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P173,Debora,,F,,,,,,,,,,,,,,,1
-1,52,P52,Mary Hewes,Buck,F,19-Jul-55,,P52,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P159,David,Quint,M,,,P162,Glenn,McDonald,M,,,,,,,,,1
-1,48,P48,James Biddle,Yarnall,M,28-Sep-55,26-Jan-18,P48,P24,James Biddle,Yarnall,P49,Phyllis A.,Aspen,P49,Phyllis A.,Aspen,P24,James Biddle,Yarnall,P145,Dianne,DuBois,F,,,,,,,,,,,,,,,1
-1,64,P64,Sylvia Stephens,Carr,F,25-Jul-56,,P64,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P181,Donald Paul,Rubenstein,M,6-Apr-58,,,,,,,,,,,,,,1
-1,45,P45,Joan Biddle,Yarnall,F,26-Nov-56,,P45,P26,David Robert,Yarnall,P46,Rie,Gabrielsen,P46,Rie,Gabrielsen,P26,David Robert,Yarnall,P137,Robert Tien,Ma,M,1959,,,,,,,,,,,,,,1
-1,114,P114,Michael Frank Smit,Sibinga,M,10-Feb-57,,P114,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P262,Mariann,Davis,F,14-Aug-64,,,,,,,,,,,,,,1
-1,78,P78,Frederic James,Hetzel,M,12-Jun-57,,P78,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,,,,,,,,,,,,,,,,,,,0
-1,63,P63,Deborah Ward,Carr,F,23-Sep-57,,P63,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P184,Paul Kendrick,Adamy,M,28-Mar-57,,,,,,,,,,,,,,1
-1,47,P47,Stephen Garrett,Yarnall,M,26-Nov-57,,P47,P24,James Biddle,Yarnall,P49,Phyllis A.,Aspen,P49,Phyllis A.,Aspen,P24,James Biddle,Yarnall,P149,Elizabeth,Mapes,F,1-May-61,,P150,Carly,Klapp,F,,,,,,,,,1
-1,87,P87,Timothy Biddle,Sinclair,M,23-Jan-58,31-May-68,P87,P28,David Macowan,Sinclair,P88,Susan,Widmann,P88,Susan,Widmann,P28,David Macowan,Sinclair,,,,,,,,,,,,,,,,,,,0
-1,62,P62,Matthew Francis,Carr,M,17-Sep-58,,P62,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P188,Melissa,Golder,F,7-May-60,,,,,,,,,,,,,,1
-1,75,P75,Mary Thayer,Herrin,F,25-Nov-58,,P75,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P229,David Michael,McCarthy,M,7-Aug-54,,,,,,,,,,,,,,1
-1,44,P44,Sara Gabrielsen,Yarnall,F,18-Dec-58,,P44,P26,David Robert,Yarnall,P46,Rie,Gabrielsen,P46,Rie,Gabrielsen,P26,David Robert,Yarnall,P140,David Alan,Sanders,M,1942,,,,,,,,,,,,,,1
-1,112,P112,Nicholas Ernst Smit,Sibinga,M,28-Apr-59,,P112,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P43,Kristina Garrett,Yarnall,F,16-Feb-60,,,,,,,,,,,,,,1
-1,86,P86,Craig Widmann,Sinclair,M,17-Jul-59,,P86,P28,David Macowan,Sinclair,P88,Susan,Widmann,P88,Susan,Widmann,P28,David Macowan,Sinclair,P164,Nan M,Octeau,F,about 1966,,,,,,,,,,,,,,1
-1,77,P77,Sylvia Biddle,Hetzel,F,29-Oct-59,,P77,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P225,Salvatore,Cipparrone,M,25-Nov-46,,,,,,,,,,,,,,1
-1,82,P82,Richard James,Holt,M,1-Jan-60,13-May-05,P82,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,,,,,,,,,,,,,,,,,,,0
-1,91,P91,John Biddle,Sinclair,M,4-Jan-60,,P91,P31,John Biddle,Sinclair,P92,Lynn,Rickards,P92,Lynn,Rickards,P31,John Biddle,Sinclair,P205,Karen,Smith,F,14-Mar-61,,,,,,,,,,,,,,1
-1,74,P74,John Robertson,Herrin,M,15-Jan-60,,P74,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P233,Deborah Love,Morin,F,5-Oct-54,,P232,Lisa,Baron,F,8-Jun-85,,,,,,,,1
-1,43,P43,Kristina Garrett,Yarnall,F,16-Feb-60,,P43,P26,David Robert,Yarnall,P46,Rie,Gabrielsen,P46,Rie,Gabrielsen,P26,David Robert,Yarnall,P112,Nicholas Ernst Smit,Sibinga,M,28-Apr-59,,,,,,,,,,,,,,1
-1,61,P61,Suzanne Noel,Carr,F,15-Dec-60,,P61,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P191,Christian Dietrich,Weber,M,6-Apr-64,,,,,,,,,,,,,,1
-1,113,P113,Derek Johannes Smit,Sibinga,M,18-Mar-61,19-Mar-61,P113,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,84,P84,Cynthia Biddle,Holt,F,18-Feb-62,,P84,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,P246,Martin Augustine,Favret,U,31-Aug-62,,,,,,,,,,,,,,1
-1,90,P90,David Rickards,Sinclair,M,5-Mar-62,,P90,P31,John Biddle,Sinclair,P92,Lynn,Rickards,P92,Lynn,Rickards,P31,John Biddle,Sinclair,P209,Peggy,Soder,F,5-Jun-63,,P206,Barbara,Hartmann,F,,,,,,,,,1
-1,116,P116,James Biddle,Bradbeer,M,19-Mar-62,,P116,P34,James Biddle,Bradbeer,P117,Mary Florence,Buckley,P117,Mary Florence,Buckley,P34,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,F,,,,,,,,,,,,,,,1
-1,73,P73,Kenneth James,Herrin,M,6-Apr-62,,P73,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P234,Aimee Renee,Allen,F,21-Nov-65,,,,,,,,,,,,,,1
-1,85,P85,Margot,Sinclair,F,12-Apr-62,,P85,P28,David Macowan,Sinclair,P88,Susan,Widmann,P88,Susan,Widmann,P28,David Macowan,Sinclair,P168,Scott Daniel,Mannka,M,10-Oct-60,,,,,,,,,,,,,,1
-1,111,P111,Erica Maria Smit,Sibinga,F,30-Dec-62,,P111,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P264,Kenneth John,Hilker,M,18-Mar-66,,,,,,,,,,,,,,1
-1,60,P60,Daniel Thaddeus,Carr,M,14-Apr-63,,P60,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P194,Kari Ellen,Kaalstad,F,18-Oct-63,,,,,,,,,,,,,,1
-1,132,P132,James Bancroft,Gosselink,M,19-Apr-63,,P132,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,,,,,,,,,,,,,,,,,,,0
-1,131,P131,Robert George,Gosselink,M,8-Aug-64,,P131,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P267,Mary Elizabeth,Ward,F,23-Jan-64,,,,,,,,,,,,,,1
-1,59,P59,Elizabeth Anne,Carr,F,27-Oct-64,,P59,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P196,Robert Thomas,Riley,M,4-Dec-62,,P197,Domenick,Gennusa,M,18-Mar-73,,,,,,,,1
-1,81,P81,John Harris,Holt,M,16-Mar-65,,P81,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,P252,Mary,O'Hagin,F,15-Apr-73,,,,,,,,,,,,,,1
-1,71,P71,Janet Biddle,Herrin,F,3-Aug-65,,P71,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P241,Stephen Michael,Partridge,M,26-Dec-62,,,,,,,,,,,,,,1
-1,89,P89,Anne Zeis,Sinclair,F,18-Oct-65,,P89,P31,John Biddle,Sinclair,P92,Lynn,Rickards,P92,Lynn,Rickards,P31,John Biddle,Sinclair,P214,Hans Patrick,Griesser,M,5-Mar-61,,,,,,,,,,,,,,1
-1,118,P118,Rebecca Hutton,Bradbeer,U,9-May-66,,P118,P34,James Biddle,Bradbeer,P117,Mary Florence,Buckley,P117,Mary Florence,Buckley,P34,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
-1,58,P58,John Christopher,Carr,M,12-Oct-66,,P58,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P201,Abigail Josephine,Gouverneur,F,29-Dec-60,,P202,Sarah Elizabeth,Fisher,F,15-Jul-66,,,,,,,,1
-1,130,P130,Rebecca Elizabeth,Gosselink,F,22-Apr-67,,P130,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P271,Robert Alan,Johannes,M,24-May-62,,,,,,,,,,,,,,1
-1,80,P80,Elizabeth Barr,Holt,F,8-Aug-68,,P80,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,P254,Timothy Douglas,Titcomb,M,8-Dec-58,,,,,,,,,,,,,,1
-1,103,P103,John Robert,James,M,30-Aug-74,,P103,P22,John Robert,James,P102,Dixie Lee,Donaldson,P102,Dixie Lee,Donaldson,P22,John Robert,James,P257,Faith Jordan,Peters,F,30-Dec-78,,,,,,,,,,,,,,1
-1,96,P96,Magnolia Hannah,Buck,F,13-Oct-75,,P96,P55,John Clayton,Buck,P97,Gayle Maureen,Hannah,P97,Gayle Maureen,Hannah,P55,John Clayton,Buck,,,,,,,,,,,,,,,,,,,0
-1,154,P154,Thaddeus Chase,Buck,M,10-Mar-76,,P154,P54,David Douglass,Buck,P155,Shelli I.,Chase,P155,Shelli I.,Chase,P54,David Douglass,Buck,,,,,,,,,,,,,,,,,,,0
-1,101,P101,Christina Ballard,James,F,5-Feb-78,,P101,P22,John Robert,James,P102,Dixie Lee,Donaldson,P102,Dixie Lee,Donaldson,P22,John Robert,James,,,,,,,,,,,,,,,,,,,0
-1,95,P95,Jeremiah Clayton,Buck,M,3-Aug-78,,P95,P55,John Clayton,Buck,P97,Gayle Maureen,Hannah,P97,Gayle Maureen,Hannah,P55,John Clayton,Buck,,,,,,,,,,,,,,,,,,,0
-1,161,P161,Ellie Mae,McDonald,F,14-Jun-79,,P161,P52,Mary Hewes,Buck,P162,Glenn,McDonald,P52,Mary Hewes,Buck,P162,Glenn,McDonald,,,,,,,,,,,,,,,,,,,0
-1,100,P100,Leigh Biddle,James,F,18-Jul-80,,P100,P22,John Robert,James,P102,Dixie Lee,Donaldson,P102,Dixie Lee,Donaldson,P22,John Robert,James,P259,Ryan Michael,Castanos,M,23-Mar-82,,,,,,,,,,,,,,1
-1,176,P176,Sean Kerry,Carr,M,22-Feb-83,,P176,P65,Stephen Kerry,Carr,P177,Kari Beth,Olson,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr,,,,,,,,,,,,,,,,,,,0
-1,160,P160,Joseph Samuel,Buck,M,13-Aug-84,,P160,P52,Mary Hewes,Buck,P159,David,Quint,P52,Mary Hewes,Buck,P159,David,Quint,,,,,,,,,,,,,,,,,,,0
-1,152,P152,Thomas Garrett,Buck,M,7-Sep-84,,P152,P54,David Douglass,Buck,P153,Nancy E.,Miller,P153,Nancy E.,Miller,P54,David Douglass,Buck,,,,,,,,,,,,,,,,,,,0
-1,175,P175,Ryan Samuel,Carr,M,27-May-85,,P175,P65,Stephen Kerry,Carr,P177,Kari Beth,Olson,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr,,,,,,,,,,,,,,,,,,,0
-1,139,P139,Gabriel Yarnall,Sanders,M,28-Nov-85,,P139,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,,,,,,,,,,,,,,,,,,,0
-1,157,P157,Michael Douglass,DeCandia,M,19-Feb-86,,P157,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,,,,,,,,,,,,,,,,,,,0
-1,180,P180,Katelyn Sinclair,Rubenstein,F,30-Sep-86,,P180,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,,,,,,,,,,,,,,,,,,,0
-1,187,P187,Matthew Francis,Carr,M,6-Dec-86,,P187,P62,Matthew Francis,Carr,P188,Melissa,Golder,P62,Melissa,Golder,P62,Matthew Francis,Carr,,,,,,,,,,,,,,,,,,,0
-1,231,P231,Andrea Love,Herrin,F,17-Dec-86,,P231,P74,John Robertson,Herrin,P233,Deborah Love,Morin,P233,Deborah Love,Morin,P74,John Robertson,Herrin,P236,Justin,Smith,M,,,,,,,,,,,,,,,1
-1,269,P269,Gordon,Gosselink,M,1-Jan-87,,P269,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
-1,224,P224,Giacomo,Cipparrone,M,27-Feb-88,,P224,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,,,,,,,,,,,,,,,,,,,0
-1,179,P179,Anne Chandler,Rubenstein,F,27-Mar-88,,P179,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,,,,,,,,,,,,,,,,,,,0
-1,138,P138,Rachel Yarnall,Sanders,F,4-May-88,,P138,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,,,,,,,,,,,,,,,,,,,0
-1,136,P136,Rie Yarnall,Ma,F,17-Jul-88,,P136,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,,,,,,,,,,,,,,,,,,,0
-1,183,P183,Julia Sinclair,Adamy,F,15-Aug-88,,P183,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,,,,,,,,,,,,,,,,,,,0
-1,171,P171,Jeb Sinclair,Heavenrich,M,24-Aug-88,,P171,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,,,,,,,,,,,,,,,,,,,0
-1,186,P186,Ian Collins,Carr,M,7-Sep-88,,P186,P62,Matthew Francis,Carr,P188,Melissa,Golder,P62,Melissa,Golder,P62,Matthew Francis,Carr,,,,,,,,,,,,,,,,,,,0
-1,265,P265,Gale,Gosselink,F,1-Jan-89,,P265,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
-1,268,P268,Ricardo,Gosselink,M,1-Jan-89,,P268,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
-1,156,P156,John Garrett,DeCandia,M,26-Feb-89,,P156,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,,,,,,,,,,,,,,,,,,,0
-1,1001,P1001,Nathaniel Alexander,Sibinga,M,30-Nov-89,,P1001,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P300,Alicia,DeNutte,F,18-Oct-92,,,,,,,,,,,,,,1
-1,144,P144,Nathaniel Alexander,Sibinga,M,30-Nov-89,,P144,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P1005,Alicia,DeNutte,F,18-Oct-92,,,,,,,,,,,,,,1
-1,245,P245,Rebecca Margaret,Favret,F,27-Dec-89,,P245,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,,,,,,,,,,,,,,,,,,,0
-1,170,P170,Jessica Anne,Heavenrich,F,9-Jun-90,,P170,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,,,,,,,,,,,,,,,,,,,0
-1,182,P182,William Ward,Adamy,M,12-Jul-90,,P182,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,,,,,,,,,,,,,,,,,,,0
-1,174,P174,Brendan Connor,Carr,M,13-Dec-90,,P174,P65,Stephen Kerry,Carr,P177,Kari Beth,Olson,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr,,,,,,,,,,,,,,,,,,,0
-1,223,P223,Andrea,Cipparrone,M,22-Dec-90,,P225,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,,,,,,,,,,,,,,,,,,,0
-1,266,P266,Janea Kelly,Gosselink,F,1-Jan-91,,P266,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
-1,185,P185,Hillary Hayes,Carr,F,21-Jan-91,,P185,P62,Matthew Francis,Carr,P188,Melissa,Golder,P62,Melissa,Golder,P62,Matthew Francis,Carr,,,,,,,,,,,,,,,,,,,0
-1,178,P178,Emma Hewes,Rubenstein,F,27-Jan-91,,P178,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,,,,,,,,,,,,,,,,,,,0
-1,208,P208,Emily Hutton,Sinclair,F,11-Feb-91,,P208,P90,David Rickards,Sinclair,P209,Peggy,Soder,P90,Peggy,Soder,P90,David Rickards,Sinclair,,,,,,,,,,,,,,,,,,,0
-1,228,P228,Matthew Ryan,McCarthy,M,23-May-91,,P228,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,,,,,,,,,,,,,,,,,,,0
-1,1002,P1002,James Garrett,Sibinga,M,4-Dec-91,,P1002,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,143,P143,James Garrett,Sibinga,M,4-Dec-91,,P143,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,167,P167,Peter James,Mannka,M,24-Dec-91,,P167,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,,,,,,,,,,,,,,,,,,,0
-1,244,P244,Amanda Moore,Favret,F,25-Feb-92,,P244,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,,,,,,,,,,,,,,,,,,,0
-1,230,P230,Laura Anne,Herrin,F,30-Jul-92,,P230,P74,John Robertson,Herrin,P233,Deborah Love,Morin,P233,Deborah Love,Morin,P74,John Robertson,Herrin,P238,Joshua,Cook,M,,,,,,,,,,,,,,,1
-1,135,P135,Evan Robert,Ma,M,26-Aug-92,,P135,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,,,,,,,,,,,,,,,,,,,0
-1,193,P193,Siri Marie,Carr,F,31-Mar-93,,P193,P60,Daniel Thaddeus,Carr,P194,Kari Ellen,Kaalstad,P194,Kari Ellen,Kaalstad,P60,Daniel Thaddeus,Carr,,,,,,,,,,,,,,,,,,,0
-1,261,P261,Rebecca Mary,Sibinga,F,17-Apr-93,,P261,P114,Michael Frank Smit,Sibinga,P262,Mariann,Davis,P262,Mariann,Davis,P114,Michael Frank Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,220,P220,Benjamin Will,Hetzel,M,1-Jun-93,,P220,P79,Robert Wills,Hetzel,P221,Laura Katherine,Tyree,P221,Laura Katherine,Tyree,P79,Robert Wills,Hetzel,,,,,,,,,,,,,,,,,,,0
-1,227,P227,Eric James,McCarthy,M,7-Jun-93,,P227,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,,,,,,,,,,,,,,,,,,,0
-1,169,P169,Karl Bryn,Heavenrich,M,27-Nov-93,,P169,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,,,,,,,,,,,,,,,,,,,0
-1,207,P207,Ian Rickards,Sinclair,M,7-Dec-93,,P207,P90,David Rickards,Sinclair,P209,Peggy,Soder,P90,Peggy,Soder,P90,David Rickards,Sinclair,P211,Elizabeth,,F,,,,,,,,,,,,,,,1
-1,217,P217,Skyler Krieg,Graham,M,1-Jan-94,,P217,P79,Robert Wills,Hetzel,P219,Judy,Graham,P219,Judy,Graham,P79,Robert Wills,Hetzel,,,,,,,,,,,,,,,,,,,0
-1,165,P165,Jason Andrew,Mannka,M,6-Apr-94,,P165,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,,,,,,,,,,,,,,,,,,,0
-1,166,P166,Christopher Scott,Mannka,M,6-Apr-94,,P166,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,,,,,,,,,,,,,,,,,,,0
-1,190,P190,Sarah Noel,Weber,F,6-Dec-94,,P190,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,,,,,,,,,,,,,,,,,,,0
-1,1003,P1003,Tyche Eva,Sibinga,F,15-Feb-95,,P1003,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,142,P142,Tyche Eva,Sibinga,F,15-Feb-95,,P142,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,204,P204,John Biddle,Sinclair,M,5-Jun-95,,P204,P91,John Biddle,Sinclair,P205,Karen,Smith,P91,Karen,Smith,P91,John Biddle,Sinclair,,,,,,,,,,,,,,,,,,,0
-1,189,P189,Hannah Sinclair,Weber,F,25-Apr-96,,P189,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,,,,,,,,,,,,,,,,,,,0
-1,275,P275,James Biddle,Bradbeer,M,20-Jun-96,,P275,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
-1,192,P192,Kirsti Lynn,Carr,F,9-Sep-96,,P192,P60,Daniel Thaddeus,Carr,P194,Kari Ellen,Kaalstad,P194,Kari Ellen,Kaalstad,P60,Daniel Thaddeus,Carr,,,,,,,,,,,,,,,,,,,0
-1,260,P260,Derek Alan,Sibinga,M,1-Sep-97,,P260,P114,Michael Frank Smit,Sibinga,P262,Mariann,Davis,P262,Mariann,Davis,P114,Michael Frank Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,203,P203,Elizabeth Smith,Sinclair,F,11-Sep-97,,P203,P91,John Biddle,Sinclair,P205,Karen,Smith,P91,Karen,Smith,P91,John Biddle,Sinclair,,,,,,,,,,,,,,,,,,,0
-1,226,P226,Meaghan Caroline,McCarthy,F,5-Oct-97,,P226,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,,,,,,,,,,,,,,,,,,,0
-1,274,P274,Peter Quinney,Bradbeer,M,3-Mar-98,,P274,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
-1,213,P213,Johan Patrick,Griesser,M,23-May-98,,P213,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,,,,,,,,,,,,,,,,,,,0
-1,270,P270,Katherine Elizabeth,Johannes,F,22-Nov-98,,P270,P130,Rebecca Elizabeth,Gosselink,P271,Robert Alan,Johannes,P130,Rebecca Elizabeth,Gosselink,P271,Robert Alan,Johannes,,,,,,,,,,,,,,,,,,,0
-1,163,P163,Lindy,Sinclair,F,8-Mar-00,,P163,P86,Craig Widmann,Sinclair,P164,Nan M,Octeau,P164,Nan M,Octeau,P86,Craig Widmann,Sinclair,,,,,,,,,,,,,,,,,,,0
-1,240,P240,Garrett Robertson,Partridge,M,10-Apr-00,,P240,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,,,,,,,,,,,,,,,,,,,0
-1,212,P212,Adalynn Zeis,Griesser,F,11-Aug-00,,P212,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,,,,,,,,,,,,,,,,,,,0
-1,273,P273,Thomas Hutton,Bradbeer,M,6-Sep-00,,P273,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
-1,253,P253,Margaret Rose,Titcomb,F,1-Mar-01,,P253,P80,Elizabeth Barr,Holt,P254,Timothy Douglas,Titcomb,P80,Elizabeth Barr,Holt,P254,Timothy Douglas,Titcomb,,,,,,,,,,,,,,,,,,,0
-1,263,P263,Dora Marie Sibinga,Hilker,F,19-May-01,,P263,P111,Erica Maria Smit,Sibinga,P264,Kenneth John,Hilker,P111,Erica Maria Smit,Sibinga,P264,Kenneth John,Hilker,,,,,,,,,,,,,,,,,,,0
-1,200,P200,Stephen Erikson,Carr,M,27-Sep-01,,P200,P58,John Christopher,Carr,P201,Abigail Josephine,Gouverneur,P58,Abigail Josephine,Gouverneur,P58,John Christopher,Carr,,,,,,,,,,,,,,,,,,,0
-1,148,P148,Sidney Paige,Yarnall,F,27-Dec-01,,P148,P47,Stephen Garrett,Yarnall,P149,Elizabeth,Mapes,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall,,,,,,,,,,,,,,,,,,,0
-1,218,P218,Gavin Graham,Hetzel,M,15-Feb-02,,P218,P79,Robert Wills,Hetzel,P219,Judy,Graham,P219,Judy,Graham,P79,Robert Wills,Hetzel,,,,,,,,,,,,,,,,,,,0
-1,239,P239,Etta Hutton,Partridge,F,14-Sep-02,,P239,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,,,,,,,,,,,,,,,,,,,0
-1,272,P272,John Addison,Bradbeer,M,11-Feb-03,,P272,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
-1,146,P146,Elizabeth Claire,Yarnall,F,7-Apr-03,,P146,P47,Stephen Garrett,Yarnall,P149,Elizabeth,Mapes,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall,,,,,,,,,,,,,,,,,,,0
-1,147,P147,Rebecca Nicole,Yarnall,F,7-Apr-03,,P147,P47,Stephen Garrett,Yarnall,P149,Elizabeth,Mapes,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall,,,,,,,,,,,,,,,,,,,0
-1,199,P199,Lila Jane,Carr,F,15-Jun-03,,P199,P58,John Christopher,Carr,P201,Abigail Josephine,Gouverneur,P58,Abigail Josephine,Gouverneur,P58,John Christopher,Carr,,,,,,,,,,,,,,,,,,,0
-1,195,P195,Sopia Elizabeth,Gennusa,F,20-Oct-03,,P195,P59,Elizabeth Anne,Carr,P197,Domenick,Gennusa,P59,Elizabeth Anne,Carr,P197,Domenick,Gennusa,,,,,,,,,,,,,,,,,,,0
-1,1004,P1004,Owen,Sibinga,M,13-Apr-05,,P1004,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,141,P141,Owen,Sibinga,M,13-Apr-05,,P141,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
-1,251,P251,Garrett James,Holt,M,20-Jan-06,,P251,P81,John Harris,Holt,P252,Mary,O'Hagin,P252,Mary,O'Hagin,P81,John Harris,Holt,,,,,,,,,,,,,,,,,,,0
-1,198,P198,Mary Sylvia,Carr,F,1-Jan-07,,P198,P58,John Christopher,Carr,P201,Abigail Josephine,Gouverneur,P58,Abigail Josephine,Gouverneur,P58,John Christopher,Carr,,,,,,,,,,,,,,,,,,,0
-1,249,P249,Jean Chrisophe,Perez,M,1-Jan-07,,P249,P81,John Harris,Holt,P252,Mary,O'Hagin,P252,Mary,O'Hagin,P81,John Harris,Holt,,,,,,,,,,,,,,,,,,,0
-1,250,P250,Sarah Biddle,Holt,F,29-Apr-08,,P250,P81,John Harris,Holt,P252,Mary,O'Hagin,P252,Mary,O'Hagin,P81,John Harris,Holt,,,,,,,,,,,,,,,,,,,0
-1,256,P256,Addison  Ruth,James,F,3-Jun-09,,P256,P103,John Robert,James,P257,Faith Jordan,Peters,P257,Faith Jordan,Peters,P103,John Robert,James,,,,,,,,,,,,,,,,,,,0
-1,255,P255,Hadleigh Parker,James,F,4-Nov-11,,P255,P103,John Robert,James,P257,Faith Jordan,Peters,P257,Faith Jordan,Peters,P103,John Robert,James,,,,,,,,,,,,,,,,,,,0
-1,235,P235,Reilly Caroline,Smith,F,30-Sep-16,,P235,P231,Andrea Love,Herrin,P236,Justin,Smith,P231,Andrea Love,Herrin,P236,Justin,Smith,,,,,,,,,,,,,,,,,,,0
-1,258,P258,Alexander,Castanos,M,1-Nov-16,,P258,P100,Leigh Biddle,James,P259,Ryan Michael,Castanos,P100,Leigh Biddle,James,P259,Ryan Michael,Castanos,,,,,,,,,,,,,,,,,,,0
-1,237,P237,Eirwen Jane,Cook,F,26-Mar-19,,P237,P230,Laura Anne,Herrin,P238,Joshua,Cook,P230,Laura Anne,Herrin,P238,Joshua,Cook,,,,,,,,,,,,,,,,,,,0
+1,1,P1,James Garrett,Biddle,M,"October 13, 1868","December 21, 1947",P1,,,,,,,P3,Mary,Hewes,P4,John William,Biddle,P2,Mary,Hutton,F,"September 11, 1869","October 17, 1925",P11,Ruth Ella,Chambers,F,abt 1870,26-Feb-48,,,,,,,1
+1,8,P8,Elizabeth Rebecca,Biddle,F,"March 22, 1897","March 25, 1975",P8,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P27,David Robert,Yarnall,M,"June 28, 1878","September 11, 1967",,,,,,,,,,,,,1
+1,10,P10,Mary Hewes,Biddle,F,"August 10, 1898","December 28, 1963",P10,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P32,John Stephens,Sinclair,M,"April 6, 1897","October 29, 1972",,,,,,,,,,,,,1
+1,9,P9,Dorothy,Biddle,F,"January 25, 1900","February 15, 1985",P9,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P23,John Robert,James,M,"Feb 10, 1895","January 10, 1992",,,,,,,,,,,,,1
+1,7,P7,Rebecca Hutton,Biddle,F,"June 8, 1901","March 4, 1991",P7,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P35,Frank Gilbert,Bradbeer,M,"August 9, 1887","December 2, 1935",,,,,,,,,,,,,1
+1,5,P5,Addison Hutton,Biddle,M,"December 11, 1903","March 3, 1912",P5,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,,,,,,,,,,,,,,,,,,,0
+1,6,P6,Ruth,Biddle,F,"November 6, 1906","January 29, 1969",P6,P1,James Garrett,Biddle,P2,Mary,Hutton,P2,Mary,Hutton,P1,James Garrett,Biddle,P38,Thornton Bancroft,Penfield,M,"May 1, 1899","March 11, 1975",,,,,,,,,,,,,1
+1,26,P26,David Robert,Yarnall,M,"February 11, 1925","May 27, 1999",P26,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P46,Rie,Gabrielsen,F,"August 28, 1930","October 2, 1980",,,,,,,,,,,,,1
+1,30,P30,Mary Biddle,Sinclair,F,"August 25, 1926","March 12, 2009",P30,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P57,Clayton Douglass,Buck,M,"March 26, 1923","February 3, 1986",P56,Joseph J.,Krakora,M,3-Apr-39,,,,,,,,1
+1,24,P24,James Biddle,Yarnall,M,"November 4, 1926","March 22, 2009",P24,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P49,Phyllis A.,Aspen,F,"August 6, 1929","January 16, 2013",,,,,,,,,,,,,1
+1,25,P25,Nancy Hutton,Yarnall,F,"June 22, 1928","October 13, 2004",P25,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,P8,Elizabeth Rebecca,Biddle,P27,David Robert,Yarnall,,,,,,,,,,,,,,,,,,,0
+1,28,P28,David Macowan,Sinclair,M,"August 6, 1928",,P28,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P88,Susan,Widmann,F,"January 14, 1932",,,,,,,,,,,,,,1
+1,29,P29,Sylvia Buell,Sinclair,F,"August 28, 1929","February 7, 2015",P29,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P67,Stephen Kerry,Carr,M,"April 30, 1930",,P68,Milo,Berking,,30-Mar-25,19-Nov-07,,,,,,,1
+1,33,P33,Cecilia,Bradbeer,F,"February 16, 1930",,P33,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P115,Maarten,Sibinga,M,"November 1, 1927","November 16, 2003",,,,,,,,,,,,,1
+1,21,P21,Mary Hutton,James,F,"November 29, 1930","February 6, 2002",P21,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P76,Frederic Valerius,Hetzel,M,"August 5, 1930","January 19, 2005",,,,,,,,,,,,,1
+1,20,P20,Caroline Biddle,James,F,"June 22, 1932","February 27, 2012",P20,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P72,Gareld Robertson,Herrin,M,"July 7, 1929","May 20, 2005",,,,,,,,,,,,,1
+1,34,P34,James Biddle,Bradbeer,M,"October 28, 1932","May 27, 2019",P34,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P7,Rebecca Hutton,Biddle,P35,Frank Gilbert,Bradbeer,P117,Mary Florence,Buckley,F,"October 29, 1935","December 11, 1999",,,,,,,,,,,,,1
+1,36,P36,Thornton Bancroft,Penfield,M,"April 13, 1934","August 21, 2007",P36,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P107,Diane,Depp,,"July 10, 1947",,P108,Elizabeth,Few,F,18-Jan-39,,,,,,,,1
+1,37,P37,Charlotte Elizabeth,Penfield,F,"October 28, 1935",,P37,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P6,Ruth,Biddle,P38,Thornton Bancroft,Penfield,P133,Charles George,Gosselink,M,about 1935,,,,,,,,,,,,,,1
+1,31,P31,John Biddle,Sinclair,M,"November 12, 1935","June 22, 2019",P31,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P10,Mary Hewes,Biddle,P32,John Stephens,Sinclair,P92,Lynn,Rickards,F,"July 24, 1935",,,,,,,,,,,,,,1
+1,19,P19,Margaret Cope,James,F,"November 28, 1935","July 31, 1979",P19,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P83,Harris Richard,Holt,M,"August 21, 1934","August 28, 2009",,,,,,,,,,,,,1
+1,22,P22,John Robert,James,M,"March 8, 1938",,P22,P9,Dorothy,Biddle,P23,John Robert,James,P9,Dorothy,Biddle,P23,John Robert,James,P102,Dixie Lee,Donaldson,F,"May 16, 1945",,,,,,,,,,,,,,1
+1,54,P54,David Douglass,Buck,M,"February 26, 1949",,P54,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P151,Kristine,Hill,F,,,P153,Nancy E.,Miller,F,1954,,P155,Shelli I.,Chase,F,1953,,1
+1,55,P55,John Clayton,Buck,M,"August 9, 1950","May 19, 2009",P55,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P97,Gayle Maureen,Hannah,F,"August 22, 1954",,,,,,,,,,,,,,1
+1,53,P53,Alice Sinclair,Buck,F,"January 8, 1953",,P53,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P158,Michael John,DeCandia,M,"April 10, 1951",,,,,,,,,,,,,,1
+1,79,P79,Robert Wills,Hetzel,M,"March 11, 1954",,P79,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P222,Ronda Leigh,Porter,F,"June 20, 1955",,P221,Laura Katherine,Tyree,F,8-Oct-65,,P219,Judy,Graham,F,10-Nov-70,,1
+1,66,P66,Kathleen Mary,Carr,F,"June 30, 1954",,P66,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P172,Walter,Heavenrich,M,"July 3, 1951",,P177,Kari Beth,Olson,F,6-Mar-56,,,,,,,,1
+1,65,P65,Stephen Kerry,Carr,M,"June 12, 1955",,P65,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P173,Debora,,F,,,,,,,,,,,,,,,1
+1,52,P52,Mary Hewes,Buck,F,"July 19, 1955",,P52,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P30,Mary Biddle,Sinclair,P57,Clayton Douglass,Buck,P159,David,Quint,M,,,P162,Glenn,McDonald,M,,,,,,,,,1
+1,48,P48,James Biddle,Yarnall,M,"September 28, 1955","January 26, 2018",P48,P24,James Biddle,Yarnall,P49,Phyllis A.,Aspen,P49,Phyllis A.,Aspen,P24,James Biddle,Yarnall,P145,Dianne,DuBois,F,,,,,,,,,,,,,,,1
+1,64,P64,Sylvia Stephens,Carr,F,"July 25, 1956",,P64,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P181,Donald Paul,Rubenstein,M,"April 6, 1958",,,,,,,,,,,,,,1
+1,45,P45,Joan Biddle,Yarnall,F,"November 26, 1956",,P45,P26,David Robert,Yarnall,P46,Rie,Gabrielsen,P46,Rie,Gabrielsen,P26,David Robert,Yarnall,P137,Robert Tien,Ma,M,"May 12, 1905",,,,,,,,,,,,,,1
+1,114,P114,Michael Frank Smit,Sibinga,M,"February 10, 1957",,P114,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P262,Mariann,Davis,F,"August 14, 1964",,,,,,,,,,,,,,1
+1,78,P78,Frederic James,Hetzel,M,"June 12, 1957",,P78,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,,,,,,,,,,,,,,,,,,,0
+1,63,P63,Deborah Ward,Carr,F,"September 23, 1957",,P63,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P184,Paul Kendrick,Adamy,M,"March 28, 1957",,,,,,,,,,,,,,1
+1,47,P47,Stephen Garrett,Yarnall,M,"November 26, 1957",,P47,P24,James Biddle,Yarnall,P49,Phyllis A.,Aspen,P49,Phyllis A.,Aspen,P24,James Biddle,Yarnall,P149,Elizabeth,Mapes,F,"May 1, 1961",,P150,Carly,Klapp,F,,,,,,,,,1
+1,87,P87,Timothy Biddle,Sinclair,M,"January 23, 1958","May 31, 1968",P87,P28,David Macowan,Sinclair,P88,Susan,Widmann,P88,Susan,Widmann,P28,David Macowan,Sinclair,,,,,,,,,,,,,,,,,,,0
+1,62,P62,Matthew Francis,Carr,M,"September 17, 1958",,P62,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P188,Melissa,Golder,F,"May 7, 1960",,,,,,,,,,,,,,1
+1,75,P75,Mary Thayer,Herrin,F,"November 25, 1958",,P75,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P229,David Michael,McCarthy,M,"August 7, 1954",,,,,,,,,,,,,,1
+1,44,P44,Sara Gabrielsen,Yarnall,F,"December 18, 1958",,P44,P26,David Robert,Yarnall,P46,Rie,Gabrielsen,P46,Rie,Gabrielsen,P26,David Robert,Yarnall,P140,David Alan,Sanders,M,"April 25, 1905",,,,,,,,,,,,,,1
+1,112,P112,Nicholas Ernst Smit,Sibinga,M,"April 28, 1959",,P112,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P43,Kristina Garrett,Yarnall,F,"February 16, 1960",,,,,,,,,,,,,,1
+1,86,P86,Craig Widmann,Sinclair,M,"July 17, 1959",,P86,P28,David Macowan,Sinclair,P88,Susan,Widmann,P88,Susan,Widmann,P28,David Macowan,Sinclair,P164,Nan M,Octeau,F,about 1966,,,,,,,,,,,,,,1
+1,77,P77,Sylvia Biddle,Hetzel,F,"October 29, 1959",,P77,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P21,Mary Hutton,James,P76,Frederic Valerius,Hetzel,P225,Salvatore,Cipparrone,M,"November 25, 1946",,,,,,,,,,,,,,1
+1,82,P82,Richard James,Holt,M,"January 1, 1960","May 13, 2005",P82,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,,,,,,,,,,,,,,,,,,,0
+1,91,P91,John Biddle,Sinclair,M,"January 4, 1960",,P91,P31,John Biddle,Sinclair,P92,Lynn,Rickards,P92,Lynn,Rickards,P31,John Biddle,Sinclair,P205,Karen,Smith,F,"March 14, 1961",,,,,,,,,,,,,,1
+1,74,P74,John Robertson,Herrin,M,"January 15, 1960",,P74,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P233,Deborah Love,Morin,F,"October 5, 1954",,P232,Lisa,Baron,F,8-Jun-85,,,,,,,,1
+1,43,P43,Kristina Garrett,Yarnall,F,"February 16, 1960",,P43,P26,David Robert,Yarnall,P46,Rie,Gabrielsen,P46,Rie,Gabrielsen,P26,David Robert,Yarnall,P112,Nicholas Ernst Smit,Sibinga,M,"April 28, 1959",,,,,,,,,,,,,,1
+1,61,P61,Suzanne Noel,Carr,F,"December 15, 1960",,P61,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P191,Christian Dietrich,Weber,M,"April 6, 1964",,,,,,,,,,,,,,1
+1,113,P113,Derek Johannes Smit,Sibinga,M,"March 18, 1961","March 19, 1961",P113,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,84,P84,Cynthia Biddle,Holt,F,"February 18, 1962",,P84,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,P246,Martin Augustine,Favret,U,"August 31, 1962",,,,,,,,,,,,,,1
+1,90,P90,David Rickards,Sinclair,M,"March 5, 1962",,P90,P31,John Biddle,Sinclair,P92,Lynn,Rickards,P92,Lynn,Rickards,P31,John Biddle,Sinclair,P209,Peggy,Soder,F,"June 5, 1963",,P206,Barbara,Hartmann,F,,,,,,,,,1
+1,116,P116,James Biddle,Bradbeer,M,"March 19, 1962",,P116,P34,James Biddle,Bradbeer,P117,Mary Florence,Buckley,P117,Mary Florence,Buckley,P34,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,F,,,,,,,,,,,,,,,1
+1,73,P73,Kenneth James,Herrin,M,"April 6, 1962",,P73,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P234,Aimee Renee,Allen,F,"November 21, 1965",,,,,,,,,,,,,,1
+1,85,P85,Margot,Sinclair,F,"April 12, 1962",,P85,P28,David Macowan,Sinclair,P88,Susan,Widmann,P88,Susan,Widmann,P28,David Macowan,Sinclair,P168,Scott Daniel,Mannka,M,"October 10, 1960",,,,,,,,,,,,,,1
+1,111,P111,Erica Maria Smit,Sibinga,F,"December 30, 1962",,P111,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P33,Cecilia,Bradbeer,P115,Maarten,Sibinga,P264,Kenneth John,Hilker,M,"March 18, 1966",,,,,,,,,,,,,,1
+1,60,P60,Daniel Thaddeus,Carr,M,"April 14, 1963",,P60,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P194,Kari Ellen,Kaalstad,F,"October 18, 1963",,,,,,,,,,,,,,1
+1,132,P132,James Bancroft,Gosselink,M,"April 19, 1963",,P132,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,,,,,,,,,,,,,,,,,,,0
+1,131,P131,Robert George,Gosselink,M,"August 8, 1964",,P131,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P267,Mary Elizabeth,Ward,F,"January 23, 1964",,,,,,,,,,,,,,1
+1,59,P59,Elizabeth Anne,Carr,F,"October 27, 1964",,P59,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P196,Robert Thomas,Riley,M,"December 4, 1962",,P197,Domenick,Gennusa,M,18-Mar-73,,,,,,,,1
+1,81,P81,John Harris,Holt,M,"March 16, 1965",,P81,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,P252,Mary,O'Hagin,F,"April 15, 1973",,,,,,,,,,,,,,1
+1,71,P71,Janet Biddle,Herrin,F,"August 3, 1965",,P71,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P20,Caroline Biddle,James,P72,Gareld Robertson,Herrin,P241,Stephen Michael,Partridge,M,"December 26, 1962",,,,,,,,,,,,,,1
+1,89,P89,Anne Zeis,Sinclair,F,"October 18, 1965",,P89,P31,John Biddle,Sinclair,P92,Lynn,Rickards,P92,Lynn,Rickards,P31,John Biddle,Sinclair,P214,Hans Patrick,Griesser,M,"March 5, 1961",,,,,,,,,,,,,,1
+1,118,P118,Rebecca Hutton,Bradbeer,U,"May 9, 1966",,P118,P34,James Biddle,Bradbeer,P117,Mary Florence,Buckley,P117,Mary Florence,Buckley,P34,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
+1,58,P58,John Christopher,Carr,M,"October 12, 1966",,P58,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P29,Sylvia Buell,Sinclair,P67,Stephen Kerry,Carr,P201,Abigail Josephine,Gouverneur,F,"December 29, 1960",,P202,Sarah Elizabeth,Fisher,F,15-Jul-66,,,,,,,,1
+1,130,P130,Rebecca Elizabeth,Gosselink,F,"April 22, 1967",,P130,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P37,Charlotte Elizabeth,Penfield,P133,Charles George,Gosselink,P271,Robert Alan,Johannes,M,"May 24, 1962",,,,,,,,,,,,,,1
+1,80,P80,Elizabeth Barr,Holt,F,"August 8, 1968",,P80,P19,Margaret Cope,James,P83,Harris Richard,Holt,P19,Margaret Cope,James,P83,Harris Richard,Holt,P254,Timothy Douglas,Titcomb,M,"December 8, 1958",,,,,,,,,,,,,,1
+1,103,P103,John Robert,James,M,"August 30, 1974",,P103,P22,John Robert,James,P102,Dixie Lee,Donaldson,P102,Dixie Lee,Donaldson,P22,John Robert,James,P257,Faith Jordan,Peters,F,"December 30, 1978",,,,,,,,,,,,,,1
+1,96,P96,Magnolia Hannah,Buck,F,"October 13, 1975",,P96,P55,John Clayton,Buck,P97,Gayle Maureen,Hannah,P97,Gayle Maureen,Hannah,P55,John Clayton,Buck,,,,,,,,,,,,,,,,,,,0
+1,154,P154,Thaddeus Chase,Buck,M,"March 10, 1976",,P154,P54,David Douglass,Buck,P155,Shelli I.,Chase,P155,Shelli I.,Chase,P54,David Douglass,Buck,,,,,,,,,,,,,,,,,,,0
+1,101,P101,Christina Ballard,James,F,"February 5, 1978",,P101,P22,John Robert,James,P102,Dixie Lee,Donaldson,P102,Dixie Lee,Donaldson,P22,John Robert,James,,,,,,,,,,,,,,,,,,,0
+1,95,P95,Jeremiah Clayton,Buck,M,"August 3, 1978",,P95,P55,John Clayton,Buck,P97,Gayle Maureen,Hannah,P97,Gayle Maureen,Hannah,P55,John Clayton,Buck,,,,,,,,,,,,,,,,,,,0
+1,161,P161,Ellie Mae,McDonald,F,"June 14, 1979",,P161,P52,Mary Hewes,Buck,P162,Glenn,McDonald,P52,Mary Hewes,Buck,P162,Glenn,McDonald,,,,,,,,,,,,,,,,,,,0
+1,100,P100,Leigh Biddle,James,F,"July 18, 1980",,P100,P22,John Robert,James,P102,Dixie Lee,Donaldson,P102,Dixie Lee,Donaldson,P22,John Robert,James,P259,Ryan Michael,Castanos,M,"March 23, 1982",,,,,,,,,,,,,,1
+1,176,P176,Sean Kerry,Carr,M,"February 22, 1983",,P176,P65,Stephen Kerry,Carr,P177,Kari Beth,Olson,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr,,,,,,,,,,,,,,,,,,,0
+1,160,P160,Joseph Samuel,Buck,M,"August 13, 1984",,P160,P52,Mary Hewes,Buck,P159,David,Quint,P52,Mary Hewes,Buck,P159,David,Quint,,,,,,,,,,,,,,,,,,,0
+1,152,P152,Thomas Garrett,Buck,M,"September 7, 1984",,P152,P54,David Douglass,Buck,P153,Nancy E.,Miller,P153,Nancy E.,Miller,P54,David Douglass,Buck,,,,,,,,,,,,,,,,,,,0
+1,175,P175,Ryan Samuel,Carr,M,"May 27, 1985",,P175,P65,Stephen Kerry,Carr,P177,Kari Beth,Olson,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr,,,,,,,,,,,,,,,,,,,0
+1,139,P139,Gabriel Yarnall,Sanders,M,"November 28, 1985",,P139,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,,,,,,,,,,,,,,,,,,,0
+1,157,P157,Michael Douglass,DeCandia,M,"February 19, 1986",,P157,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,,,,,,,,,,,,,,,,,,,0
+1,180,P180,Katelyn Sinclair,Rubenstein,F,"September 30, 1986",,P180,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,,,,,,,,,,,,,,,,,,,0
+1,187,P187,Matthew Francis,Carr,M,"December 6, 1986",,P187,P62,Matthew Francis,Carr,P188,Melissa,Golder,P62,Melissa,Golder,P62,Matthew Francis,Carr,,,,,,,,,,,,,,,,,,,0
+1,231,P231,Andrea Love,Herrin,F,"December 17, 1986",,P231,P74,John Robertson,Herrin,P233,Deborah Love,Morin,P233,Deborah Love,Morin,P74,John Robertson,Herrin,P236,Justin,Smith,M,,,,,,,,,,,,,,,1
+1,269,P269,Gordon,Gosselink,M,"January 1, 1987",,P269,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
+1,224,P224,Giacomo,Cipparrone,M,"February 27, 1988",,P224,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,,,,,,,,,,,,,,,,,,,0
+1,179,P179,Anne Chandler,Rubenstein,F,"March 27, 1988",,P179,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,,,,,,,,,,,,,,,,,,,0
+1,138,P138,Rachel Yarnall,Sanders,F,"May 4, 1988",,P138,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,P44,Sara Gabrielsen,Yarnall,P140,David Alan,Sanders,,,,,,,,,,,,,,,,,,,0
+1,136,P136,Rie Yarnall,Ma,F,"July 17, 1988",,P136,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,,,,,,,,,,,,,,,,,,,0
+1,183,P183,Julia Sinclair,Adamy,F,"August 15, 1988",,P183,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,,,,,,,,,,,,,,,,,,,0
+1,171,P171,Jeb Sinclair,Heavenrich,M,"August 24, 1988",,P171,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,,,,,,,,,,,,,,,,,,,0
+1,186,P186,Ian Collins,Carr,M,"September 7, 1988",,P186,P62,Matthew Francis,Carr,P188,Melissa,Golder,P62,Melissa,Golder,P62,Matthew Francis,Carr,,,,,,,,,,,,,,,,,,,0
+1,265,P265,Gale,Gosselink,F,"January 1, 1989",,P265,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
+1,268,P268,Ricardo,Gosselink,M,"January 1, 1989",,P268,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
+1,156,P156,John Garrett,DeCandia,M,"February 26, 1989",,P156,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,P53,Alice Sinclair,Buck,P158,Michael John,DeCandia,,,,,,,,,,,,,,,,,,,0
+1,1001,P1001,Nathaniel Alexander,Sibinga,M,"November 30, 1989",,P1001,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P300,Alicia,DeNutte,F,"October 18, 1992",,,,,,,,,,,,,,1
+1,144,P144,Nathaniel Alexander,Sibinga,M,"November 30, 1989",,P144,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P1005,Alicia,DeNutte,F,"October 18, 1992",,,,,,,,,,,,,,1
+1,245,P245,Rebecca Margaret,Favret,F,"December 27, 1989",,P245,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,,,,,,,,,,,,,,,,,,,0
+1,170,P170,Jessica Anne,Heavenrich,F,"June 9, 1990",,P170,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,,,,,,,,,,,,,,,,,,,0
+1,182,P182,William Ward,Adamy,M,"July 12, 1990",,P182,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,P63,Deborah Ward,Carr,P184,Paul Kendrick,Adamy,,,,,,,,,,,,,,,,,,,0
+1,174,P174,Brendan Connor,Carr,M,"December 13, 1990",,P174,P65,Stephen Kerry,Carr,P177,Kari Beth,Olson,P177,Kari Beth,Olson,P65,Stephen Kerry,Carr,,,,,,,,,,,,,,,,,,,0
+1,223,P223,Andrea,Cipparrone,M,"December 22, 1990",,P225,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,P77,Sylvia Biddle,Hetzel,P225,Salvatore,Cipparrone,,,,,,,,,,,,,,,,,,,0
+1,266,P266,Janea Kelly,Gosselink,F,"January 1, 1991",,P266,P131,Robert George,Gosselink,P267,Mary Elizabeth,Ward,P267,Mary Elizabeth,Ward,P131,Robert George,Gosselink,,,,,,,,,,,,,,,,,,,0
+1,185,P185,Hillary Hayes,Carr,F,"January 21, 1991",,P185,P62,Matthew Francis,Carr,P188,Melissa,Golder,P62,Melissa,Golder,P62,Matthew Francis,Carr,,,,,,,,,,,,,,,,,,,0
+1,178,P178,Emma Hewes,Rubenstein,F,"January 27, 1991",,P178,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,P64,Sylvia Stephens,Carr,P181,Donald Paul,Rubenstein,,,,,,,,,,,,,,,,,,,0
+1,208,P208,Emily Hutton,Sinclair,F,"February 11, 1991",,P208,P90,David Rickards,Sinclair,P209,Peggy,Soder,P90,Peggy,Soder,P90,David Rickards,Sinclair,,,,,,,,,,,,,,,,,,,0
+1,228,P228,Matthew Ryan,McCarthy,M,"May 23, 1991",,P228,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,,,,,,,,,,,,,,,,,,,0
+1,1002,P1002,James Garrett,Sibinga,M,"December 4, 1991",,P1002,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,143,P143,James Garrett,Sibinga,M,"December 4, 1991",,P143,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,167,P167,Peter James,Mannka,M,"December 24, 1991",,P167,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,,,,,,,,,,,,,,,,,,,0
+1,244,P244,Amanda Moore,Favret,F,"February 25, 1992",,P244,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,P84,Cynthia Biddle,Holt,P246,Martin Augustine,Favret,,,,,,,,,,,,,,,,,,,0
+1,230,P230,Laura Anne,Herrin,F,"July 30, 1992",,P230,P74,John Robertson,Herrin,P233,Deborah Love,Morin,P233,Deborah Love,Morin,P74,John Robertson,Herrin,P238,Joshua,Cook,M,,,,,,,,,,,,,,,1
+1,135,P135,Evan Robert,Ma,M,"August 26, 1992",,P135,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,P45,Joan Biddle,Yarnall,P137,Robert Tien,Ma,,,,,,,,,,,,,,,,,,,0
+1,193,P193,Siri Marie,Carr,F,"March 31, 1993",,P193,P60,Daniel Thaddeus,Carr,P194,Kari Ellen,Kaalstad,P194,Kari Ellen,Kaalstad,P60,Daniel Thaddeus,Carr,,,,,,,,,,,,,,,,,,,0
+1,261,P261,Rebecca Mary,Sibinga,F,"April 17, 1993",,P261,P114,Michael Frank Smit,Sibinga,P262,Mariann,Davis,P262,Mariann,Davis,P114,Michael Frank Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,220,P220,Benjamin Will,Hetzel,M,"June 1, 1993",,P220,P79,Robert Wills,Hetzel,P221,Laura Katherine,Tyree,P221,Laura Katherine,Tyree,P79,Robert Wills,Hetzel,,,,,,,,,,,,,,,,,,,0
+1,227,P227,Eric James,McCarthy,M,"June 7, 1993",,P227,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,,,,,,,,,,,,,,,,,,,0
+1,169,P169,Karl Bryn,Heavenrich,M,"November 27, 1993",,P169,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,P66,Kathleen Mary,Carr,P172,Walter,Heavenrich,,,,,,,,,,,,,,,,,,,0
+1,207,P207,Ian Rickards,Sinclair,M,"December 7, 1993",,P207,P90,David Rickards,Sinclair,P209,Peggy,Soder,P90,Peggy,Soder,P90,David Rickards,Sinclair,P211,Elizabeth,,F,,,,,,,,,,,,,,,1
+1,217,P217,Skyler Krieg,Graham,M,"January 1, 1994",,P217,P79,Robert Wills,Hetzel,P219,Judy,Graham,P219,Judy,Graham,P79,Robert Wills,Hetzel,,,,,,,,,,,,,,,,,,,0
+1,165,P165,Jason Andrew,Mannka,M,"April 6, 1994",,P165,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,,,,,,,,,,,,,,,,,,,0
+1,166,P166,Christopher Scott,Mannka,M,"April 6, 1994",,P166,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,P85,Margot,Sinclair,P168,Scott Daniel,Mannka,,,,,,,,,,,,,,,,,,,0
+1,190,P190,Sarah Noel,Weber,F,"December 6, 1994",,P190,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,,,,,,,,,,,,,,,,,,,0
+1,1003,P1003,Tyche Eva,Sibinga,F,"February 15, 1995",,P1003,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,142,P142,Tyche Eva,Sibinga,F,"February 15, 1995",,P142,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,204,P204,John Biddle,Sinclair,M,"June 5, 1995",,P204,P91,John Biddle,Sinclair,P205,Karen,Smith,P91,Karen,Smith,P91,John Biddle,Sinclair,,,,,,,,,,,,,,,,,,,0
+1,189,P189,Hannah Sinclair,Weber,F,"April 25, 1996",,P189,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,P61,Suzanne Noel,Carr,P191,Christian Dietrich,Weber,,,,,,,,,,,,,,,,,,,0
+1,275,P275,James Biddle,Bradbeer,M,"June 20, 1996",,P275,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
+1,192,P192,Kirsti Lynn,Carr,F,"September 9, 1996",,P192,P60,Daniel Thaddeus,Carr,P194,Kari Ellen,Kaalstad,P194,Kari Ellen,Kaalstad,P60,Daniel Thaddeus,Carr,,,,,,,,,,,,,,,,,,,0
+1,260,P260,Derek Alan,Sibinga,M,"September 1, 1997",,P260,P114,Michael Frank Smit,Sibinga,P262,Mariann,Davis,P262,Mariann,Davis,P114,Michael Frank Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,203,P203,Elizabeth Smith,Sinclair,F,"September 11, 1997",,P203,P91,John Biddle,Sinclair,P205,Karen,Smith,P91,Karen,Smith,P91,John Biddle,Sinclair,,,,,,,,,,,,,,,,,,,0
+1,226,P226,Meaghan Caroline,McCarthy,F,"October 5, 1997",,P226,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,P75,Mary Thayer,Herrin,P229,David Michael,McCarthy,,,,,,,,,,,,,,,,,,,0
+1,274,P274,Peter Quinney,Bradbeer,M,"March 3, 1998",,P274,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
+1,213,P213,Johan Patrick,Griesser,M,"May 23, 1998",,P213,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,,,,,,,,,,,,,,,,,,,0
+1,270,P270,Katherine Elizabeth,Johannes,F,"November 22, 1998",,P270,P130,Rebecca Elizabeth,Gosselink,P271,Robert Alan,Johannes,P130,Rebecca Elizabeth,Gosselink,P271,Robert Alan,Johannes,,,,,,,,,,,,,,,,,,,0
+1,163,P163,Lindy,Sinclair,F,"March 8, 2000",,P163,P86,Craig Widmann,Sinclair,P164,Nan M,Octeau,P164,Nan M,Octeau,P86,Craig Widmann,Sinclair,,,,,,,,,,,,,,,,,,,0
+1,240,P240,Garrett Robertson,Partridge,M,"April 10, 2000",,P240,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,,,,,,,,,,,,,,,,,,,0
+1,212,P212,Adalynn Zeis,Griesser,F,"August 11, 2000",,P212,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,P89,Anne Zeis,Sinclair,P214,Hans Patrick,Griesser,,,,,,,,,,,,,,,,,,,0
+1,273,P273,Thomas Hutton,Bradbeer,M,"September 6, 2000",,P273,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
+1,253,P253,Margaret Rose,Titcomb,F,"March 1, 2001",,P253,P80,Elizabeth Barr,Holt,P254,Timothy Douglas,Titcomb,P80,Elizabeth Barr,Holt,P254,Timothy Douglas,Titcomb,,,,,,,,,,,,,,,,,,,0
+1,263,P263,Dora Marie Sibinga,Hilker,F,"May 19, 2001",,P263,P111,Erica Maria Smit,Sibinga,P264,Kenneth John,Hilker,P111,Erica Maria Smit,Sibinga,P264,Kenneth John,Hilker,,,,,,,,,,,,,,,,,,,0
+1,200,P200,Stephen Erikson,Carr,M,"September 27, 2001",,P200,P58,John Christopher,Carr,P201,Abigail Josephine,Gouverneur,P58,Abigail Josephine,Gouverneur,P58,John Christopher,Carr,,,,,,,,,,,,,,,,,,,0
+1,148,P148,Sidney Paige,Yarnall,F,"December 27, 2001",,P148,P47,Stephen Garrett,Yarnall,P149,Elizabeth,Mapes,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall,,,,,,,,,,,,,,,,,,,0
+1,218,P218,Gavin Graham,Hetzel,M,"February 15, 2002",,P218,P79,Robert Wills,Hetzel,P219,Judy,Graham,P219,Judy,Graham,P79,Robert Wills,Hetzel,,,,,,,,,,,,,,,,,,,0
+1,239,P239,Etta Hutton,Partridge,F,"September 14, 2002",,P239,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,P71,Janet Biddle,Herrin,P241,Stephen Michael,Partridge,,,,,,,,,,,,,,,,,,,0
+1,272,P272,John Addison,Bradbeer,M,"February 11, 2003",,P272,P116,James Biddle,Bradbeer,P276,Carol Elizabeth,Hastings,P276,Carol Elizabeth,Hastings,P116,James Biddle,Bradbeer,,,,,,,,,,,,,,,,,,,0
+1,146,P146,Elizabeth Claire,Yarnall,F,"April 7, 2003",,P146,P47,Stephen Garrett,Yarnall,P149,Elizabeth,Mapes,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall,,,,,,,,,,,,,,,,,,,0
+1,147,P147,Rebecca Nicole,Yarnall,F,"April 7, 2003",,P147,P47,Stephen Garrett,Yarnall,P149,Elizabeth,Mapes,P149,Elizabeth,Mapes,P47,Stephen Garrett,Yarnall,,,,,,,,,,,,,,,,,,,0
+1,199,P199,Lila Jane,Carr,F,"June 15, 2003",,P199,P58,John Christopher,Carr,P201,Abigail Josephine,Gouverneur,P58,Abigail Josephine,Gouverneur,P58,John Christopher,Carr,,,,,,,,,,,,,,,,,,,0
+1,195,P195,Sopia Elizabeth,Gennusa,F,"October 20, 2003",,P195,P59,Elizabeth Anne,Carr,P197,Domenick,Gennusa,P59,Elizabeth Anne,Carr,P197,Domenick,Gennusa,,,,,,,,,,,,,,,,,,,0
+1,1004,P1004,Owen,Sibinga,M,"April 13, 2005",,P1004,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,141,P141,Owen,Sibinga,M,"April 13, 2005",,P141,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,P43,Kristina Garrett,Yarnall,P112,Nicholas Ernst Smit,Sibinga,,,,,,,,,,,,,,,,,,,0
+1,251,P251,Garrett James,Holt,M,"January 20, 2006",,P251,P81,John Harris,Holt,P252,Mary,O'Hagin,P252,Mary,O'Hagin,P81,John Harris,Holt,,,,,,,,,,,,,,,,,,,0
+1,198,P198,Mary Sylvia,Carr,F,"January 1, 2007",,P198,P58,John Christopher,Carr,P201,Abigail Josephine,Gouverneur,P58,Abigail Josephine,Gouverneur,P58,John Christopher,Carr,,,,,,,,,,,,,,,,,,,0
+1,249,P249,Jean Chrisophe,Perez,M,"January 1, 2007",,P249,P81,John Harris,Holt,P252,Mary,O'Hagin,P252,Mary,O'Hagin,P81,John Harris,Holt,,,,,,,,,,,,,,,,,,,0
+1,250,P250,Sarah Biddle,Holt,F,"April 29, 2008",,P250,P81,John Harris,Holt,P252,Mary,O'Hagin,P252,Mary,O'Hagin,P81,John Harris,Holt,,,,,,,,,,,,,,,,,,,0
+1,256,P256,Addison  Ruth,James,F,"June 3, 2009",,P256,P103,John Robert,James,P257,Faith Jordan,Peters,P257,Faith Jordan,Peters,P103,John Robert,James,,,,,,,,,,,,,,,,,,,0
+1,255,P255,Hadleigh Parker,James,F,"November 4, 2011",,P255,P103,John Robert,James,P257,Faith Jordan,Peters,P257,Faith Jordan,Peters,P103,John Robert,James,,,,,,,,,,,,,,,,,,,0
+1,235,P235,Reilly Caroline,Smith,F,"September 30, 2016",,P235,P231,Andrea Love,Herrin,P236,Justin,Smith,P231,Andrea Love,Herrin,P236,Justin,Smith,,,,,,,,,,,,,,,,,,,0
+1,258,P258,Alexander,Castanos,M,"November 1, 2016",,P258,P100,Leigh Biddle,James,P259,Ryan Michael,Castanos,P100,Leigh Biddle,James,P259,Ryan Michael,Castanos,,,,,,,,,,,,,,,,,,,0
+1,237,P237,Eirwen Jane,Cook,F,"March 26, 2019",,P237,P230,Laura Anne,Herrin,P238,Joshua,Cook,P230,Laura Anne,Herrin,P238,Joshua,Cook,,,,,,,,,,,,,,,,,,,0
 1,210,P210,Ada Marie,Sinclair,F,,,P210,P207,Ian Rickards,Sinclair,P211,Elizabeth,,P207,Elizabeth,,P207,Ian Rickards,Sinclair,,,,,,,,,,,,,,,,,,,0

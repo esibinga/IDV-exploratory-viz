@@ -30,7 +30,7 @@ body {
 
 .section#one {
       display: grid;
-      text-align: right;
+      text-align: middle;
       grid-column-gap: 10px;
       grid-template-columns: 30% 70%;    /* divide the window into these horizontal percentages */
     }
@@ -42,6 +42,8 @@ body {
     .section#one > .graph {
       grid-column: 2 / 2;
       cursor: crosshair;
+      text-anchor: middle;
+      font-size: 20px;
     }
 
 .section#one-five {
@@ -59,6 +61,8 @@ body {
     .section#one-five > .graph {
       grid-column: 2 / 2;
       cursor: crosshair;
+      text-anchor: middle;
+      font-size: 20px;
     }
 
 .section#one-six > .text {
@@ -136,6 +140,8 @@ body {
     .section#four > .graph {
       grid-column: 2 / 2;
       cursor: crosshair;
+      text-anchor: middle;
+      font-size: 20px;
     }
 
 

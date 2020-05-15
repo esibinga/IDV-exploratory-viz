@@ -102,11 +102,11 @@ circles.append("circle")
 const pie = d3.pie()
       .value(function(d) { return d.angle_value});
       (state.svgdata);
-    
-var labelArc = d3.arc()
-        .outerRadius(33*r)
-        .innerRadius(33*r);
-    
+
+var labelArc = d3.arc() 
+	.outerRadius(32*r)
+  .innerRadius(29*r);
+
 var data_ready = pie(state.svgdata);
     //console.log("pie", pie); //this is just the function
     console.log("data_ready", data_ready);
@@ -208,7 +208,7 @@ const spider3 = circles
         d3.select(this)
         .attr('opacity', 1.0);
         state.hover = {
-          points: d.data.number_ID,
+          points: d.data.treble,
         };
         //console.log(d.data.number_ID) //WOOHOO!!!!
         draw();
@@ -240,7 +240,7 @@ const spider4 = circles
             d3.select(this)
             .attr('opacity', 1.0);
             state.hover = {
-              points: d.data.number_ID,
+              points: d.data.double,
             };
             //console.log(d.data.number_ID) //WOOHOO!!!!
             draw();
@@ -283,7 +283,7 @@ const spider5 = circles
         d3.select(this)
         .attr('opacity', 1.0);
         state.hover = {
-          points: d.data.number_ID,
+          points: d.data.bullseye,
         };
         //console.log(d.data.number_ID) //WOOHOO!!!!
         draw();
@@ -315,7 +315,7 @@ const spider6 = circles
         d3.select(this)
         .attr('opacity', 1.0);
         state.hover = {
-          points: d.data.number_ID,
+          points: d.data.double_bullseye,
         };
         //console.log(d.data.number_ID) //WOOHOO!!!!
         draw();
@@ -326,6 +326,22 @@ const spider6 = circles
         draw();
       });
     
+//label arc
+  const spider4text = circles
+  .select('svg')
+  .data(data_ready)
+  .enter()
+  .append("text")
+  .attr("transform", function(d) 
+     { const [x,y] = labelArc.centroid({...d, startAngle: d.startAngle - Math.PI/20, endAngle: d.endAngle - Math.PI/20});
+      console.log(d, labelArc.centroid(d))
+       return `translate(${x + width*.45}, ${y + height/1.97})` //"translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
+  })
+  //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
+  .text(d => d.data.number_ID)
+  .attr("fill", "white")
+  .attr("z-index", 12)
+  .show();
 
 
       draw(); // calls the draw function

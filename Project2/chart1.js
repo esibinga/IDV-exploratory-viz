@@ -103,11 +103,11 @@ const pie = d3.pie()
   .value(function(d) { return d.angle_value});
   (state.svgdata);
 
-var labelArc = d3.arc() // set the center (x,y) coordinates of this in order to center numbers?
+var labelArc = d3.arc() 
 	.outerRadius(32*r)
-  .innerRadius(30*r); /*
-  .startAngle(-0.314159)
-  .endAngle(1); */
+  .innerRadius(29*r);
+
+console.log("la", labelArc)
 
 var data_ready = pie(state.svgdata);
 //console.log("pie", pie); //this is just the function
@@ -375,44 +375,21 @@ const spider6 = circles
   ;
 
   //label arc
-  // const spider4text = circles
-  // .select('svg')
-  // .data(data_ready)
-  // .enter()
-  // .append("text")
-  // .attr("transform", function(d) 
-  //    { return "translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
-  // })
-  // //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
-  // .text(d => d.data.number_ID)
-  // .attr("fill", "lightBlue")
-  // .attr("z-index", 12)
-  // .show();
-
-  // const spider4text2 = spider4text
-  //   .selectAll('text')
-  //   .attr("transform", `translate(500,100)`);
-
-
-/*
-    .attr('text-anchor', 'middle')
-    .attr("x", function(d) {
-      var a = d.startAngle + (d.endAngle - d.startAngle)/2; // - Math.PI/2;
-      d.cx = Math.cos(a) * (25*r - 45);
-      return d.x = Math.cos(a) * (25*r+30);
-    })
-    .attr("y", function(d) {
-      var a = d.startAngle + (d.endAngle - d.startAngle)/2; // - Math.PI/2;
-      d.cy = Math.sin(a) * (25*r - 45);
-      return d.y = Math.sin(a) * (25*r + 30);
-    })
-    //.attr("x", 100)
-    //.attr("y", 100)
-    .text(d => d.data.number_ID)
-    .attr('stroke', 'white')
-    .attr('fill', 'white'); 
-    */
-
+  const spider4text = circles
+  .select('svg')
+  .data(data_ready)
+  .enter()
+  .append("text")
+  .attr("transform", function(d) 
+     { const [x,y] = labelArc.centroid({...d, startAngle: d.startAngle - Math.PI/20, endAngle: d.endAngle - Math.PI/20});
+      console.log(d, labelArc.centroid(d))
+       return `translate(${x + width*.45}, ${y + height/1.97})` //"translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
+  })
+  //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
+  .text(d => d.data.number_ID)
+  .attr("fill", "white")
+  .attr("z-index", 12)
+  .show();
 
 svgContainer.on("mousemove", () => {
   const [mx, my] = d3.mouse(svgContainer.node());

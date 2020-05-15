@@ -2,12 +2,15 @@ body {
     /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
     font-family: "Source Sans Pro", sans-serif;
     padding: 1em 3em;
+    background: rgb(117, 122, 124);
   }
   
+
   .tooltip {
     display: block;
     position: fixed;
     height: fit-content;
+    width: fit-content + 10%;
     background-color: white;
     opacity: 0.8;
     pointer-events: stroke;
@@ -15,5 +18,15 @@ body {
   }
   
   path.state {
-    stroke: black;
+    stroke: black; 
   }
+
+
+.side-tooltip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: red;
+  border-radius: 2px;
+}
