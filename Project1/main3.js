@@ -3,11 +3,6 @@
 /**
  * CONSTANTS AND GLOBALS
  * */
-const width = window.innerWidth * .9,
-  height = window.innerHeight * .9,
-  margin = { top: 20, bottom: 20, left: 60, right: 40 };
-  default_selection = "All";
-
 let svg;
 let tooltip;
 let leaf;
@@ -16,6 +11,13 @@ let tree;
 let container;
 let root;
 let stratify;
+let slider;
+let slider_width;
+
+const width = window.innerWidth * .9,
+  height = window.innerHeight * .9,
+  margin = { top: 20, bottom: 20, left: 60, right: 40 };
+  default_selection = "All";
 
 /**
  * APPLICATION STATE
@@ -24,7 +26,8 @@ let state = {
   directData: [],
   hover: null,
   mousePosition: null,
-  selection: null
+  selection: null,
+  slider: 0.9
 };
 
 /**
@@ -94,7 +97,7 @@ tree(root);
 const links = svg
     .attr("fill", "none")
     .attr("stroke", "white")
-    .attr("stroke-opacity", 0.5)
+    .attr("stroke-opacity", 0.3)
     .attr("stroke-width", 1.5)
     .selectAll("path")
     .data(root.links())
@@ -186,14 +189,28 @@ leaf
       });
 
   draw(); // calls the draw function
-}
 
-
+    }
 /**
  * DRAW FUNCTION
  * we call this everytime there is an update to the data/state
  * */
 function draw() {
+
+//slider
+  d3.select("input[type=range]#myRange").on ("input", function() {
+    //var slider_width;
+    slider_width = this.value
+    console.log("slider_width", this.value)
+    d3.select("output#myRange")
+      .text(d3.format(".2f")(slider_width));
+      //return slider_width;
+      d3.selectAll("svg")
+      .attr("width", window.innerWidth*slider_width)
+    });
+console.log("slider width after function", slider_width)
+
+// tooltip & hover data
   if (state.hover) {
     tooltip
       .html(
@@ -207,28 +224,30 @@ function draw() {
       .duration(500);
   }
 
-var stratify = d3.stratify()
-  .id(function(d) { return d.INDI_ID; })
-  .parentId(function(d) { return d.BiddleParent_ID; });
-  (state.directData);
+//re-do stratify and tree data to access it in draw()
+  var stratify = d3.stratify()
+      .id(function(d) { return d.INDI_ID; })
+      .parentId(function(d) { return d.BiddleParent_ID; });
+      (state.directData);
 
-var root = stratify(state.directData); // this applies the stratify function to the data
-console.log("desc", root.descendants());
+    var root = stratify(state.directData); // this applies the stratify function to the data
+    console.log("desc", root.descendants());
 
 const tree = d3
-  .tree()
-  .size([width, height]);
+    .tree()
+    .size([window.innerWidth*slider_width, height]);
+    console.log("slider width here", slider_width)
+
 tree(root);
 
-
+// make filtered dataset on selection
 let filteredData = root.descendants();  //****this was the big step!! not state.direct data, but already stratified data//state.directData;
   if (state.selection !== "All") {
     filteredData = root.descendants().filter(d => d.data.last === state.selection || d.data.spouse_last === state.selection); //add OR d.data.spouse_last
   }
-
 console.log("fd", filteredData)
 
-//update direct descendants
+//update direct descendant nodes
 const leaf1 = svg
   .selectAll(".direct") //can i do selectAll("g") who match filtered data AND then later selectAll (children of these nodes)?
   .data(filteredData, d => d.id)
@@ -251,11 +270,12 @@ const leaf1 = svg
         update
           .transition()
           .duration(1000)
+          .attr("opacity", 1.0)
           .attr("r", function(d) {
-            if (d.data.last !== state.selection) return 3;
+            if (d.data.last !== state.selection) return 6;
             else return 5
           })
-          .attr("stroke", "black")
+          .attr("stroke", "white")
           .attr("stroke-width", function(d) {
             if (d.data.last !== state.selection) return 1;
             else return 3
@@ -264,8 +284,6 @@ const leaf1 = svg
     exit =>
     exit.call(exit =>
       exit
-      //  selection =>
-      //   selection
         .transition()
         .delay(500)
         .duration(500)
@@ -277,7 +295,7 @@ const leaf1 = svg
       ));
   console.log("leaf1", leaf1);
 
-
+//update spouse nodes
 const spouse1 = svg
   .selectAll(".spouse") //can i do selectAll("g") who match filtered data AND then later selectAll (children of these nodes)?
   .data(filteredData, d => d.id)
@@ -301,9 +319,9 @@ const spouse1 = svg
           .transition()
           .duration(1000)
           .attr("r", 5)
-          //.attr("z-index", 10)
+          .attr("opacity", 1.0)
           .attr("stroke", function(d) {
-            if (d.data.fill_spouse === "1") return "black";
+            if (d.data.fill_spouse === "1") return "white";
             else return "transparent"
           })
           .attr("stroke-width", function(d) {
@@ -315,15 +333,14 @@ const spouse1 = svg
               else return "transparent"
             })
           .attr("r", function(d) {
-            if (d.data.spouse_last === state.selection) return 5;
+            if (d.data.spouse_last === state.selection) return 6;
             else return 3
           })  
   ),
     exit =>
     exit.call(exit =>
       exit
-      //  selection =>
-      //   selection
+
         .transition()
         .delay(500)
         .duration(500)
@@ -340,6 +357,16 @@ const spouse1 = svg
         })
       ));
 }
+
+
+
+
+
+
+
+
+
+
 
  /*
 leaf1
@@ -582,3 +609,19 @@ leaf1
 //     .width(500)
 //     .default(window.innerWidth*1.2);
 //     //.on('onchange', "soemthing")
+
+
+//update width with slider values
+// let sliderWidth = state.slider;
+//   if (state.slider !== null) {
+
+// }
+// var slider = document.getElementById("myRange");
+// var output = document.getElementById("demo");
+// output.innerHTML = slider.value;
+// console.log("slider value", slider.value);
+// console.log("slider ", slider);
+// console.log("output ", output);
+// slider.oninput = function() {
+//   output.innerHTML = this.value;
+// }
