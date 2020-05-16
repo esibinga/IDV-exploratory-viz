@@ -1,8 +1,9 @@
 body {
     /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Monaco", sans-serif;
     padding: 1em 3em;
     background: rgb(117, 122, 124);
+    color: white;
   }
   
 
@@ -10,15 +11,17 @@ body {
     display: block;
     position: fixed;
     height: fit-content;
-    width: fit-content + 10%;
-    background-color: white;
-    opacity: 0.8;
+    width: fit-content;
+    color:white;
+    stroke-opacity: 1.0;
+    background-color: rgb(117, 122, 124);
+    opacity: 0.6;
     pointer-events: stroke;
     padding: 5px;
   }
   
   path.state {
-    stroke: black; 
+    stroke: white; 
   }
 
 
