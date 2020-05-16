@@ -5,14 +5,16 @@
     <link rel="stylesheet" href="../Project1/style.css">
   </head>
   <body>
-      <header>
-          <h1>Biddle Family Tree</h1>
-          <h2>Exploratory visualization</h2>
-        </header>
-    <label for="dropdown">Select a Name:</label>
-    <select id="dropdown" name="dropdown"></select>
+      <header class="section" id="one">
+          <h1 class ="left">Biddle Family Tree</h1>
+          <label class ="label" for="dropdown">Select a Name:</label>
+          <h2 class ="left">Exploratory visualization</h2>
+        
 
-    <input type="range" name="slider">
+      <select class="dropdown" id="dropdown" name="dropdown"></select>
+      <input class="slider" type="range" id="slider" >
+    </header>
+    
     <!-- all we need is an element to select -->
     <div id="d3-container"> </div>
     <script src="../lib/d3.js"></script>

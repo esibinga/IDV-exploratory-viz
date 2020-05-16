@@ -2,10 +2,43 @@ body {
     /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
     font-family: "Monaco", sans-serif;
     padding: 1em 3em;
-    background: rgb(117, 122, 124);
+    background: rgb(34,33,29);
     color: white;
   }
   
+  .section#one {
+    display: grid;
+    text-align: left;
+    vertical-align: middle;
+    grid-column-gap: 10px;
+    grid-template-columns: 80% 20%;    /* divide the window into these horizontal percentages */
+  }
+  .section#one > .left {
+    grid-column: 1 / 1;
+  }
+   .section#one > .dropdown {
+    display: inline-block;
+    font-family: "Monaco";
+    position: relative;
+    grid-column: 2 / 2; 
+    height: 12px;     /* start and end this column in position 1 of 1 */
+  }
+  .section#one > .label {
+    text-align: left;
+    vertical-align: middle;
+    font-family: "Monaco";
+    padding-top: 25%;
+    grid-column: 2 / 2; 
+    height: 12px;     /* start and end this column in position 1 of 1 */
+  }
+  .section#one > .slider {
+    text-align: left;
+    vertical-align: middle;
+    font-family: "Monaco";
+    padding-top: 0%;
+    grid-column: 2 / 2; 
+    height: 12px;     /* start and end this column in position 1 of 1 */
+  }
 
   .tooltip {
     display: block;
@@ -14,12 +47,15 @@ body {
     width: fit-content;
     color:white;
     stroke-opacity: 1.0;
-    background-color: rgb(117, 122, 124);
-    opacity: 0.6;
+    background-color: rgb(34, 33, 29);
+    opacity: 0.8;
     pointer-events: stroke;
     padding: 5px;
   }
   
+  .dropdown {
+    font-family: "Monaco";
+  }
   path.state {
     stroke: white; 
   }

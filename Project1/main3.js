@@ -3,7 +3,7 @@
 /**
  * CONSTANTS AND GLOBALS
  * */
-const width = window.innerWidth * 1.8,
+const width = window.innerWidth * .9,
   height = window.innerHeight * .9,
   margin = { top: 20, bottom: 20, left: 60, right: 40 };
   default_selection = "All";
@@ -14,6 +14,8 @@ let leaf;
 let familyFilter;
 let tree;
 let container;
+let root;
+let stratify;
 
 /**
  * APPLICATION STATE
@@ -22,7 +24,7 @@ let state = {
   directData: [],
   hover: null,
   mousePosition: null,
-  selection: "All"
+  selection: null
 };
 
 /**
@@ -71,7 +73,7 @@ svg = container
     .append("svg")
     .attr("width", width*1.03)
     .attr("height", height*1.1)
-    .attr("position", "absolute");
+    .attr("position", "relative");
 
 // write stratify function
 var stratify = d3.stratify()
@@ -153,14 +155,22 @@ leaf
           DOD: d.data.spouse_DOD,
         };
         d3.select(this)
-            .attr("fill", "orange")
+            .attr("fill", d => {
+              if (d.data.fill_spouse === "1") return "orange";
+              else if (d.data.fill_spouse === "0" ) return "clear";
+              else return "red";
+            })    
             .attr("r", 5);
          draw();
       })
     .on("mouseout", function(d) {
         d3.select(this)
         .attr("r", 3)
-        .attr("fill", "yellow")
+        .attr("fill", d => {
+          if (d.data.fill_spouse === "1") return "yellow";
+          else if (d.data.fill_spouse === "0" ) return "clear";
+          else return "red";
+        })    
         .attr("opacity", 1);
         draw();
       }) 
@@ -197,98 +207,139 @@ function draw() {
       .duration(500);
   }
 
-//re-draw whole map but use filter data to color the dots
-let filteredData = state.directData;
+var stratify = d3.stratify()
+  .id(function(d) { return d.INDI_ID; })
+  .parentId(function(d) { return d.BiddleParent_ID; });
+  (state.directData);
+
+var root = stratify(state.directData); // this applies the stratify function to the data
+console.log("desc", root.descendants());
+
+const tree = d3
+  .tree()
+  .size([width, height]);
+tree(root);
+
+
+let filteredData = root.descendants();  //****this was the big step!! not state.direct data, but already stratified data//state.directData;
   if (state.selection !== "All") {
-    filteredData = state.directData.filter(d => d.last === state.selection);
+    filteredData = root.descendants().filter(d => d.data.last === state.selection || d.data.spouse_last === state.selection); //add OR d.data.spouse_last
   }
 
 console.log("fd", filteredData)
 
-var stratify = d3.stratify()
-    .id(function(d) { return d.INDI_ID; })
-    .parentId(function(d) { return d.BiddleParent_ID; });
-    (state.directData);
-
-var root = stratify(state.directData); // this applies the stratify function to the data
-//console.log("desc", root.descendants.children);
-
-const tree = d3
-    .tree()
-    .size([width, height]);
-
-tree(root);
-
-// const leaf = svg
-//     .selectAll("g")
-//     .data(root.descendants())
-//     .join("g")
-//     .attr("transform", d => `translate(${d.x-2},${d.y + 5})`);
-//     //console.log("root.descendants", root.descendants());
-
-
+//update direct descendants
 const leaf1 = svg
-  .selectAll("g") //can i do selectAll("g") who match filtered data AND then later selectAll (children of these nodes)?
-  .data(filteredData, d => d.INDI_ID)
+  .selectAll(".direct") //can i do selectAll("g") who match filtered data AND then later selectAll (children of these nodes)?
+  .data(filteredData, d => d.id)
   .join(
     enter =>
-  // .enter()
-    enter.append("circle")
-    //.text(d => d.INDI_ID)
-    .data(root.descendants())
-    .attr("transform", d => `translate(${d.x-2},${d.y + 5})`)
+    enter
+    .append("circle")
+    .attr("transform", d => `translate(${d.x},${d.y + 5})`)
     .attr("class", "direct")
-    .attr("fill", "transparent")
-    .attr("r", 4)
-    .attr("stroke", "black")
-    .on("mouseover", function(d) {
-      state.hover = {
-        first: d.data.first,
-        last: d.data.last,
-        DOB: d.data.DOB,
-        DOD: d.data.DOD,
-      };
-      d3.select(this)
-          .attr("fill", "blue")
-          .attr("r", 5);
-      draw();
-    }) 
-    .on("mouseout", function(d) {
-    d3.select(this)
-    .attr("r", 3)
-    .attr("fill", "steelblue")
-    .attr("opacity", 1);
-    draw();
-    })
-      .call( enter => 
-        enter
-          .transition()
-          .duration(500)
-          ),
+    .attr("opacity", 1.0)
+    .call(enter => 
+      enter
+        .transition()
+        //.duration(1000)
+        .attr("opacity", 1.0)
+        ),
     update =>
     update
-            .call(update =>
-            update
-                .transition()
-                .duration(500)
-                .transition()
-                .duration(1000)
-                .attr("stroke", "red")
-                .attr("fill", "red")
-        ),
+      .call(update =>
+        update
+          .transition()
+          .duration(1000)
+          .attr("r", function(d) {
+            if (d.data.last !== state.selection) return 3;
+            else return 5
+          })
+          .attr("stroke", "black")
+          .attr("stroke-width", function(d) {
+            if (d.data.last !== state.selection) return 1;
+            else return 3
+          })
+  ),
     exit =>
-    exit) //.remove())
-
-
-    .call(
-      selection =>
-      selection
+    exit.call(exit =>
+      exit
+      //  selection =>
+      //   selection
         .transition()
+        .delay(500)
         .duration(500)
-    );
+        .attr("opacity", 0.75)
+        .attr("stroke", "white")
+        .attr("stroke-width", 1)
+        .attr("fill", "steelblue")
+        .attr("r", 3)
+      ));
   console.log("leaf1", leaf1);
-    //.call(selection)
 
+
+const spouse1 = svg
+  .selectAll(".spouse") //can i do selectAll("g") who match filtered data AND then later selectAll (children of these nodes)?
+  .data(filteredData, d => d.id)
+  .join(
+    enter =>
+    enter
+    .append("circle")
+    .attr("transform", d => `translate(${d.x},${d.y + 5})`)
+    .attr("class", "spouse")
+    .attr("opacity", 1.0)
+    .call(enter => 
+      enter
+        .transition()
+        .duration(1000)
+        .attr("opacity", 1.0)
+        ),
+    update =>
+    update
+      .call(update =>
+        update
+          .transition()
+          .duration(1000)
+          .attr("r", 5)
+          //.attr("z-index", 10)
+          .attr("stroke", function(d) {
+            if (d.data.fill_spouse === "1") return "black";
+            else return "transparent"
+          })
+          .attr("stroke-width", function(d) {
+            if (d.data.spouse_last === state.selection) return 5;
+            else return 1
+          })
+          .attr("fill", function(d) {
+              if (d.data.fill_spouse === "1") return "yellow";
+              else return "transparent"
+            })
+          .attr("r", function(d) {
+            if (d.data.spouse_last === state.selection) return 5;
+            else return 3
+          })  
+  ),
+    exit =>
+    exit.call(exit =>
+      exit
+      //  selection =>
+      //   selection
+        .transition()
+        .delay(500)
+        .duration(500)
+        .attr("opacity", 0.75)
+        .attr("stroke", function(d) {
+          if (d.data.fill_spouse === "1") return "white";
+          else return "transparent"
+        })  
+        .attr("stroke-width", 1)
+        .attr("r", 3)
+        .attr("fill", function(d) {
+          if (d.data.fill_spouse === "1") return "yellow";
+          else return "transparent"
+        })
+      ));
+}
 
  /*
 leaf1
@@ -363,7 +414,45 @@ leaf1
   // "Herrin", "Hetzel", "Hilker", "Holt", "", "", "", "", "",
   // "", "", "", "Perez", "Rubenstein", "", "Sibinga", "Sinclair",
   // "Smith", "Titcomb", "Weber", "Yarnall"
-
+          //d => {
+          //   if (d.data.last === "Adamy") return "gray";
+          //   else if (d.last === "Biddle") return "red";
+          //   else if (d.data.last === "Bradbeer") return "gray";
+          //   else if (d.data.last === "Buck") return "gray";
+          //   else if (d.data.last === "Carr") return "gray";
+          //   else if (d.data.last === "Castanos") return "gray";
+          //   else if (d.data.last === "Cipparrone") return "gray";
+          //   else if (d.data.last === "Cook") return "gray";
+          //   else if (d.data.last === "DeCandia") return "gray";
+          //   else if (d.data.last === "Favret") return "gray";
+          //   else if (d.data.last === "Gennusa") return "gray";
+          //   else if (d.data.last === "Gosselink") return "gray";
+          //   else if (d.data.last === "Graham") return "gray";
+          //   else if (d.data.last === "Griesser") return "gray";
+          //   else if (d.data.last === "Heavenrich") return "gray";
+          //   else if (d.data.last === "Herrin") return "gray";
+          //   else if (d.data.last === "Hetzel") return "gray";
+          //   else if (d.data.last === "Hilker") return "gray";
+          //   else if (d.data.last === "Holt") return "gray";
+          //   else if (d.data.last === "James") return "gray";
+          //   else if (d.data.last === "Johannes") return "gray";
+          //   else if (d.data.last === "Ma") return "gray";
+          //   else if (d.data.last === "Mannka") return "gray";
+          //   else if (d.data.last === "McCarthy") return "gray";
+          //   else if (d.data.last === "McDonald") return "gray";
+          //   else if (d.data.last === "Partridge") return "gray";
+          //   else if (d.data.last === "Penfield") return "gray";
+          //   else if (d.data.last === "Perez") return "gray";
+          //   else if (d.data.last === "Rubenstein") return "gray";
+          //   else if (d.data.last === "Sanders") return "gray";
+          //   else if (d.data.last === "Sibinga") return "green";
+          //   else if (d.data.last === "Sinclair") return "gray";
+          //   else if (d.data.last === "Smith") return "gray";   
+          //   else if (d.data.last === "Titcomb") return "gray";
+          //   else if (d.data.last === "Weber") return "gray";
+          //   else if (d.data.last === "Yarnall") return "white";
+          //   else return "black";
+          // }) 
 
 // const node = state.directData.INDI_ID;
 
@@ -448,7 +537,6 @@ leaf1
 //           .duration(1000) 
 //       );
 
-}
 
 
 // const links = svg
