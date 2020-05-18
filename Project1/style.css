@@ -116,7 +116,7 @@ body {
     width: fit-content;
     color:white;
     stroke-opacity: 1.0;
-    background-color: transparent; /*rgb(34, 33, 29);*/
+    background-color: *rgb(34, 33, 29);
     opacity: 0.8;
     pointer-events: stroke;
     padding: 5px;
