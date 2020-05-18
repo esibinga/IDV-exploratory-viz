@@ -5,19 +5,14 @@
  * */
 let svg;
 let tooltip;
-let leaf;
-let familyFilter;
-let tree;
-let container;
-let root;
-let stratify;
-let slider;
-let slider_width;
 
 const width = window.innerWidth * .9,
   height = window.innerHeight * .9,
-  margin = { top: 20, bottom: 20, left: 60, right: 40 };
-  default_selection = "All";
+  margin = { top: 20, bottom: 20, left: 20, right: 40 },
+  default_selection = "All",
+  radius = 4,
+  hover_radius = 7;
+  
 
 /**
  * APPLICATION STATE
@@ -27,7 +22,6 @@ let state = {
   hover: null,
   mousePosition: null,
   selection: null,
-  slider: 0.9
 };
 
 /**
@@ -75,8 +69,10 @@ tooltip = container
 svg = container
     .append("svg")
     .attr("width", width*1.03)
-    .attr("height", height*1.1)
-    .attr("position", "relative");
+    .attr("height", height*1.0)
+    .attr("position", "relative")
+    .attr("viewBox", [0,0, width, height])
+    .attr("preserveAspectRatio", "none");
 
 // write stratify function
 var stratify = d3.stratify()
@@ -89,7 +85,7 @@ var root = stratify(state.directData); // this applies the stratify function to 
 
 const tree = d3
     .tree()
-    .size([width, height]);
+    .size([width, height*.98]);
 
 tree(root);
 
@@ -97,8 +93,8 @@ tree(root);
 const links = svg
     .attr("fill", "none")
     .attr("stroke", "white")
-    .attr("stroke-opacity", 0.3)
-    .attr("stroke-width", 1.5)
+    .attr("stroke-opacity", 0.5)
+    .attr("stroke-width", 1)
     .selectAll("path")
     .data(root.links())
     .join("path")
@@ -120,7 +116,7 @@ leaf
     .append("circle")
     .attr("class", "direct")
     .attr("fill", "steelblue")
-    .attr("r", 3) 
+    .attr("r", radius) 
     .attr("opacity", 1) 
     .on("mouseover", function(d) {
         state.hover = {
@@ -131,12 +127,12 @@ leaf
         };
         d3.select(this)
             .attr("fill", "blue")
-            .attr("r", 5);
+            .attr("r", hover_radius);
          draw();
       }) 
     .on("mouseout", function(d) {
         d3.select(this)
-        .attr("r", 3)
+        .attr("r", radius)
         .attr("fill", "steelblue")
         .attr("opacity", 1);
         draw();
@@ -147,7 +143,7 @@ leaf
 leaf
     .append("circle")
     .attr("class", "spouse")
-    .attr("r", 3) 
+    .attr("r", radius) 
     .attr("opacity", 1)
     .attr("transform", `translate(5,0)`) 
     .on("mouseover", function(d) {
@@ -163,12 +159,12 @@ leaf
               else if (d.data.fill_spouse === "0" ) return "clear";
               else return "red";
             })    
-            .attr("r", 5);
+            .attr("r", hover_radius);
          draw();
       })
     .on("mouseout", function(d) {
         d3.select(this)
-        .attr("r", 3)
+        .attr("r", radius)
         .attr("fill", d => {
           if (d.data.fill_spouse === "1") return "yellow";
           else if (d.data.fill_spouse === "0" ) return "clear";
@@ -198,28 +194,23 @@ leaf
 function draw() {
 
 //slider
-  d3.select("input[type=range]#myRange").on ("input", function() {
-    //var slider_width;
+d3.select("input[type=range]#myRange").on ("input", function() {
     slider_width = this.value
-    console.log("slider_width", this.value)
+    //console.log("state.slider_width", this.value)
     d3.select("output#myRange")
-      .text(d3.format(".2f")(slider_width));
-      //return slider_width;
-      d3.selectAll("svg")
-      .attr("width", window.innerWidth*slider_width)
+    d3.selectAll("svg")
+     .attr("width", window.innerWidth*slider_width)
+     .attr("height", window.innerHeight*slider_width*.9)
     });
-console.log("slider width after function", slider_width)
 
 // tooltip & hover data
   if (state.hover) {
     tooltip
-      .html(
-        `
+      .html(`
         <div>Name: ${state.hover.first} ${state.hover.last}</div>
         <div>Date of Birth: ${state.hover.DOB}</div> 
         <div>Date of Death: ${state.hover.DOD}</div>
-      `
-      )
+      `)
       .transition()
       .duration(500);
   }
@@ -231,13 +222,12 @@ console.log("slider width after function", slider_width)
       (state.directData);
 
     var root = stratify(state.directData); // this applies the stratify function to the data
-    console.log("desc", root.descendants());
+   // console.log("desc", root.descendants());
 
 const tree = d3
     .tree()
-    .size([window.innerWidth*slider_width, height]);
-    console.log("slider width here", slider_width)
-
+    .size([window.innerWidth*width, height]);
+   
 tree(root);
 
 // make filtered dataset on selection
@@ -272,8 +262,8 @@ const leaf1 = svg
           .duration(1000)
           .attr("opacity", 1.0)
           .attr("r", function(d) {
-            if (d.data.last !== state.selection) return 6;
-            else return 5
+            if (d.data.last !== state.selection) return radius;
+            else return hover_radius
           })
           .attr("stroke", "white")
           .attr("stroke-width", function(d) {
@@ -291,7 +281,7 @@ const leaf1 = svg
         .attr("stroke", "white")
         .attr("stroke-width", 1)
         .attr("fill", "steelblue")
-        .attr("r", 3)
+        .attr("r", radius)
       ));
   console.log("leaf1", leaf1);
 
@@ -318,7 +308,7 @@ const spouse1 = svg
         update
           .transition()
           .duration(1000)
-          .attr("r", 5)
+          .attr("r", hover_radius)
           .attr("opacity", 1.0)
           .attr("stroke", function(d) {
             if (d.data.fill_spouse === "1") return "white";
@@ -333,8 +323,8 @@ const spouse1 = svg
               else return "transparent"
             })
           .attr("r", function(d) {
-            if (d.data.spouse_last === state.selection) return 6;
-            else return 3
+            if (d.data.spouse_last === state.selection) return hover_radius;
+            else return radius
           })  
   ),
     exit =>
@@ -350,7 +340,7 @@ const spouse1 = svg
           else return "transparent"
         })  
         .attr("stroke-width", 1)
-        .attr("r", 3)
+        .attr("r", radius)
         .attr("fill", function(d) {
           if (d.data.fill_spouse === "1") return "yellow";
           else return "transparent"

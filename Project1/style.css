@@ -1,7 +1,7 @@
 body {
     /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
     font-family: "Monaco", sans-serif;
-    padding: 1em 3em;
+    padding: 1em 2em;
     background: rgb(34,33,29);
     color: white;
   }
@@ -15,20 +15,30 @@ body {
   }
   .section#one > .left {
     grid-column: 1 / 1;
+    grid-row: 1/1;
+
+  }
+
+  .section#one > .left2 {
+    grid-column: 1 / 1;
+    grid-row: 2/4;
+
   }
    .section#one > .dropdown {
     display: inline-block;
     font-family: "Monaco";
     position: relative;
     grid-column: 2 / 2; 
+    grid-row: 2 / 3;
     height: 12px;     /* start and end this column in position 1 of 1 */
   }
   .section#one > .label {
     text-align: left;
     vertical-align: middle;
     font-family: "Monaco";
-    padding-top: 25%;
+    padding-top: 10%;
     grid-column: 2 / 2; 
+    grid-row: 1 / 3;
     height: 12px;     /* start and end this column in position 1 of 1 */
   }
   .section#one > .slider {
@@ -37,8 +47,67 @@ body {
     font-family: "Monaco";
     padding-top: 0%;
     grid-column: 2 / 2; 
+    grid-row: 2.5 / 3;
     height: 12px;     /* start and end this column in position 1 of 1 */
   }
+
+  /* custom slider -- code modified from https://www.w3schools.com/howto/howto_js_rangeslider.asp */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: none; /* #777; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.6; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+.slider:hover::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 50%;
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /*radius: 5px;  /* Slider handle height */
+  margin-top: -7px; 
+  background: orange; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 50%;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /*radius: 5px;  /* Slider handle height */
+  margin-top: -5px; 
+  background: orange; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-webkit-slider-runnable-track {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 30%;
+  border: 10px;
+  width: 10px; /* Set a specific slider handle width */
+  height: 5px; /* Slider handle height */
+  background: white; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: orange; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
 
   .tooltip {
     display: block;
@@ -47,7 +116,7 @@ body {
     width: fit-content;
     color:white;
     stroke-opacity: 1.0;
-    background-color: rgb(34, 33, 29);
+    background-color: transparent; /*rgb(34, 33, 29);*/
     opacity: 0.8;
     pointer-events: stroke;
     padding: 5px;
@@ -59,13 +128,3 @@ body {
   path.state {
     stroke: white; 
   }
-
-
-.side-tooltip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: red;
-  border-radius: 2px;
-}
