@@ -85,7 +85,7 @@ var root = stratify(state.directData); // this applies the stratify function to 
 
 const tree = d3
     .tree()
-    .size([width, height*.98]);
+    .size([width, height*.97]);
 
 tree(root);
 
@@ -100,14 +100,20 @@ const links = svg
     .join("path")
     .attr("d", d3.linkVertical()
           .x(d => d.x)
-          .y(d => d.y + 5));
+          .y(d => d.y + 9));
 
 //add direct descendants
 const leaf = svg
     .selectAll("g")
     .data(root.descendants())
     .join("g")
-    .attr("transform", d => `translate(${d.x-2},${d.y + 5})`);
+    .attr("transform", //d => `translate(${d.x-2},${d.y + 9})`);
+
+    d => {
+      if (d.data.fill_spouse === "1") return `translate(${d.x-2},${d.y + 12})`;
+      else if (d.data.fill_spouse === "0" ) return `translate(${d.x},${d.y + 12})`;
+      else return "red";
+    }) 
     //console.log("root.descendants", root.descendants());
 
     
@@ -200,7 +206,7 @@ d3.select("input[type=range]#myRange").on ("input", function() {
     d3.select("output#myRange")
     d3.selectAll("svg")
      .attr("width", window.innerWidth*slider_width)
-     .attr("height", window.innerHeight*slider_width*.9)
+     .attr("height", window.innerHeight*slider_width)
     });
 
 // tooltip & hover data
