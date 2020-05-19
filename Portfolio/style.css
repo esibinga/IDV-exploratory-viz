@@ -1,0 +1,71 @@
+body {
+    /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
+    font-family: "Monaco", sans-serif;
+    padding: 1em 3em;
+    background: #ddd;
+  }
+
+h1.header {
+    text-align: center;
+    font-weight: 900;
+    background: #eeeeee;
+    padding: 2%;
+}
+  
+div.project-titles {
+      display: grid;
+      text-align: center;
+      grid-column-gap: 10px;
+      grid-template-columns: 50% 50%;    /* divide the window into these horizontal percentages */
+    }
+    .left {
+      grid-column: 1 / 1;
+      grid-row: 1 / 1;
+    }
+    .right {
+      grid-column: 2 / 2;
+      grid-row: 1 / 1;
+    }
+
+div.projects {
+        display: grid;
+        text-align: center;
+        grid-column-gap: 10px;
+        grid-template-columns: 50% 50%;    /* divide the window into these horizontal percentages */
+      }
+
+      #responsive-image {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+      }
+
+      #description{
+        /* background: #eeeeee; */ 
+        padding: 1%;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5%;
+        font-size: 13px;
+      }
+
+      .left {
+        text-align: center;
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;}
+   
+      .right {
+        text-align: center;
+        align-content: center;
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+      }
+
+div.reflection {
+    background: #eeeeee;
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 40%;
+}
+

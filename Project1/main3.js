@@ -9,7 +9,7 @@ let tooltip;
 const width = window.innerWidth * .9,
   height = window.innerHeight * .9,
   margin = { top: 20, bottom: 20, left: 20, right: 40 },
-  default_selection = "All",
+  default_selection = "None Selected",
   radius = 4,
   hover_radius = 7;
   
@@ -238,7 +238,7 @@ tree(root);
 
 // make filtered dataset on selection
 let filteredData = root.descendants();  //****this was the big step!! not state.direct data, but already stratified data//state.directData;
-  if (state.selection !== "All") {
+  if (state.selection !== "None Selected") {
     filteredData = root.descendants().filter(d => d.data.last === state.selection || d.data.spouse_last === state.selection); //add OR d.data.spouse_last
   }
 console.log("fd", filteredData)
