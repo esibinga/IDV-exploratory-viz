@@ -7,10 +7,12 @@ export function chart4() {
  * */
 const width = window.innerWidth * 0.8,
     height = window.innerHeight * 0.9,
-    margin = { top: 20, bottom: 20, left: 60, right: 40 };
+    margin = { top: 20, bottom: 20, left: 60, right: 40 },
+    default_selection = "Choose a score to check out from:";
 
 
 let svg;
+let svgdata;
 let bullseyeTooltip;
 let circleData; //why did I have to define this here when I exported the chart as a module, but not before?
 
@@ -18,12 +20,15 @@ let circleData; //why did I have to define this here when I exported the chart a
  * APPLICATION STATE
  * */
 let state = {
-    hover: {
-        mx: null,
-        my: null,
-        points: null,
-    },
-    mousePosition: null
+    // hover: {
+    //     x: null,
+    //     y: null,
+    //     z: null,
+    // },
+    checkoutdata: [],
+    selectedScore: null,
+    mousePosition: null,
+    valueList: []
 };
 
 /**
@@ -71,28 +76,26 @@ const svgContainer = d3.select("#d3-container-4.graph")
     .attr("height", height * 1.1);
 
 const selectElement = d3.select("#dropdown").on("change", function() {
-    console.log("new selection is", this.value);
-    state.selection = this.value
-    console.log("new value is", this.value);
+    console.log("new selectedScore is", this.value);
+    state.selectedScore = this.value
+    //console.log("new value is", this.value);
     draw(); // re-draw the graph based on this new selection
     });
 
 selectElement
     .selectAll("option")
-    .data([ "170", "167", "164", "161", "160", "158", "157", "156", "155", "154", "153", "152", "151", "150", "149", "148", "147", "146", "145", "144", "143", "142", "141", "140", "139", "138", "137", "136", "135", "134", "133", "132", "131", "130", "129", "128", "127", "126", "125", "124", "123", "122", "121", "120", "119", "118", "117", "116", "115", "114", "113", "112", "111", "110", "109", "108", "107", "106", "105", "104", "103", "102", "101", "100", "99", "98", "97", "96", "95", "94", "93", "92", "91", "90", "89", "88", "87", "86", "85", "84", "83", "82", "81", "80", "79", "78", "77", "76", "75", "74", "73", "72", "71", "70", "69", "68", "67", "66", "65", "64", "63", "62", "61", "60", "59", "58", "57", "56", "55", "54", "53", "52", "51", "50", "49", "48", "47", "46", "45", "44", "43", "42", "41", "40"]) // + ADD UNIQUE VALUES
+    .data([default_selection, ...Array.from(new Set(state.checkoutdata.map(d => +d.scorenumber)))]) 
     .join("option")
     .attr("value", d => d)
     .text(d => d);
-    
+
+selectElement.property("value", default_selection);
 
 // dartboard specs: https://www.dartsnutz.net/forum/showthread.php?tid=20982 //
 const r = height / 80;
 circleData = [
     { "cx": width * .45, "cy": height / 2, "radius": 33 * r, "inner_radius": 27.75 * r, "value": "single" },  //this is actually just the background of the dartboard now
-    //{ "cx": width*.45, "cy": height/2, "radius": 26.75*r, "inner_radius": 18*r},
-    //{ "cx": width*.45, "cy": height/2, "radius": 17*r, "inner_radius": 3*r},
-    //{"cx": width*.45, "cy": height/2, "radius": r, "inner_radius": 0, "value": 50}
-]
+    ]
 
 const circles = svgContainer.selectAll("circle")
     .data(circleData)
@@ -126,7 +129,6 @@ var labelArc = d3.arc() // set the center (x,y) coordinates of this in order to 
     .innerRadius(30 * r); 
 
 var data_ready = pie(state.svgdata);
-//console.log("pie", pie); //this is just the function
 console.log("data_ready", data_ready);
 
 
@@ -136,6 +138,9 @@ const spider = circles
     .data(data_ready)
     .enter()
     .append('path')
+    .attr("class", "spider")
+    .attr("dataValue", function(d){return d.data.number_ID;})
+    .attr("id", function(d){return "a" + d.data.number_ID;})
     .attr("d", d3.arc()
         .innerRadius(3 * r)
         .outerRadius(17 * r)
@@ -149,26 +154,8 @@ const spider = circles
     .attr('transform', `translate(${width * .45}, ${height / 2}) rotate (-9)`)
     .attr('stroke', 'silver')
     .style('stroke-width', '1.5px')
-    // .on("mouseover", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', d => {
-    //             if (d.data.fill === "red") return "#535146"; //gray
-    //             else if (d.data.fill === "green") return "#ffffee"; // lighter off-white
-    //             else return "black";
-    //         })
-    //     draw();
-    // })
-    // .on("mouseout", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', d => {
-    //             if (d.data.fill === "red") return "#120809"; //black
-    //             else if (d.data.fill === "green") return "#feffc3"; // off-white
-    //             else return "black";
-    //         })
-    //     draw();
-    // })
     .on("click", function (d) {
-        console.log("bullseye tooltip", bullseyeTooltip)
+        //console.log("bullseye tooltip", bullseyeTooltip)
         bullseyeTooltip.text("not a valid checkout")
             .style("visibility", "visible"); 
     });
@@ -179,6 +166,9 @@ const spider2 = circles
     .data(data_ready)
     .enter()
     .append('path')
+    .attr("class", "spider")
+    .attr("dataValue", function(d){return d.data.number_ID;})
+    .attr("id", function(d){return "a" + d.data.number_ID;})
     .attr("d", d3.arc()
         .innerRadius(18 * r)
         .outerRadius(27.75 * r)
@@ -192,26 +182,8 @@ const spider2 = circles
     .attr('transform', `translate(${width * .45}, ${height / 2}) rotate (-9)`)
     .attr('stroke', 'silver')
     .style('stroke-width', '1.5px')
-    // .on("mouseover", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', d => {
-    //             if (d.data.fill === "red") return "#535146"; //gray
-    //             else if (d.data.fill === "green") return "#ffffee"; // lighter off-white
-    //             else return "black";
-    //         })
-    //     draw();
-    // })
-    // .on("mouseout", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', d => {
-    //             if (d.data.fill === "red") return "#120809"; //black
-    //             else if (d.data.fill === "green") return "#feffc3"; // off-white
-    //             else return "black";
-    //         })
-    //     draw();
-    // })
     .on("click", function (d) {
-        console.log("bullseye tooltip", bullseyeTooltip)
+        //console.log("bullseye tooltip", bullseyeTooltip)
         bullseyeTooltip.text("not a valid checkout")
             .style("visibility", "visible");
     });
@@ -222,6 +194,9 @@ const spider3 = circles
     .data(data_ready)
     .enter()
     .append('path')
+    .attr("class", "spider")
+    .attr("dataValue", function(d){return d.data.treble;})
+    .attr("id", function(d){return "a" + d.data.treble;})
     .attr("d", d3.arc()
         .innerRadius(17 * r)
         .outerRadius(18 * r)
@@ -235,24 +210,6 @@ const spider3 = circles
     .attr('transform', `translate(${width * .45}, ${height / 2}) rotate (-9)`)
     .attr('stroke', 'silver')
     .style('stroke-width', '1.5px')
-    // .on("mouseover", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', d => {
-    //             if (d.data.fill === "red") return "#fe5843"; //tomato red
-    //             else if (d.data.fill === "green") return "#118110"; //brighter green
-    //             else return "black";
-    //         })
-    //     draw();
-    // })
-    // .on("mouseout", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', d => {
-    //             if (d.data.fill === "red") return "#e63328"; //red
-    //             else if (d.data.fill === "green") return "darkGreen"; //dark green
-    //             else return "black";
-    //         })
-    //     draw();
-    // })
     .on("click", function (d) {
         if (d.data.treble !== 60) return bullseyeTooltip
             .text("not a valid checkout :(")
@@ -268,6 +225,9 @@ const spider4 = circles
     .data(data_ready)
     .enter()
     .append('path')
+    .attr("class", "spider")
+    .attr("dataValue", function(d){return d.data.double;})
+    .attr("id", function(d){return "a" + d.data.double;})
     .attr("d", d3.arc()
         .innerRadius(26.75 * r)
         .outerRadius(27.75 * r)
@@ -299,7 +259,7 @@ const spider4 = circles
         draw();
     })
     .on("click", function (d) {
-        console.log("bullseye tooltip", bullseyeTooltip)
+        //console.log("bullseye tooltip", bullseyeTooltip)
         bullseyeTooltip.text("Wahoo! That'll work!");
         return bullseyeTooltip
             .style("visibility", "visible");
@@ -323,6 +283,9 @@ const spider5 = circles
     .data(data_ready2)
     .enter()
     .append('path')
+    .attr("class", "spider")
+    .attr("dataValue", function(d){return d.data.bullseye;})
+    .attr("id", function(d){return "a" + d.data.bullseye;})
     .attr("d", d3.arc()
         .innerRadius(r)
         .outerRadius(3 * r)
@@ -332,18 +295,8 @@ const spider5 = circles
     .attr('transform', `translate(${width * .45}, ${height / 2}) rotate (-9)`)
     .attr('stroke', 'silver')
     .style('stroke-width', '1.5px')
-    // .on("mouseover", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', "#118110") //lighter green
-    //     draw();
-    // })
-    // .on("mouseout", function (d) {
-    //     d3.select(this)
-    //         .attr('fill', "darkGreen");
-    //     draw();
-    // })
     .on("click", function (d) {
-        console.log("bullseye tooltip", bullseyeTooltip)
+        //console.log("bullseye tooltip", bullseyeTooltip)
         bullseyeTooltip.text("not a valid checkout");
         return bullseyeTooltip
             .style("visibility", "visible");
@@ -355,6 +308,9 @@ const spider6 = circles
     .data(data_ready3)
     .enter()
     .append('path')
+    .attr("class", "spider")
+    .attr("dataValue", function(d){return d.data.double_bullseye;})
+    .attr("id", function(d){return "a" + d.data.double_bullseye;})
     .attr("d", d3.arc()
         .innerRadius(0)
         .outerRadius(r)
@@ -375,7 +331,7 @@ const spider6 = circles
         draw();
     })
     .on("click", function (d) {
-        console.log("bullseye tooltip", bullseyeTooltip)
+        //console.log("bullseye tooltip", bullseyeTooltip)
         bullseyeTooltip.text("Ooooh, a showy checkout!");
         return bullseyeTooltip
             .style("visibility", "visible");
@@ -389,23 +345,21 @@ const spider6 = circles
   .append("text")
   .attr("transform", function(d) 
      { const [x,y] = labelArc.centroid({...d, startAngle: d.startAngle - Math.PI/20, endAngle: d.endAngle - Math.PI/20});
-      console.log(d, labelArc.centroid(d))
        return `translate(${x + width*.45}, ${y + height/1.97})` //"translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
   })
-  //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
   .text(d => d.data.number_ID)
   .attr("fill", "white")
-  .attr("z-index", 12)
-  .show();
+  .attr("z-index", 12);
+  //.show();
 
 
-svgContainer.on("mousemove", () => {
-    const [mx, my] = d3.mouse(svgContainer.node());
-    state.hover["mx"] = mx;
-    state.hover["my"] = my;
-    //console.log("mx", mx)
-    draw();
-});
+// svgContainer.on("mousemove", () => {
+//     const [mx, my] = d3.mouse(svgContainer.node());
+//     state.hover["mx"] = mx;
+//     state.hover["my"] = my;
+//     //console.log("mx", mx)
+//     draw();
+// });
 
     draw(); // calls the draw function
 }
@@ -416,19 +370,59 @@ svgContainer.on("mousemove", () => {
  * we call this everytime there is an update to the data/state
  * */
 function draw() {
-    if (state.hover) {
-        bullseyeTooltip
-            .html(
-                //   <div>Mouse x: ${state.hover.mx}</div>
-                //    <div>Mouse y: ${state.hover.my}</div>
-                //   `<div>Points: ${state.hover.points}</div> `
-            );
-    }
+    // if (state.hover) {
+    //     bullseyeTooltip
+    //         .html(
+    //             //   <div>Mouse x: ${state.hover.mx}</div>
+    //             //    <div>Mouse y: ${state.hover.my}</div>
+    //             //   `<div>Points: ${state.hover.points}</div> `
+    //         );
+    // }
+    let filteredData = state.checkoutdata;
+    console.log("fd1", filteredData);
+    console.log("state.checkoutdata", state.checkoutdata)
+    console.log("svgdata", state.svgdata)
+    if (state.selectedScore !== "Choose a score to check out from:") {
+      filteredData = state.checkoutdata.filter(d => +d.scorenumber === +state.selectedScore),
+      //state.valueList = [+filteredData.firstNumber, +filteredData.secondNumber, +filteredData.thirdNumber],
+      //console.log("valueList:", state.valueList)   
+
+       console.log("fd", filteredData)
+     }
+
+let x = filteredData[0].firstNumber;
+console.log("x", x)
+let y = filteredData[0].secondNumber;
+console.log("y", y)
+let z = filteredData[0].thirdNumber;
+console.log("z", z)
+
+ 
+//console.log("#dataValue", dataValue)
+const num1 = d3
+    .selectAll(`path[dataValue='${x}']`)
+    .attr("class", "selected1");
+console.log("num1", num1)
+
+const num2 = d3
+    .selectAll(`path[dataValue='${y}']`)
+    .attr("class", function(d) {
+        if (z !== null) return "selected2";
+        else if (z === null && d.data.double === y || d.data.double_bullseye === y) return "selected25";
+    });
+console.log("num1", num2)
+
+const num3 = d3
+    .selectAll(`path[dataValue='${z}']`)
+    .attr("class", function(d) {
+        if (d.data.double === z || d.data.double_bullseye === z) 
+       return "selected3"
+    });
+console.log("num1", num3);
+
 
 }
 /** END DRAW FUNCTION */
 
 } //export chart here
-
-
 

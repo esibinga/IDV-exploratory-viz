@@ -109,7 +109,7 @@ var labelArc = d3.arc()
 
 var data_ready = pie(state.svgdata);
     //console.log("pie", pie); //this is just the function
-    console.log("data_ready", data_ready);
+    //.log("data_ready", data_ready);
     
 var heatColors = d3.scaleLinear()
     .domain([0,20]) //d3.min(state.data.number_ID), d3.max(state.data.number_ID))
@@ -142,7 +142,7 @@ const spider = circles
       .style('stroke-width', '1.5px')
       .on("mouseover", function(d) {
         d3.select(this)
-        .attr('opacity', 1.0);
+        .attr('opacity', 1.0); 
         state.hover = {
           points: d.data.number_ID,
         };
@@ -334,7 +334,7 @@ const spider6 = circles
   .append("text")
   .attr("transform", function(d) 
      { const [x,y] = labelArc.centroid({...d, startAngle: d.startAngle - Math.PI/20, endAngle: d.endAngle - Math.PI/20});
-      console.log(d, labelArc.centroid(d))
+      //console.log(d, labelArc.centroid(d))
        return `translate(${x + width*.45}, ${y + height/1.97})` //"translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
   })
   //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees

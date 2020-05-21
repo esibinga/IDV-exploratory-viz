@@ -97,6 +97,10 @@ body {
     .section#two > .graph {
       grid-column: 1 / 3;
       cursor: default;
+      z-index: 12;
+    }
+    .section#two > .xaxis.tick {
+      stroke: white;
     }
 
 .section#three {
@@ -118,6 +122,7 @@ body {
     .section#three > .graph {
       grid-column: 1 / 3;
       cursor: default;
+      z-index: 12;
     }
   
 .section#three-five > .text {
@@ -130,7 +135,7 @@ body {
       text-align: right;
       vertical-align: middle;
       grid-column-gap: 10px;
-      grid-template-columns: 30% 70%
+      grid-template-columns: 30% 20% 50%
     }
     .section#four > .text {
       text-align: right;
@@ -138,14 +143,24 @@ body {
       grid-column: 1 / 1;
     }
     .section#four > .graph {
-      grid-column: 2 / 2;
+      grid-column: 2 / 3;
       cursor: crosshair;
       text-anchor: middle;
       font-size: 20px;
     }
+    .section#four > .dropdown {
+      display: inline-block;
+      font-family: "Monaco";
+      position: relative;
+      grid-column: 1 / 1; 
+      grid-row: 2 / 2;
+      height: 12px;     /* start and end this column in position 1 of 1 */
+    }
 
 
-
+    .dropdown {
+      font-family: "Monaco";
+    }
 
 
 .tooltip {
@@ -155,7 +170,8 @@ body {
     float: right;
     height: fit-content;
     background-color: white;
-    opacity: 0.8;
+    color: #f5342a;
+    opacity: 1.0;
     pointer-events: stroke;
     padding: 5px;
   }
@@ -167,9 +183,15 @@ body {
   text.label{
     opacity: .1;
     font-size: 10px;
+    z-index: 12;
+    text-anchor: middle;
   }
   
   text.label:hover{
+    opacity: 1;
+  }
+
+  text:hover{
     opacity: 1;
   }
 
@@ -184,12 +206,43 @@ body {
   .xaxis {
     font-family: "Monaco", sans-serif;
     font-size: 8px;
-    text-align: center;
+    text-anchor: end;
     text-align-last: left;
     opacity: .5;
   }
 
-  .xaxis:hover{
+  .tick:hover{
     opacity: 1;
     font-size: 12px;
+    color: black;
+    stroke:black;
+    outline-color: black;
+    fill: black;
+  }
+
+  .selected1 {
+    fill: yellow;
+    stroke: black;
+    opacity: 1.0;
+    transition-delay: 000ms;
+  }
+
+  .selected2 {
+    fill: orange;
+    stroke: black;
+    opacity: 1.0;
+    transition-delay: 1000ms;
+  }
+  .selected25 {
+    fill: blue;
+    stroke: black;
+    opacity: 1.0;
+    transition-delay: 1000ms;
+  }
+
+  .selected3 {
+    fill: blue;
+    stroke: black;
+    opacity: 1.0;
+    transition-delay: 2000ms;
   }

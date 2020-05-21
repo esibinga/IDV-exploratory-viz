@@ -78,11 +78,13 @@ const rect = svg
 svg
     .append("g")
     .attr("class", "xaxis")
+    .style("axis-ticks", "none")
     .attr("line", "clear")
     .attr("transform", `translate(0, ${height - margin.bottom})`)
     .call(xAxis)
     .selectAll('text')
-        .attr('transform', 'translate(-25,30) rotate(-65)');
+        .attr('transform', 'translate(-10,2) rotate(-65)')
+        .attr("fill", "#222");
 
 svg
     .append("g")

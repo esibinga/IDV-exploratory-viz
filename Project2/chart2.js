@@ -82,11 +82,13 @@ const rect = svg
 svg
     .append("g")
     .attr("class", "xaxis")
+    .style("text-anchor", "end")
     .attr("line", "clear")
     .attr("transform", `translate(0, ${height - margin.bottom})`)
     .call(xAxis)
     .selectAll('text')
-        .attr('transform', 'translate(-25,30) rotate(-65)');
+        .attr("class", "text")
+        .attr('transform', 'translate(-25,2) rotate(-65)');
 
 svg
     .append("g")

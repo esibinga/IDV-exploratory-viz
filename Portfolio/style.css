@@ -42,6 +42,7 @@ div.projects {
 
       #description{
         /* background: #eeeeee; */ 
+        text-align: left;
         padding: 1%;
         width: 90%;
         margin-left: 20px;
@@ -63,9 +64,15 @@ div.projects {
       }
 
 div.reflection {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-template-columns: 25% 75%;
     background: #eeeeee;
-    text-align: center;
-    padding: 1%;
-    padding-bottom: 40%;
+    text-align: left;
+    font-size: 11px;
+    padding-left: 4%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 

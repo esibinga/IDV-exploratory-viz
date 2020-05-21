@@ -107,11 +107,11 @@ var labelArc = d3.arc()
 	.outerRadius(32*r)
   .innerRadius(29*r);
 
-console.log("la", labelArc)
+//console.log("la", labelArc)
 
 var data_ready = pie(state.svgdata);
 //console.log("pie", pie); //this is just the function
-console.log("data_ready", data_ready);
+//console.log("data_ready", data_ready);
 
 
 //inner single
@@ -293,7 +293,7 @@ const spider4 = circles
       draw();
     })
     .on("click",  function(d) {
-      console.log("bullseye tooltip", bullseyeTooltip)
+      //console.log("bullseye tooltip", bullseyeTooltip)
       bullseyeTooltip.text("Interesting choice!"); 
         return bullseyeTooltip
       .style("visibility", "visible");
@@ -336,7 +336,7 @@ const spider5 = circles
   draw();
 })
 .on("click",  function(d) {
-  console.log("bullseye tooltip", bullseyeTooltip)
+  //.log("bullseye tooltip", bullseyeTooltip)
   bullseyeTooltip.text("Oops, that's not it!"); 
     return bullseyeTooltip
     .style("visibility", "visible");
@@ -367,7 +367,7 @@ const spider6 = circles
   draw();
 })
 .on("click",  function(d) {
-  console.log("bullseye tooltip", bullseyeTooltip)
+  //console.log("bullseye tooltip", bullseyeTooltip)
   bullseyeTooltip.text("A common misconception!"); 
     return bullseyeTooltip
     .style("visibility", "visible");
@@ -382,7 +382,7 @@ const spider6 = circles
   .append("text")
   .attr("transform", function(d) 
      { const [x,y] = labelArc.centroid({...d, startAngle: d.startAngle - Math.PI/20, endAngle: d.endAngle - Math.PI/20});
-      console.log(d, labelArc.centroid(d))
+      //console.log(d, labelArc.centroid(d))
        return `translate(${x + width*.45}, ${y + height/1.97})` //"translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
   })
   //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
