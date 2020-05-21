@@ -220,6 +220,12 @@ body {
     fill: black;
   }
 
+  .text#glitchNote {
+    font-size: 8px;
+    padding-top: -20%;
+    margin-top: 0%;
+  }
+
   .selected1 {
     fill: yellow;
     stroke: black;

@@ -8,7 +8,7 @@ export function chart4() {
 const width = window.innerWidth * 0.8,
     height = window.innerHeight * 0.9,
     margin = { top: 20, bottom: 20, left: 60, right: 40 },
-    default_selection = "Choose a score to check out from:";
+    default_selection = "Three- or two-dart checkouts";
 
 
 let svg;
@@ -382,7 +382,7 @@ function draw() {
     console.log("fd1", filteredData);
     console.log("state.checkoutdata", state.checkoutdata)
     console.log("svgdata", state.svgdata)
-    if (state.selectedScore !== "Choose a score to check out from:") {
+    if (state.selectedScore !== "Three- or two-dart checkouts") {
       filteredData = state.checkoutdata.filter(d => +d.scorenumber === +state.selectedScore),
       //state.valueList = [+filteredData.firstNumber, +filteredData.secondNumber, +filteredData.thirdNumber],
       //console.log("valueList:", state.valueList)   
