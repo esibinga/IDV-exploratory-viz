@@ -101,23 +101,10 @@ svg
 svg.append("text")
     .attr("class", "y-label")
     .attr("text-anchor", "end")
-    //.attr("y", 6)
-    ///.attr("dy", ".5em")
-    //.attr("x", "100")
     .attr('transform', `translate(${(margin.left)/4.75}, ${height*.3}) rotate(-90)`)
     .text("180s");
 
 
-
-// const text = svg
-//     .selectAll('text')
-//     .data(state.data)
-//     .join('text')
-//     .attr('class', 'label')
-//     .attr('x', d => xScale(d.Player) + (xScale.bandwidth() /2))
-//     .attr('y', d => yScale(d.Total_180s)/2)
-//     .text(d => d.Total_180s)
-//     .attr('dy', '1.25em');
 
 const text = svg
     .selectAll('text.label')

@@ -20,11 +20,6 @@ let circleData; //why did I have to define this here when I exported the chart a
  * APPLICATION STATE
  * */
 let state = {
-    // hover: {
-    //     x: null,
-    //     y: null,
-    //     z: null,
-    // },
     checkoutdata: [],
     selectedScore: null,
     mousePosition: null,
@@ -42,8 +37,6 @@ Promise.all([
     state.data = data;
     state.svgdata = svgdata;
     state.checkoutdata = checkoutdata;
-    //console.log("data:", state.data);
-    //console.log("data:", state.svgdata);
     console.log("chkdata", state.checkoutdata)
     init();
 });
@@ -78,7 +71,6 @@ const svgContainer = d3.select("#d3-container-4.graph")
 const selectElement = d3.select("#dropdown").on("change", function() {
     console.log("new selectedScore is", this.value);
     state.selectedScore = this.value
-    //console.log("new value is", this.value);
     draw(); // re-draw the graph based on this new selection
     });
 
@@ -352,15 +344,6 @@ const spider6 = circles
   .attr("z-index", 12);
   //.show();
 
-
-// svgContainer.on("mousemove", () => {
-//     const [mx, my] = d3.mouse(svgContainer.node());
-//     state.hover["mx"] = mx;
-//     state.hover["my"] = my;
-//     //console.log("mx", mx)
-//     draw();
-// });
-
     draw(); // calls the draw function
 }
 
@@ -370,22 +353,13 @@ const spider6 = circles
  * we call this everytime there is an update to the data/state
  * */
 function draw() {
-    // if (state.hover) {
-    //     bullseyeTooltip
-    //         .html(
-    //             //   <div>Mouse x: ${state.hover.mx}</div>
-    //             //    <div>Mouse y: ${state.hover.my}</div>
-    //             //   `<div>Points: ${state.hover.points}</div> `
-    //         );
-    // }
+
     let filteredData = state.checkoutdata;
     console.log("fd1", filteredData);
     console.log("state.checkoutdata", state.checkoutdata)
     console.log("svgdata", state.svgdata)
     if (state.selectedScore !== "Three- or two-dart checkouts") {
       filteredData = state.checkoutdata.filter(d => +d.scorenumber === +state.selectedScore),
-      //state.valueList = [+filteredData.firstNumber, +filteredData.secondNumber, +filteredData.thirdNumber],
-      //console.log("valueList:", state.valueList)   
 
        console.log("fd", filteredData)
      }

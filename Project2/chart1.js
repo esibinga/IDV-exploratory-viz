@@ -71,9 +71,6 @@ const svgContainer = d3.select("#d3-container-1.graph")
 const r = height/80;
 circleData = [
   {"cx": width*.45, "cy": height/2, "radius": 33*r, "inner_radius": 27.75*r, "value": "single"},  //this is actually just the background of the dartboard now
-  //{ "cx": width*.45, "cy": height/2, "radius": 26.75*r, "inner_radius": 18*r},
-  //{ "cx": width*.45, "cy": height/2, "radius": 17*r, "inner_radius": 3*r},
-  //{"cx": width*.45, "cy": height/2, "radius": r, "inner_radius": 0, "value": 50}
 ]
 
 const circles = svgContainer.selectAll("circle")
@@ -107,11 +104,7 @@ var labelArc = d3.arc()
 	.outerRadius(32*r)
   .innerRadius(29*r);
 
-//console.log("la", labelArc)
-
 var data_ready = pie(state.svgdata);
-//console.log("pie", pie); //this is just the function
-//console.log("data_ready", data_ready);
 
 
 //inner single
@@ -385,7 +378,6 @@ const spider6 = circles
       //console.log(d, labelArc.centroid(d))
        return `translate(${x + width*.45}, ${y + height/1.97})` //"translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
   })
-  //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
   .text(d => d.data.number_ID)
   .attr("fill", "white")
   .attr("z-index", 12)
@@ -411,9 +403,6 @@ function draw() {
   if (state.hover) {
     bullseyeTooltip
       .html(  
-     //   <div>Mouse x: ${state.hover.mx}</div>
-    //    <div>Mouse y: ${state.hover.my}</div>
-    //   `<div>Points: ${state.hover.points}</div> `
       );
   }
   
@@ -422,73 +411,3 @@ function draw() {
 
 } //export chart here
 
-
-
-
-
-//extras
-
-/**
- * var pie_data = [
-  {"number":  18, "name": "20"},
-  {"number":  18, "name": "1"},
-  {"number": 18, "name": "18"},
-  {"number": 18, "name": "4"},
-  {"number": 18, "name": "13"},
-  {"number": 18, "name": "6"},
-  {"number":  18, "name": "10"},
-  {"number":  18, "name": "15"},
-  {"number": 18, "name": "2"},
-  {"number": 18, "name": "17"},
-  {"number": 18, "name": "3"},
-  {"number": 18, "name": "19"},
-  {"number":  18, "name": "7"},
-  {"number":  18, "name": "16"},
-  {"number": 18, "name": "8"},
-  {"number": 18, "name": "11"},
-  {"number": 18, "name": "14"},
-  {"number": 18, "name": "9"},
-  {"number": 18, "name": "12"},
-  {"number": 18, "name": "5"}
-];
- */
-
-
-// Create spider function (dartboard segments) -- fun but not data driven and not needed!
-/*const spider = d3.arc()
-    .innerRadius(3*r)
-    .outerRadius(300);
-
-var arcData = [
-	{startAngle: 0, endAngle: (Math.PI/10)},
-	{startAngle: (Math.PI/10), endAngle: ((Math.PI*2)/10)},
-	{startAngle: ((Math.PI*2)/10), endAngle: ((Math.PI*3)/10)},
-	{startAngle: ((Math.PI*3)/10), endAngle: ((Math.PI*4)/10)},
-  {startAngle: ((Math.PI*4)/10), endAngle: ((Math.PI*5)/10)},
-  {startAngle: ((Math.PI*5)/10), endAngle: ((Math.PI*6)/10)},
-	{startAngle: ((Math.PI*6)/10), endAngle: ((Math.PI*7)/10)},
-  {startAngle: ((Math.PI*7)/10), endAngle: ((Math.PI*8)/10)},
-  {startAngle: ((Math.PI*8)/10), endAngle: ((Math.PI*9)/10)},
-	{startAngle: ((Math.PI*9)/10), endAngle: ((Math.PI*10)/10)},
-  {startAngle: ((Math.PI*10)/10), endAngle: ((Math.PI*11)/10)},
-  {startAngle: ((Math.PI*11)/10), endAngle: ((Math.PI*12)/10)},
-  {startAngle: ((Math.PI*12)/10), endAngle: ((Math.PI*13)/10)},
-	{startAngle: ((Math.PI*13)/10), endAngle: ((Math.PI*14)/10)},
-  {startAngle: ((Math.PI*14)/10), endAngle: ((Math.PI*15)/10)},
-  {startAngle: ((Math.PI*15)/10), endAngle: ((Math.PI*16)/10)},
-	{startAngle: ((Math.PI*16)/10), endAngle: ((Math.PI*17)/10)},
-  {startAngle: ((Math.PI*17)/10), endAngle: ((Math.PI*18)/10)},
-  {startAngle: ((Math.PI*18)/10), endAngle: ((Math.PI*19)/10)},
-	{startAngle: ((Math.PI*19)/10), endAngle: ((Math.PI*20)/10)}
-];
-
-const dartboardSvg = d3.select('svg')
-.selectAll('path')
-.data(arcData)
-.enter()
-.append('path')
-.attr('stroke', 'silver')
-.attr('fill', 'transparent')
-.attr('transform', `translate(300,300) rotate(-9)`)
-.attr('d', spider);
-*/

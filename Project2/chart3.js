@@ -66,8 +66,6 @@ const svg = d3
 const rect = svg
     .selectAll('rect')
     .data(state.data)
-    // .sort((a,b) => d3.descending(a,b))
-    // .attr("x", (d, i)=> xScale(i))
     .join('rect')
     .attr('x', d => xScale(d.Player))
     .attr('y', d => yScale(d.Nine_darters))
@@ -102,16 +100,6 @@ svg.append("text")
     //.attr("x", "100")
     .attr('transform', `translate(${(margin.left)/2.5}, ${height*.3}) rotate(-90)`)
     .text("9-darters");
-
-// const text = svg
-//     .selectAll('text')
-//     .data(state.data)
-//     .join('text')
-//     .attr('class', 'label')
-//     .attr('x', d => xScale(d.Player) + (xScale.bandwidth() /2))
-//     .attr('y', d => yScale(d.Nine_darters)/2)
-//     .text(d => d.Nine_darters)
-//     .attr('dy', '1.25em');
 
 const text = svg
     .selectAll('text.label')

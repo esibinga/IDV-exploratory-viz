@@ -35,8 +35,6 @@ Promise.all([
     ]).then(([data, svgdata]) => {
         state.data = data;
         state.svgdata = svgdata;
-        //console.log("data:", state.data);
-        //console.log("data:", state.svgdata);
         init();
       });
         
@@ -71,9 +69,6 @@ const svgContainer = d3.select("#d3-container-1-5")
 const r = height/80;
 circleData = [
       {"cx": width*.45, "cy": height/2, "radius": 33*r, "inner_radius": 27.75*r, "value": "single"}, 
-      //{ "cx": width*.45, "cy": height/2, "radius": 26.75*r, "inner_radius": 18*r},
-      //{ "cx": width*.45, "cy": height/2, "radius": 17*r, "inner_radius": 3*r},
-      //{"cx": width*.45, "cy": height/2, "radius": r, "inner_radius": 0, "value": 50}
     ]
 
 const circles = svgContainer.selectAll("circle")
@@ -108,19 +103,17 @@ var labelArc = d3.arc()
   .innerRadius(29*r);
 
 var data_ready = pie(state.svgdata);
-    //console.log("pie", pie); //this is just the function
-    //.log("data_ready", data_ready);
     
 var heatColors = d3.scaleLinear()
-    .domain([0,20]) //d3.min(state.data.number_ID), d3.max(state.data.number_ID))
+    .domain([0,20])
     .range(["#ffffb2", "#fecc5c"]);
 
 var heatColorsDouble = d3.scaleLinear()
-    .domain([0,40]) //d3.min(state.data.number_ID), d3.max(state.data.number_ID))
+    .domain([0,40])
     .range(["#ffffb2", "#fd8d3c"]);
 
 var heatColorsTreble = d3.scaleLinear()
-    .domain([0,60]) //d3.min(state.data.number_ID), d3.max(state.data.number_ID))
+    .domain([0,60])
     .range(["#ffffb2", "#e31a1c"]);
 
 //inner single
@@ -178,7 +171,6 @@ const spider2 = circles
         state.hover = {
           points: d.data.number_ID,
         };
-        //console.log(d.data.number_ID) //WOOHOO!!!!
         draw();
       })
       .on("mouseout", function(d) {
@@ -210,7 +202,6 @@ const spider3 = circles
         state.hover = {
           points: d.data.treble,
         };
-        //console.log(d.data.number_ID) //WOOHOO!!!!
         draw();
       })
       .on("mouseout", function(d) {
@@ -242,7 +233,6 @@ const spider4 = circles
             state.hover = {
               points: d.data.double,
             };
-            //console.log(d.data.number_ID) //WOOHOO!!!!
             draw();
           })
           .on("mouseout", function(d) {
@@ -285,7 +275,6 @@ const spider5 = circles
         state.hover = {
           points: d.data.bullseye,
         };
-        //console.log(d.data.number_ID) //WOOHOO!!!!
         draw();
       })
       .on("mouseout", function(d) {
@@ -317,7 +306,6 @@ const spider6 = circles
         state.hover = {
           points: d.data.double_bullseye,
         };
-        //console.log(d.data.number_ID) //WOOHOO!!!!
         draw();
       })
       .on("mouseout", function(d) {
@@ -335,9 +323,8 @@ const spider6 = circles
   .attr("transform", function(d) 
      { const [x,y] = labelArc.centroid({...d, startAngle: d.startAngle - Math.PI/20, endAngle: d.endAngle - Math.PI/20});
       //console.log(d, labelArc.centroid(d))
-       return `translate(${x + width*.45}, ${y + height/1.97})` //"translate(" + labelArc.centroid(d) + ") translate(330,350)"; //translate(" + innerRadius + ", " + outerRadius + ")";// translate(330,350)";    ///   how do I center this arc where I want it?
-  })
-  //.attr('transform', `translate(${width*.45}, ${height/2})`) //not working -- need to rotate -9 degrees
+       return `translate(${x + width*.45}, ${y + height/1.97})` 
+        })
   .text(d => d.data.number_ID)
   .attr("fill", "white")
   .attr("z-index", 12)
