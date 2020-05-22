@@ -61,7 +61,7 @@ const svg = d3
     .select('#d3-container-3')
     .append('svg')
     .attr('width', width)
-    .attr('height', height);
+    .attr('height', height+35);
 
 const rect = svg
     .selectAll('rect')
