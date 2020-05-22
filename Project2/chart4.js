@@ -394,7 +394,6 @@ const num3 = d3
     });
 console.log("num1", num3);
 
-
 }
 /** END DRAW FUNCTION */
 

@@ -28,11 +28,11 @@
         <div class="left" id="description"   title="Biddle Family Tree"> 
           This family tree approaches “exploratory viz” from a highly specific 
           perspective. I expect it will be a useful or interesting exploratory 
-          tool mainly just for those who are part of the specific subset of my 
-          family that exists on this tree. One of my main goals in this project 
+          tool mainly just for those who are in the subset of my 
+          family that's on this tree. One of my main goals in this project 
           was to make a custom tree that didn’t just remake the default settings 
           of sites like Ancestry, but rather one in which the design decisions and 
-          features reflect some of the questions I want to ask and explore in a family. 
+          features reflect some of the questions I want to ask about and explore in a family. 
           <br> <br>
           One of these is an exploration of how names arrive on and disappear from 
           the tree — it’s particularly relevant since the tree is called the Biddle 
@@ -42,9 +42,10 @@
           that name, though — there are 17 people on the tree with the middle name Biddle!
           <br> <br>
           Data is sourced from a GEDCOM file exported from a family tree maintained by one of my 
-          family members on Ancestry.com. GEDCOM is a powerful format, but basically unusable as 
-          far as D3 is concerned, so I parsed the file in Python using this <a href="https://pypi.org/project/python-gedcom/">GEDCOM 
-          parsing module</a>, and used D3.stratify to turn the CSV back into a hierarchical JSON file.
+          family members on Ancestry.com. GEDCOM is a powerful hierarchical format, but basically unusable as 
+          far as D3 is concerned, so I <a href="https://github.com/esibinga/IDV-exploratory-viz/blob/master/gedcom-parser-IDV.ipynb">parsed</a> 
+          the file in Python, using this <a href="https://pypi.org/project/python-gedcom/">GEDCOM 
+          parsing module</a>, and used D3.stratify to turn the CSV back into a hierarchy.
         </div>
     </div>
 
@@ -108,7 +109,7 @@
   <br><br>
   When it came to the structure, however, it became clear that my dataset would have 
   to stick rigidly to the parent-child format that D3.stratify requires. What ended 
-  p being most important about this family structure, data-wise, is not a male/female 
+  up being most important about this family structure, data-wise, is not a male/female 
   binary, but a direct descendant/partner binary. Ultimately, the only way to get the 
   tree to work using D3.stratify/ D3.hierarchy and D3.tree was to make sure that each 
   child node had only one parent node. That’s obviously not how human reproduction or 
@@ -121,9 +122,9 @@
   together. But D3.stratify demands that each branch remain separate, so there are 
   7 cloned people on this family tree. (I’m one of them!)
   <br><br>
-  While it may not seem like a relevant problem to most, it begs the question—like 
+  While it may not seem like a relevant problem to most, it begs the question -— like 
   any other individual reality of human existence that ends up being called 
-  “messy data”—whose realities are worth taking the time to represent and whose 
+  “messy data” —- of whose realities are worth taking the time to represent and whose 
   are not. I’ve not faced adversity or had anyone doubt my humanity for my parents 
   being second cousins. If I had, it might be much more important to me that I 
   could make a tree that represented that truth without distorting it or forcing 
@@ -149,7 +150,7 @@
   enjoyed the challenge, but did have to give up on some of the darts content I had 
   planned to include here that gets at why televised darts can be a uniquely entertaining 
   experience even for those who don’t enjoy watching sports (like more information about 
-  the player and their walk-on music, for example). 
+  the players and their walk-on songs, for example). 
   <br><br>
   I’m also really impressed by the scroll effects that other members of the class have 
   used, and the extent to which that impacts the narrative flow of the page. Learning 
